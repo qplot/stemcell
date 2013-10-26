@@ -9,7 +9,7 @@ function stemcell_migrate_migrate_api() {
       ),
     ),
     'migrations' => array(
-      'Content' => array(
+      'Content ' => array(
         'class_name' => 'StemcellContentMigration',
         'group_name' => 'stemcell',
       ),

@@ -13,6 +13,10 @@ function stemcell_migrate_migrate_api() {
         'class_name' => 'StemcellContentMigration',
         'group_name' => 'stemcell',
       ),
+      'Categories' => array(
+        'class_name' => 'StemcellCategoriesMigration',
+        'group_name' => 'stemcell',
+      ),
     ),
   );
   return $api;

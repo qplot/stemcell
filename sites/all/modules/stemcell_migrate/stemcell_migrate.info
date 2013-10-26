@@ -9,3 +9,4 @@ dependencies[] = migrate
 #  include the files that contain your Migrate classes 
 files[] = stemcell_migrate.migrate.inc
 files[] = class/content.inc
+files[] = class/category.inc

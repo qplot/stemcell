@@ -6,12 +6,13 @@ class StemcellContentMigration extends Migration {
 
     // create source
     $query = Database::getConnection('default', 'stemcell')
-      ->select('content', 'c')
-      ->fields('c', array('id', 'name'));
+      ->select('jos_content', 'c')
+      ->fields('c', array('id', 'title', 'introtext', 'created', 'modified'));
+    $query->addExpression('`fulltext`', 'full');
     $this->source = new MigrateSourceSQL($query);
 
     // create destination
-    $this->destination = new MigrateDestinationNode('page');
+    $this->destination = new MigrateDestinationNode('article');
 
     $this->map = new MigrateSQLMap($this->machineName,
       array(
@@ -20,8 +21,14 @@ class StemcellContentMigration extends Migration {
       MigrateDestinationNode::getKeySchema()
     );
 
-    $this->addFieldMapping('title', 'name');
-    // $this->addFieldMapping('body', 'page_body');
+    $this->addFieldMapping('title', 'title');
+    $this->addFieldMapping('body:summary', 'introtext');
+    $this->addFieldMapping('body', 'full');
+    $this->addFieldMapping('created', 'created');
+    $this->addFieldMapping('changed', 'modified');
+    $this->addFieldMapping('body:format')->defaultValue('full_html');
+    $this->addFieldMapping('comment')->defaultValue('closed');
+    //$this->addFieldMapping('body', 'page_body');
   }
 }
 

@@ -34,9 +34,18 @@ class StemcellContentMigration extends Migration {
          ->sourceMigration('Categories');
     $this->addFieldMapping('field_tags:source_type')
          ->defaultValue('tid');
-         // ->arguments(array('source_type' => 'tid'));
-    //$this->addFieldMapping('body', 'page_body');
   }
+
+  public function prepareRow($row) {
+    if (parent::prepareRow($row) === FALSE) {
+      return FALSE;
+    }
+    if ($row->modified == "0000-00-00 00:00:00") {
+      $row->modified = $row->created;
+    }
+    return TRUE;
+  }
+
 }
 
 ?>

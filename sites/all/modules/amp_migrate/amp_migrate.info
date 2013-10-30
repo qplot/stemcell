@@ -1,12 +1,12 @@
-name = Stemcell Migrate
-description = Stemcell Migrate
+name = AMP Migrate
+description = AMP Migrate
 package = AMP
 core = 7.x
-project = stemcell_migrate
+project = amp_migrate
 
 dependencies[] = migrate
 
 #  include the files that contain your Migrate classes 
-files[] = stemcell_migrate.migrate.inc
+files[] = amp_migrate.migrate.inc
 files[] = class/content.inc
 files[] = class/category.inc

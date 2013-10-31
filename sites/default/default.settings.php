@@ -210,7 +210,31 @@
  *   );
  * @endcode
  */
-$databases = array();
+$databases = array (
+  'default' => 
+  array (
+    'default' => 
+    array (
+      'database' => 'stemcell',
+      'username' => 'root',
+      'password' => 'root',
+      'host' => 'localhost',
+      'port' => '',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
+
+$databases['stemcell']['default'] = array(
+  'database' => 'joomla',
+  'username' => 'root',
+  'password' => 'root',
+  'host' => 'localhost',
+  'port' => '',
+  'driver' => 'mysql',
+  'prefix' => '',
+);
 
 /**
  * Access control for update.php script.
@@ -242,7 +266,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = '';
+$drupal_hash_salt = 'i5MYSKlvSGQkSSJ86G30HhoZZG2W7n9XbjSZ9mQyx6E';
 
 /**
  * Base URL (optional).

@@ -10,3 +10,5 @@ dependencies[] = migrate
 files[] = amp_migrate.migrate.inc
 files[] = class/content.inc
 files[] = class/category.inc
+files[] = class/samplexml.inc
+files[] = class/latest.inc

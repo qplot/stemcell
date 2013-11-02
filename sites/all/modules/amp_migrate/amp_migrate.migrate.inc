@@ -1,6 +1,6 @@
 <?php
 
-function stemcell_migrate_migrate_api() {
+function amp_migrate_migrate_api() {
   $api = array(
     'api' => 2,
     'groups' => array(
@@ -15,6 +15,14 @@ function stemcell_migrate_migrate_api() {
       ),
       'Categories' => array(
         'class_name' => 'StemcellCategoriesMigration',
+        'group_name' => 'stemcell',
+      ),
+      'Sample' => array(
+        'class_name' => 'StemcellSampleMigration',
+        'group_name' => 'stemcell',
+      ),
+      'Latest' => array(
+        'class_name' => 'StemcellLatestMigration',
         'group_name' => 'stemcell',
       ),
     ),

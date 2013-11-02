@@ -10,7 +10,7 @@ class StemcellLatestMigration extends XMLMigration {
     // create source
     $xml_folder = DRUPAL_ROOT . '/' . drupal_get_path('module', 'amp_migrate') . '/data/';
     $items_url = $xml_folder . 'ahead.xml';
-    $item_xpath = '/rdf:RDF/items/item';
+    $item_xpath = '/items/item';
     $item_ID_xpath = 'title';
 
     // create destination

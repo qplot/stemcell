@@ -10,7 +10,7 @@ class StemcellSampleMigration extends XMLMigration {
     // create source
     $xml_folder = DRUPAL_ROOT . '/' . drupal_get_path('module', 'migrate_example') . '/xml/';
     $items_url = $xml_folder . 'positions.xml';
-    $item_xpath = '/positions/position';
+    $item_xpath = 'position';
     $item_ID_xpath = 'sourceid';
 
     // create destination

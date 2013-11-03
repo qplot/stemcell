@@ -6,6 +6,8 @@ class StemcellLatestMigration extends XMLMigration {
 
     $fields = array(
       'title' => t('Aricle Title'),
+      'link' => t('Article RSS Link'),
+      'description' => t('Article Abstract')
     );
     // create source
     $xml_folder = DRUPAL_ROOT . '/' . drupal_get_path('module', 'amp_migrate') . '/data/';
@@ -14,7 +16,7 @@ class StemcellLatestMigration extends XMLMigration {
     $item_ID_xpath = 'title';
 
     // create destination
-    $this->destination = new MigrateDestinationNode('article');
+    $this->destination = new MigrateDestinationNode('latest');
     $this->map = new MigrateSQLMap($this->machineName,
       array(
         'title' => array(
@@ -30,6 +32,12 @@ class StemcellLatestMigration extends XMLMigration {
     $this->source = new MigrateSourceMultiItems($items_class, $fields);
     $this->addFieldMapping('title', 'title')
          ->xpath('title');
+    $this->addFieldMapping('body', 'description')
+         ->xpath('description');
+    $this->addFieldMapping('body:format')
+         ->defaultValue('full_html');
+    $this->addFieldMapping('field_latest_link', 'link')
+         ->xpath('link');
   }
 
   public function preImport() {
@@ -46,6 +54,12 @@ class StemcellLatestMigration extends XMLMigration {
     $items_url = $xml_folder . 'ahead.xml';
     file_put_contents($items_url, $nfile);
   }
+
+  public function prepare($node, stdClass $row) {
+    $node->field_latest_pdf_link['und'][0]['value'] = $row->link;
+  }
+
+
 }
 
 ?>

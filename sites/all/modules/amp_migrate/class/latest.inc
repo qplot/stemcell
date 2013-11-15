@@ -43,7 +43,7 @@ class StemcellLatestMigration extends XMLMigration {
   public function preImport() {
     parent::preImport();
 
-    // load xml file 
+    // load xml file
     $file = file_get_contents('http://theoncologist.alphamedpress.org/rss/ahead.xml');
 
     // remove the default namespace

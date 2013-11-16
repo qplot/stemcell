@@ -40,9 +40,16 @@ class StemcellContentMigration extends Migration {
     if (parent::prepareRow($row) === FALSE) {
       return FALSE;
     }
+    // handle timestamp bug
     if ($row->modified == "0000-00-00 00:00:00") {
       $row->modified = $row->created;
     }
+    // handle image path issue
+    $links = array(
+      'src="images',
+      'http://www.stemcellsportal.com/images',
+    );
+    $row->introtext = str_replace($links, 'src="sites/default/files/images', $row->introtext);
     return TRUE;
   }
 

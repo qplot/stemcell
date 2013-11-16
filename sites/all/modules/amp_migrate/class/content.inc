@@ -47,9 +47,16 @@ class StemcellContentMigration extends Migration {
     // handle image path issue
     $links = array(
       'src="images',
-      'http://www.stemcellsportal.com/images',
+      'src="http://www.stemcellsportal.com/images',
     );
-    $row->introtext = str_replace($links, 'src="sites/default/files/images', $row->introtext);
+    $src = 'src="'.base_path();
+    $row->introtext = str_replace($links, $src.'/sites/default/files/images', $row->introtext);
+    $row->full = str_replace($links, $src.'/sites/default/files/images', $row->full);
+
+    if (empty($row->full)) {
+      $row->full = $row->introtext;
+    }
+
     return TRUE;
   }
 

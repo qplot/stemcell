@@ -16,6 +16,7 @@ class StemcellMenuMigration extends Migration {
       6 => array('prefix', 'Prefix'),
       7 => array('postfix', 'Postfix'),
       8 => array('components', 'Components'),
+      11 => array('weight', 'Weight'),
     );
 
     $csv_folder = DRUPAL_ROOT . '/' . drupal_get_path('module', 'amp_migrate') . '/data/';
@@ -41,12 +42,15 @@ class StemcellMenuMigration extends Migration {
     $this->addFieldMapping('name', 'third');
     $this->addFieldMapping('parent', 'parent')
          ->sourceMigration('Menu');
+    $this->addFieldMapping('weight', 'weight');
   }
 
   public function prepareRow($row) {
     if (parent::prepareRow($row) === FALSE) {
       return FALSE;
     }
+    // set the weight to be same order as import
+    $row->weight = $row->csvrownum;
 
     // make sure the name is captured for all levels
     if (empty($row->third))

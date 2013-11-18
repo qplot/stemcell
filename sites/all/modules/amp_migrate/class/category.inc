@@ -16,7 +16,7 @@ class StemcellCategoriesMigration extends Migration {
       array(
         'id' => array('type' => 'int')
       ),
-      MigrateDestinationNode::getKeySchema()
+      MigrateDestinationTerm::getKeySchema()
     );
 
     $this->addFieldMapping('name', 'title');

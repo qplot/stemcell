@@ -12,3 +12,4 @@ files[] = class/content.inc
 files[] = class/category.inc
 files[] = class/samplexml.inc
 files[] = class/latest.inc
+files[] = class/menu.inc

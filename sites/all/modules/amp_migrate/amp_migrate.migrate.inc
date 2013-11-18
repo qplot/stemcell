@@ -25,6 +25,10 @@ function amp_migrate_migrate_api() {
         'class_name' => 'StemcellLatestMigration',
         'group_name' => 'stemcell',
       ),
+      'Menu' => array(
+        'class_name' => 'StemcellMenuMigration',
+        'group_name' => 'stemcell',
+      ),
     ),
   );
   return $api;

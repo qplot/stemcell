@@ -3,3 +3,18 @@
  * @file
  * Drupal needs this blank file.
  */
+
+function amp_menus_taxonomy_menu_path() {
+  $output = array(
+    'amp_menus_path_custom' => t('AMP Custom'),
+  );
+  return $output;
+}
+
+/**
+ * Callback for hook_taxonomy_menu_path
+ */
+function amp_menus_path_custom($vid, $tid) {
+  $path = 'node/2215';
+  return $path;
+}

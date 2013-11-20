@@ -1,0 +1,35 @@
+name = Stemcell
+description = Please provide a description for your theme.
+base theme = ohm
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/stemcell.normalize.css
+stylesheets[all][] = css/stemcell.hacks.css
+stylesheets[all][] = css/stemcell.styles.css
+stylesheets[all][] = css/stemcell.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/stemcell.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding]       = Branding
+regions[navigation]     = Navigation bar
+regions[header]         = Header
+regions[hero]           = Hero
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer_first]   = First Footer
+regions[footer_second]  = Second Footer
+regions[footer_third]   = Third Footer

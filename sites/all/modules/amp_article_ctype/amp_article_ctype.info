@@ -16,4 +16,4 @@ features[field_instance][] = node-article-body
 features[field_instance][] = node-article-field_image
 features[field_instance][] = node-article-field_tags
 features[node][] = article
-features[taxonomy][] = tags
+features_exclude[taxonomy][tags] = tags

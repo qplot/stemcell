@@ -15,6 +15,12 @@ function amp_menus_taxonomy_menu_path() {
  * Callback for hook_taxonomy_menu_path
  */
 function amp_menus_path_custom($vid, $tid) {
-  $path = 'node/2215';
+  $term = taxonomy_term_load($tid);
+  $wrapper = entity_metadata_wrapper('taxonomy_term', $term);
+  $path = $wrapper->field_nav_url->value();
+
+  if (!drupal_valid_path($path))
+    $path = "http://#";
+
   return $path;
 }

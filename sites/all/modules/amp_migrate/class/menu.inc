@@ -11,11 +11,12 @@ class StemcellMenuMigration extends Migration {
       1 => array('first', 'First Level'),
       2 => array('second', 'Second Level'),
       3 => array('third', 'Third Level'),
-      4 => array('key', 'Key'),
-      5 => array('parent', 'Parent Key'),
-      6 => array('prefix', 'Prefix'),
-      7 => array('postfix', 'Postfix'),
-      8 => array('components', 'Components'),
+      4 => array('progress', 'Progress'),
+      5 => array('key', 'Key'),
+      6 => array('parent', 'Parent Key'),
+      7 => array('prefix', 'Prefix'),
+      8 => array('postfix', 'Postfix'),
+      9 => array('components', 'Components'),
       11 => array('weight', 'Weight'),
     );
 
@@ -43,6 +44,7 @@ class StemcellMenuMigration extends Migration {
     $this->addFieldMapping('parent', 'parent')
          ->sourceMigration('Menu');
     $this->addFieldMapping('weight', 'weight');
+    $this->addFieldMapping('field_nav_url', 'key');
   }
 
   public function prepareRow($row) {

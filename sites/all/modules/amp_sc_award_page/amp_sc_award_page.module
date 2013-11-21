@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SC Young Investigator Award Page feature.
+ */
+
+include_once 'amp_sc_award_page.features.inc';

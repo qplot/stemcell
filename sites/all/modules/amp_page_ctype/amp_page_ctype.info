@@ -1,0 +1,14 @@
+name = Page Content Type
+description = Extend basic page content type by adding a header field to attach page through views
+core = 7.x
+package = AMP
+version = 7.x-1.0
+project = amp_page_ctype
+dependencies[] = amp_article_ctype
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_header_page
+features[field_instance][] = node-page-body
+features[field_instance][] = node-page-field_header_page
+features[node][] = page

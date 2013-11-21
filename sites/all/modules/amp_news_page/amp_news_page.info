@@ -1,0 +1,14 @@
+name = News Page
+description = News page views, panels and layout
+core = 7.x
+package = AMP
+version = 7.x-1.0
+project = amp_news_page
+dependencies[] = page_manager
+dependencies[] = views
+features[ctools][] = page_manager:pages_default:1
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[page_manager_pages][] = news_in_the_news_news
+features[views_view][] = views_news_in_the_news_news
+features_exclude[dependencies][ctools] = ctools

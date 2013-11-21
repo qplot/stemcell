@@ -16,7 +16,10 @@ function amp_news_page_default_page_manager_pages() {
   $page->admin_title = 'news_in_the_news_news';
   $page->admin_description = 'news_in_the_news_news';
   $page->path = 'news_in_the_news_news';
-  $page->access = array();
+  $page->access = array(
+    'type' => 'none',
+    'settings' => NULL,
+  );
   $page->menu = array();
   $page->arguments = array();
   $page->conf = array(

@@ -43,6 +43,10 @@ body{
   _overflow: hidden;
   _overflow-y: visible;
 }
+.region-sidebar-second{
+	padding:0;
+}
+
 #logo {
 	display: block;
 	margin-top: 10px;
@@ -131,6 +135,18 @@ a > .sf-sub-indicator {
 	float:none;
 }
 
+/*  SEARCH BOX */
+#block-search-form {
+	background: #ddd;
+	padding: 15px 10px;
+}
+#edit-search-block-form--2{
+	background: #fff url(../../images/search.ltr.png) right top no-repeat;
+	width: 100%;
+}
+#search-block-form .form-submit{
+	display:none;
+}
 
 
 @media all and (min-width: 480px) {

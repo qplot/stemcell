@@ -15,7 +15,7 @@ function amp_sc_award_page_views_default_views() {
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = 'views_features_stem_cells_young_investigator_award_latest1';
+  $view->human_name = 'Stem Cell Young Investigator Award';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
@@ -83,7 +83,7 @@ function amp_sc_award_page_views_default_views() {
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = 'views_features_stem_cells_young_investigator_award_latest10';
+  $view->human_name = 'Stem cell Young Investigator Award -latest5';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */

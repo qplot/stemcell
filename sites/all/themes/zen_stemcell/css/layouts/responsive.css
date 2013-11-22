@@ -76,6 +76,7 @@ body{
 #footer:after {
   clear: both;
 }
+/* Navigation bar */
 #navigation{
 	background-color: #4f75b1;
 	background-image: -moz-linear-gradient(180deg, #4f75b1, #445281 113%);
@@ -129,11 +130,9 @@ a > .sf-sub-indicator {
 	display:block;
 	float:none;
 }
-#navigation .menu li ul.sf-hidden{
-	left:-20px;
-}
 
-/* Navigation bar */
+
+
 @media all and (min-width: 480px) {
   #main {
     /* Move all the children of #main down to make room. */
@@ -148,6 +147,46 @@ a > .sf-sub-indicator {
     width: 100%;
   }
 }
+
+/* FOOTER  */
+#footer {
+	background: #333333;
+	border-top: 1px solid #999;
+	color: #CCCCCC;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+#footer p{
+	margin:0;
+	padding:0;
+}
+#footer .intro{
+	margin-top: -15px;
+	padding-left: 7px;
+}
+#footer a {
+	color: #EEEEEE;
+	font-size: 99%;
+	text-decoration:none;
+}
+#footer a:hover {
+	text-decoration:underline;
+}
+#footer h4 {
+	border-bottom: solid 1px#999;
+	font-weight:normal;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	margin-top: 0;
+}
+#footer ul{
+	list-style:none;
+	margin:0 0 20px;
+	padding:0;
+}
+
 
 /**
  * Use 3 grid columns for smaller screens.

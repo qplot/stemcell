@@ -1,0 +1,15 @@
+name = SCTM Young Investigator Award Page
+description = SCTM Young Investigator Award Page
+core = 7.x
+package = AMP
+version = 7.x-1.0
+project = amp_sctm_award_page
+dependencies[] = page_manager
+dependencies[] = views
+features[ctools][] = page_manager:pages_default:1
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[page_manager_pages][] = features_sctm_young_investigator_award
+features[views_view][] = sctm_young_investigator_award_past
+features[views_view][] = sctm_young_investigator_award_recent
+features_exclude[dependencies][ctools] = ctools

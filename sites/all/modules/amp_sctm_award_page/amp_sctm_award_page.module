@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SCTM Young Investigator Award Page feature.
+ */
+
+include_once 'amp_sctm_award_page.features.inc';

@@ -85,7 +85,6 @@ body{
 	background-image: linear-gradient(180deg, #4f75b1, #445281 113%);
 	border-radius: 5px;
 	height: 22px;
-	padding-top: 6px;
 }
 #navigation .menu li{
 	background: none no-repeat scroll 7px 8px transparent;
@@ -93,9 +92,7 @@ body{
 	float: none;
 	font-weight: bold;
 	height: 28px;
-	margin-left: -4px !important;
-	margin-top: 0px;
-	padding: 0;
+	margin-top: 0;
 	text-transform: uppercase;
 	width: auto;
 }
@@ -106,9 +103,36 @@ body{
 	font-weight: bold;
 	height: 23px;
 	margin-top: 0;
-	padding: 5px 15px 0;
+	padding: 10px 15px 0;
 	text-decoration: none;
 }
+#navigation .menu li a:hover{
+	background-color: #445280;
+}
+a > .sf-sub-indicator {
+	top: 11px;
+}
+.sf-sub-indicator {
+	right: 2px;
+}
+.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
+	background-color: #445280;
+	border-bottom-left-radius: 8px;
+	border: 1px solid #fff;
+	border-top: none;
+}
+.sf-menu li:hover > ul, .sf-menu li.sfHover > ul {
+	left: 0;
+	top: 32px;
+}
+#navigation .menu li ul li{
+	display:block;
+	float:none;
+}
+#navigation .menu li ul.sf-hidden{
+	left:-20px;
+}
+
 /* Navigation bar */
 @media all and (min-width: 480px) {
   #main {

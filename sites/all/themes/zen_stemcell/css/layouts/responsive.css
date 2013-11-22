@@ -14,11 +14,14 @@
  * For screen sizes larger than 1200px, prevent excessively long lines of text
  * by setting a max-width.
  */
+body{
+	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+ 
 #page,
 .region-bottom {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
@@ -39,6 +42,11 @@
   _display: inline;
   _overflow: hidden;
   _overflow-y: visible;
+}
+#logo {
+	display: block;
+	margin-top: 10px;
+	min-height: 73px;
 }
 
 /* Footer */
@@ -68,6 +76,62 @@
 #footer:after {
   clear: both;
 }
+#navigation{
+	background-color: #4f75b1;
+	background-image: -moz-linear-gradient(180deg, #4f75b1, #445281 113%);
+	background-image: -webkit-linear-gradient(180deg, #4f75b1, #445281 113%);
+	background-image: -o-linear-gradient(180deg, #4f75b1, #445281 113%);
+	background-image: -ms-linear-gradient(180deg, #4f75b1, #445281 113%);
+	background-image: linear-gradient(180deg, #4f75b1, #445281 113%);
+	border-radius: 5px;
+	height: 22px;
+}
+#navigation .menu li{
+	background: none no-repeat scroll 7px 8px transparent;
+	display: inline-block;
+	float: none;
+	font-weight: bold;
+	height: 28px;
+	margin-top: 0;
+	text-transform: uppercase;
+	width: auto;
+}
+#navigation .menu li a{
+	color: #FFFFFF;
+	display: block;
+	font-size:13px;
+	font-weight: bold;
+	height: 23px;
+	margin-top: 0;
+	padding: 10px 15px 0;
+	text-decoration: none;
+}
+#navigation .menu li a:hover{
+	background-color: #445280;
+}
+a > .sf-sub-indicator {
+	top: 11px;
+}
+.sf-sub-indicator {
+	right: 2px;
+}
+.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
+	background-color: #445280;
+	border-bottom-left-radius: 8px;
+	border: 1px solid #fff;
+	border-top: none;
+}
+.sf-menu li:hover > ul, .sf-menu li.sfHover > ul {
+	left: 0;
+	top: 32px;
+}
+#navigation .menu li ul li{
+	display:block;
+	float:none;
+}
+#navigation .menu li ul.sf-hidden{
+	left:-20px;
+}
 
 /* Navigation bar */
 @media all and (min-width: 480px) {
@@ -80,7 +144,7 @@
     /* Move the navbar up inside #main's padding. */
     position: absolute;
     top: 0;
-    height: 3em;
+    height: 32px;
     width: 100%;
   }
 }

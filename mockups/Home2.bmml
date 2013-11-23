@@ -1,0 +1,635 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1029" measuredH="1343" mockupW="984" mockupH="1310">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Menu" x="45" y="78" w="233" h="-1" measuredW="150" measuredH="665" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>%2C%2C%2CIn%20the%20news%26bm%3BIn%20the%20news.bmml%26bm%3BIn%20the%20news.bmml%26bm%3BIn%20the%20news.bmml%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2CSC%20young%20investigator%20award%26bm%3BSC%20young%20investigator%20award.bmml%26bm%3BSC%20young%20investigator%20award.bmml%26bm%3BSC%20young%20investigator%20award.bmml%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C97%2C233%2C118%22%20href%3D%22In%2520the%2520news.bmml%22%20alt%3D%22In%20the%20news%22%20id%3D%220%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C338%2C233%2C359%22%20href%3D%22SC%2520young%2520investigator%2520award.bmml%22%20alt%3D%22SC%20young%20investigator%20award%22%20id%3D%220%22/%3E</map>
+        <text>o%20-HOME-%0A---%0A-News-%2C%20V%0AIn%20the%20News%0APress%20Room%0A%09Press%20Releases%0A%20---%0A-Journal%20Club-%2C%20V%0AStem%20Cells%20Buzz%0AArticle%20Scan%0AJournal%20Club%20Discussion%0A---%0A-Features-%2C%20V%0AInnovators%20and%20Issues%0AEidtors%20Blog%0AStem%20Cells%20Young%20investigator%20Award%0AStem%20Cells%20Translational%20Medicine%20Young%20Invesitgator%20Awards%0A---%0A-Sister%20Journals-%2C%20V%0AAbout%20the%20Sister%20Journals%0AStem%20Cells%0A%09Current%20Issue%0A%09Publish%20Ahead%20of%20Print%0A%09Virtual%20Issues%0A%09Editorial%20Board%0A%09Information%20for%20Contributors%0AStem%20Cells%20Translational%20Medicine%0A%09Current%20Issue%0A%09Publish%20Ahead%20of%20Print%0A%09Editorial%20Board%0A%09Information%20for%20Contributors%0APublishing%20in%20the%20Journals%0A---%0A-Resources-%0AAbout%20the%20Stem%20Cells%20Portal</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="59" w="150" h="19" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Navigation%20Menu</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="331" y="33" w="698" h="1310" measuredW="450" measuredH="400" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>In%20the%20News%20%7C%20Stemcellportal.com%0Ahttp%3A//www.stemcellsportal.com/</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="365" y="174" w="315" h="43" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <filter>true</filter>
+        <src>./assets/logo.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::LinkBar" x="359" y="232" w="-1" h="-1" measuredW="436" measuredH="19" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>%2CIn%20the%20news%26bm%3BIn%20the%20news.bmml%26bm%3BIn%20the%20news.bmml%26bm%3BIn%20the%20news.bmml%2C%2CSC%20young%20investigator%20award%26bm%3BSC%20young%20investigator%20award.bmml%26bm%3BSC%20young%20investigator%20award.bmml%26bm%3BSC%20young%20investigator%20award.bmml%2C%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22366%2C201%2C399%2C214%22%20href%3D%22In%2520the%2520news.bmml%22%20alt%3D%22In%20the%20news%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22509%2C201%2C561%2C214%22%20href%3D%22SC%2520young%2520investigator%2520award.bmml%22%20alt%3D%22SC%20young%20investigator%20award%22%20id%3D%224%22/%3E</map>
+        <selectedIndex>0</selectedIndex>
+        <text>Home%2C%20News%2C%20Journal%20Club%2C%20Features%2C%20Sister%20Journals%2C%20Resources</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::VRule" x="778" y="305" w="-1" h="482" measuredW="10" measuredH="100" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="8" controlTypeID="__group__" x="803" y="302" w="170" h="501" measuredW="170" measuredH="501" zOrder="7" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TextInput" x="0" y="0" w="97" h="-1" measuredW="79" measuredH="26" zOrder="0" locked="false" isInGroup="8">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::PointyButton" x="103" y="0" w="67" h="-1" measuredW="60" measuredH="27" zOrder="1" locked="false" isInGroup="8">
+          <controlProperties>
+            <text>Search</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="0" y="45" w="170" h="133" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="8">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="33" y="204" w="111" h="297" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="8">
+          <controlProperties>
+            <filter>true</filter>
+            <text/>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::CoverFlow" x="389" y="266" w="323" h="130" measuredW="493" measuredH="198" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::StickyNote" x="496" y="304" w="109" h="54" measuredW="109" measuredH="123" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%22Slideshow%22</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="__group__" x="627" y="416" w="148" h="193" measuredW="148" measuredH="193" zOrder="11" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="148" h="-1" measuredW="76" measuredH="17" zOrder="0" locked="false" isInGroup="61">
+          <controlProperties>
+            <size>14</size>
+            <text>In%20the%20News</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="41" w="133" h="45" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="61">
+          <controlProperties>
+            <size>11</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="1" y="18" w="132" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="61"/>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="80" w="133" h="-1" measuredW="100" measuredH="10" zOrder="3" locked="false" isInGroup="61">
+          <controlProperties>
+            <stroke>dotted</stroke>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="104" w="133" h="21" measuredW="200" measuredH="80" zOrder="4" locked="false" isInGroup="61">
+          <controlProperties>
+            <size>12</size>
+            <text>Stem%20cells%20in%20urine%20show</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="121" w="133" h="-1" measuredW="100" measuredH="10" zOrder="5" locked="false" isInGroup="61">
+          <controlProperties>
+            <stroke>dotted</stroke>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="146" w="133" h="47" measuredW="200" measuredH="80" zOrder="6" locked="false" isInGroup="61">
+          <controlProperties>
+            <size>12</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::StickyNote" x="12" y="47" w="109" h="106" measuredW="109" measuredH="123" zOrder="10" locked="false" isInGroup="61">
+          <controlProperties>
+            <text>Data%20here%20is%20pulled%20from%20migration%20-%20News</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="28" w="98" h="19" measuredW="200" measuredH="80" zOrder="7" locked="false" isInGroup="61">
+          <controlProperties>
+            <size>10</size>
+            <text>November%2017%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="15" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="91" w="98" h="19" measuredW="200" measuredH="80" zOrder="8" locked="false" isInGroup="61">
+          <controlProperties>
+            <size>10</size>
+            <text>November%2017%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="16" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="133" w="98" h="19" measuredW="200" measuredH="80" zOrder="9" locked="false" isInGroup="61">
+          <controlProperties>
+            <size>10</size>
+            <text>November%2017%2C%202013</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::SubTitle" x="359" y="755" w="121" h="-1" measuredW="77" measuredH="17" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Editors%20Blog</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Paragraph" x="359" y="869" w="121" h="183" measuredW="200" measuredH="80" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>11</size>
+        <text>%5BBlog%20teaser%5D%20Et%20quunti%20vent%20enim%20quost%20idere%20sitat%20ut%20qui%20sequiae%20preprerum%20rem%20ad%20quos%20quae%20net%20qui%20solorem%20di%20sim%20audi%20aligenis%20debita%20quiduci%20sequibus%2C%20occuptatur%20ad%20mi%2C%20qui%20diciliq%20uaepeli%20tentis%20es%20ad%20ut%20fuga.%20Uptaest%20estempos%20atquide%20lessim%20atibus%2C%20que%20nonsequi%20di%20quam%2C%20voluptus%20repre%2C%20sinti%20ipis%20arcid%20ea%20cum%20as%20expe%20rerunt%20voluptatio%20beris%20aspelique%20quis%20aligenimet%20mollore%20voloreris%20auda%20quis%20vendam%2C%20se%20velitatus%20id%20qui%20aut%20pa%20plitat%20porerei%20ciderum%2C%20aut%20expel%20il%20invelit%20volorep</text>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::HRule" x="360" y="773" w="120" h="-1" measuredW="100" measuredH="10" zOrder="14" locked="false" isInGroup="-1"/>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::StickyNote" x="356" y="853" w="109" h="115" measuredW="109" measuredH="123" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>11</size>
+        <text>This%20section%20is%20NEW.No%20content%20yet%2C%20Placeholder%20for%20now.</text>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Paragraph" x="359" y="841" w="57" h="19" measuredW="200" measuredH="80" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Blog%20Title%20of%20Some%20Sort</text>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Image" x="360" y="783" w="56" h="54" measuredW="77" measuredH="79" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="98" controlTypeID="__group__" x="241" y="764" w="388" h="315" measuredW="388" measuredH="315" zOrder="18" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="255" y="84" w="121" h="45" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="98">
+          <controlProperties>
+            <size>11</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="256" y="63" w="120" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="98"/>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="255" y="121" w="121" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="98">
+          <controlProperties>
+            <stroke>dotted</stroke>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Paragraph" x="255" y="147" w="121" h="43" measuredW="200" measuredH="80" zOrder="3" locked="false" isInGroup="98">
+          <controlProperties>
+            <size>12</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::HRule" x="255" y="192" w="133" h="-1" measuredW="100" measuredH="10" zOrder="4" locked="false" isInGroup="98">
+          <controlProperties>
+            <stroke>dotted</stroke>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Paragraph" x="255" y="219" w="121" h="47" measuredW="200" measuredH="80" zOrder="5" locked="false" isInGroup="98">
+          <controlProperties>
+            <size>12</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::StickyNote" x="267" y="53" w="109" h="131" measuredW="109" measuredH="123" zOrder="12" locked="false" isInGroup="98">
+          <controlProperties>
+            <size>9</size>
+            <text>Coming%20from%20RSS%20feed%20Stem%20Cell%2C%20See%20More%20should%20take%20to%20http%3A//onlinelibrary.wiley.com/journal/10.1002/%28ISSN%291549-4918/accepted</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Image" x="256" y="0" w="110" h="31" measuredW="77" measuredH="79" zOrder="6" locked="false" isInGroup="98">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::Paragraph" x="256" y="35" w="120" h="32" measuredW="200" measuredH="80" zOrder="7" locked="false" isInGroup="98">
+          <controlProperties>
+            <size>13</size>
+            <text>Publish%20Ahead%20of%20Print</text>
+          </controlProperties>
+        </control>
+        <control controlID="11" controlTypeID="com.balsamiq.mockups::StickyNote" x="267" y="0" w="78" h="53" measuredW="109" measuredH="123" zOrder="8" locked="false" isInGroup="98">
+          <controlProperties>
+            <size>9</size>
+            <text>L%3A%20Give%20me%20the%20width%20and%20I%27ll%20give%20you%20the%20image</text>
+          </controlProperties>
+        </control>
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::Paragraph" x="255" y="74" w="98" h="19" measuredW="200" measuredH="80" zOrder="9" locked="false" isInGroup="98">
+          <controlProperties>
+            <size>10</size>
+            <text>November%2017%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="13" controlTypeID="com.balsamiq.mockups::Paragraph" x="255" y="133" w="98" h="19" measuredW="200" measuredH="80" zOrder="10" locked="false" isInGroup="98">
+          <controlProperties>
+            <size>10</size>
+            <text>November%2017%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="14" controlTypeID="com.balsamiq.mockups::Paragraph" x="255" y="206" w="98" h="19" measuredW="200" measuredH="80" zOrder="11" locked="false" isInGroup="98">
+          <controlProperties>
+            <size>10</size>
+            <text>November%2017%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="15" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="305" w="51" h="10" measuredW="200" measuredH="80" zOrder="13" locked="false" isInGroup="98">
+          <controlProperties>
+            <size>8</size>
+            <text>Read%20more%20%3E</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="99" controlTypeID="__group__" x="245" y="753" w="524" h="301" measuredW="524" measuredH="301" zOrder="19" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="391" y="74" w="120" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="99"/>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::StickyNote" x="396" y="69" w="109" h="142" measuredW="109" measuredH="123" zOrder="11" locked="false" isInGroup="99">
+          <controlProperties>
+            <size>10</size>
+            <text>Coming%20from%20RSS%20feed%2CSCTM%20%2C%20See%20more%20should%20take%20you%20to%20http%3A//stemcellstm.alphamedpress.org/content/early/recent</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Image" x="391" y="11" w="110" h="31" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="99">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::Paragraph" x="391" y="46" w="120" h="32" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="99">
+          <controlProperties>
+            <size>13</size>
+            <text>Publish%20Ahead%20of%20Print</text>
+          </controlProperties>
+        </control>
+        <control controlID="11" controlTypeID="com.balsamiq.mockups::StickyNote" x="402" y="0" w="78" h="53" measuredW="109" measuredH="123" zOrder="3" locked="false" isInGroup="99">
+          <controlProperties>
+            <size>9</size>
+            <text>L%3A%20Give%20me%20the%20width%20and%20I%27ll%20give%20you%20the%20image</text>
+          </controlProperties>
+        </control>
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::Paragraph" x="391" y="94" w="121" h="45" measuredW="200" measuredH="80" zOrder="4" locked="false" isInGroup="99">
+          <controlProperties>
+            <size>11</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="13" controlTypeID="com.balsamiq.mockups::Paragraph" x="391" y="157" w="121" h="43" measuredW="200" measuredH="80" zOrder="5" locked="false" isInGroup="99">
+          <controlProperties>
+            <size>12</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="14" controlTypeID="com.balsamiq.mockups::HRule" x="391" y="202" w="133" h="-1" measuredW="100" measuredH="10" zOrder="6" locked="false" isInGroup="99">
+          <controlProperties>
+            <stroke>dotted</stroke>
+          </controlProperties>
+        </control>
+        <control controlID="15" controlTypeID="com.balsamiq.mockups::Paragraph" x="391" y="229" w="121" h="47" measuredW="200" measuredH="80" zOrder="7" locked="false" isInGroup="99">
+          <controlProperties>
+            <size>12</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="16" controlTypeID="com.balsamiq.mockups::Paragraph" x="391" y="84" w="98" h="19" measuredW="200" measuredH="80" zOrder="8" locked="false" isInGroup="99">
+          <controlProperties>
+            <size>10</size>
+            <text>November%2017%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="17" controlTypeID="com.balsamiq.mockups::Paragraph" x="391" y="143" w="98" h="19" measuredW="200" measuredH="80" zOrder="9" locked="false" isInGroup="99">
+          <controlProperties>
+            <size>10</size>
+            <text>November%2017%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="18" controlTypeID="com.balsamiq.mockups::Paragraph" x="391" y="216" w="98" h="19" measuredW="200" measuredH="80" zOrder="10" locked="false" isInGroup="99">
+          <controlProperties>
+            <size>10</size>
+            <text>November%2017%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="19" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="291" w="51" h="10" measuredW="200" measuredH="80" zOrder="12" locked="false" isInGroup="99">
+          <controlProperties>
+            <size>8</size>
+            <text>Read%20more%20%3E</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="100" controlTypeID="__group__" x="365" y="415" w="233" h="308" measuredW="233" measuredH="308" zOrder="9" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="148" h="-1" measuredW="80" measuredH="17" zOrder="0" locked="false" isInGroup="100">
+          <controlProperties>
+            <size>14</size>
+            <text>Journal%20Club</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="1" y="18" w="225" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="100"/>
+        <control controlID="2" controlTypeID="__group__" x="0" y="28" w="233" h="131" measuredW="233" measuredH="131" zOrder="2" locked="false" isInGroup="100">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="23" w="213" h="19" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>In%20hypoxic%20the%20new%20normoxic%20%3F</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="38" w="233" h="93" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <size>11</size>
+                <text>%5BTeaser%5D%20The%20common%20culture%20of%20cells%20under%20atmospheric%20%2820%25%29%20as%20opposed%20to%20physiological%20oxygen%20levels%20%28for%20example%2C%2013%25%0Ain%20oxygenated%20arterial%20blood%2C%20and%200.5-8%25%20in%20brain%20tissue%29%20is%20an%20important%20consideration%20for%20experimental%20outcome%20when%20using%20cultured%20cells%20for%20differentiation%20and%20transplantation%20experiments.%20Previous%20studies%20have%20indicated%20that%20the%20culture%20of%20cells%20under%20physiological%20oxygen%20levels%20or%20hypoxic%20preconditioning%20of%20cells%20prior%20to%20transplantation%20can%20yield%20improved%20survival%2C%20integration%20and%20differentiation%20of%20grafted%20cells.</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="0" w="213" h="19" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="2">
+              <controlProperties>
+                <bold>true</bold>
+                <text>Journal%20Club%20Discussions</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="4" controlTypeID="__group__" x="0" y="159" w="233" h="83" measuredW="233" measuredH="83" zOrder="3" locked="false" isInGroup="100">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="27" w="213" h="19" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="4">
+              <controlProperties>
+                <text>In%20hypoxic%20the%20new%20normoxic%20%3F</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="42" w="233" h="41" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="4">
+              <controlProperties>
+                <size>11</size>
+                <text>%5BTeaser%5D%20The%20common%20culture%20of%20cells%20under%20atmospheric%20%2820%25%29%20as%20opposed%20to%20physiological%20oxygen%20levels%20%28for%20example%2C%2013%25%0Ain%20oxygenated%20arterial%20blood%2C%20and%200.5-8%25%20in%20brain%20tissue%29%20is%20an%20important%20consideration%20for%20experimental%20outcome%20when%20using%20cultured%20cells%20for%20differentiation%20and%20transplantation%20experiments.%20Previous%20studies%20have%20indicated%20that%20the%20culture%20of%20cells%20under%20physiological%20oxygen%20levels%20or%20hypoxic%20preconditioning%20of%20cells%20prior%20to%20transplantation%20can%20yield%20improved%20survival%2C%20integration%20and%20differentiation%20of%20grafted%20cells.</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="0" w="213" h="19" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="4">
+              <controlProperties>
+                <bold>true</bold>
+                <text>Article%20Scans</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="17" w="98" h="30" measuredW="200" measuredH="80" zOrder="3" locked="false" isInGroup="4">
+              <controlProperties>
+                <size>10</size>
+                <text>November%2017%2C%202013</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="5" controlTypeID="__group__" x="0" y="242" w="233" h="66" measuredW="233" measuredH="66" zOrder="4" locked="false" isInGroup="100">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="23" w="213" h="19" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="5">
+              <controlProperties>
+                <text>In%20hypoxic%20the%20new%20normoxic%20%3F</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="38" w="233" h="28" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="5">
+              <controlProperties>
+                <size>11</size>
+                <text>%5BTeaser%5D%20The%20common%20culture%20of%20cells%20under%20atmospheric%20%2820%25%29%20as%20opposed%20to%20physiological%20oxygen%20levels%20%28for%20example%2C%2013%25%0Ain%20oxygenated%20arterial%20blood%2C%20and%200.5-8%25%20in%20brain%20tissue%29%20is%20an%20important%20consideration%20for%20experimental%20outcome%20when%20using%20cultured%20cells%20for%20differentiation%20and%20transplantation%20experiments.%20Previous%20studies%20have%20indicated%20that%20the%20culture%20of%20cells%20under%20physiological%20oxygen%20levels%20or%20hypoxic%20preconditioning%20of%20cells%20prior%20to%20transplantation%20can%20yield%20improved%20survival%2C%20integration%20and%20differentiation%20of%20grafted%20cells.</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="0" w="213" h="19" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="5">
+              <controlProperties>
+                <bold>true</bold>
+                <text>Stem%20cells%20Buzz</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="14" w="98" h="19" measuredW="200" measuredH="80" zOrder="3" locked="false" isInGroup="5">
+              <controlProperties>
+                <size>10</size>
+                <text>November%2017%2C%202013</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="43" w="98" h="19" measuredW="200" measuredH="80" zOrder="5" locked="false" isInGroup="100">
+          <controlProperties>
+            <size>10</size>
+            <text>November%2017%2C%202013</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="110" controlTypeID="com.balsamiq.mockups::StickyNote" x="635" y="624" w="109" h="114" measuredW="109" measuredH="123" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Press%20Releasesl%20-%20data%20coming%20from%20migration.</text>
+      </controlProperties>
+    </control>
+    <control controlID="147" controlTypeID="__group__" x="803" y="884" w="170" h="204" measuredW="170" measuredH="204" zOrder="20" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="73" w="170" h="49" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="147">
+          <controlProperties>
+            <size>11</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="100" w="121" h="18" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="147">
+          <controlProperties>
+            <size>11</size>
+            <text>Aug%204%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="112" w="170" h="49" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="147">
+          <controlProperties>
+            <size>11</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::StickyNote" x="31" y="14" w="109" h="108" measuredW="109" measuredH="123" zOrder="8" locked="false" isInGroup="147">
+          <controlProperties>
+            <color>16776960</color>
+            <size>9</size>
+            <text>RSS%20feed%20-%20Link%20goes%20to%20http%3A//cirmresearch.blogspot.com/%20and%20this%20link%20already%20has%20a%20RSS%20feed</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="170" h="40" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="147">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="47" w="170" h="21" measuredW="200" measuredH="80" zOrder="4" locked="false" isInGroup="147">
+          <controlProperties>
+            <size>13</size>
+            <text>CIRM%20Stem%20Cell%20Blog</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="66" w="121" h="18" measuredW="200" measuredH="80" zOrder="5" locked="false" isInGroup="147">
+          <controlProperties>
+            <size>11</size>
+            <text>Aug%204%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="155" w="170" h="49" measuredW="200" measuredH="80" zOrder="6" locked="false" isInGroup="147">
+          <controlProperties>
+            <size>11</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="143" w="121" h="18" measuredW="200" measuredH="80" zOrder="7" locked="false" isInGroup="147">
+          <controlProperties>
+            <size>11</size>
+            <text>Aug%204%2C%202013</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="148" controlTypeID="__group__" x="803" y="1088" w="170" h="204" measuredW="170" measuredH="204" zOrder="21" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="73" w="170" h="49" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="148">
+          <controlProperties>
+            <size>11</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="100" w="121" h="18" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="148">
+          <controlProperties>
+            <size>11</size>
+            <text>Aug%204%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="112" w="170" h="49" measuredW="200" measuredH="80" zOrder="3" locked="false" isInGroup="148">
+          <controlProperties>
+            <size>11</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::StickyNote" x="27" y="47" w="109" h="75" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="148">
+          <controlProperties>
+            <text>This%20is%20a%20HTML%20block.</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="170" h="40" measuredW="77" measuredH="79" zOrder="5" locked="false" isInGroup="148">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="47" w="170" h="21" measuredW="200" measuredH="80" zOrder="6" locked="false" isInGroup="148">
+          <controlProperties>
+            <size>13</size>
+            <text>Regenerative%20Medicine%20Foudation</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="61" w="121" h="18" measuredW="200" measuredH="80" zOrder="7" locked="false" isInGroup="148">
+          <controlProperties>
+            <size>11</size>
+            <text>Aug%204%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="155" w="170" h="49" measuredW="200" measuredH="80" zOrder="8" locked="false" isInGroup="148">
+          <controlProperties>
+            <size>11</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="143" w="121" h="18" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="148">
+          <controlProperties>
+            <size>11</size>
+            <text>Aug%204%2C%202013</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="149" controlTypeID="com.balsamiq.mockups::StickyNote" x="616" y="268" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>9</size>
+        <text>Instrux%20has%20already%20done%20this%2COK%20to%20copy%20it%20from%20there.Have%20a%20placeholder%20for%20now-%20Lauren%20still%20working%20on%20what%20ads%20she%20wants%20to%20be%20put%20there.</text>
+      </controlProperties>
+    </control>
+    <control controlID="150" controlTypeID="com.balsamiq.mockups::StickyNote" x="362" y="446" w="160" h="102" measuredW="109" measuredH="123" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>9</size>
+        <text>Journal%20Club%20is%20NEW.%20No%20content%20available%20yet.Placeholder%20for%20now.</text>
+      </controlProperties>
+    </control>
+    <control controlID="151" controlTypeID="com.balsamiq.mockups::StickyNote" x="376" y="564" w="197" h="87" measuredW="109" measuredH="123" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Article%20Scan%20section%20should%20pull%20from%20migration%28Article%20Scans%29%20-%20sections%20need%20to%20be%20seen.</text>
+      </controlProperties>
+    </control>
+    <control controlID="152" controlTypeID="com.balsamiq.mockups::StickyNote" x="386" y="663" w="176" h="92" measuredW="109" measuredH="123" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Stemcell%20buzz%20is%20NEW.Placeholder%20for%20now%2C%20No%20content%20yet%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="153" controlTypeID="com.balsamiq.mockups::StickyNote" x="830" y="467" w="109" h="181" measuredW="109" measuredH="123" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Box%20ad%20size%3A%20300x250%0A%20%0ATower%20ad%20size%3A%20160x600</text>
+      </controlProperties>
+    </control>
+    <control controlID="154" controlTypeID="com.balsamiq.mockups::StickyNote" x="573" y="93" w="254" h="74" measuredW="109" measuredH="123" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>9</size>
+        <text>Leaderboard%20AD%20-%20Leave%20space%20above%20Stem%20Cell%20Portal%20Logo.%0AShould%20be%20on%20all%20pages.%0ASize%3A%20728x90%20px</text>
+      </controlProperties>
+    </control>
+    <control controlID="155" controlTypeID="com.balsamiq.mockups::Image" x="468" y="109" w="405" h="58" measuredW="77" measuredH="79" zOrder="28" locked="false" isInGroup="-1"/>
+    <control controlID="157" controlTypeID="__group__" x="625" y="601" w="148" h="161" measuredW="148" measuredH="161" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="148" h="-1" measuredW="101" measuredH="17" zOrder="0" locked="false" isInGroup="157">
+          <controlProperties>
+            <size>14</size>
+            <text>Press%20Releases</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="47" w="133" h="27" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="157">
+          <controlProperties>
+            <size>11</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="1" y="14" w="132" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="157"/>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="74" w="133" h="-1" measuredW="100" measuredH="10" zOrder="3" locked="false" isInGroup="157">
+          <controlProperties>
+            <stroke>dotted</stroke>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="118" w="133" h="43" measuredW="200" measuredH="80" zOrder="4" locked="false" isInGroup="157">
+          <controlProperties>
+            <size>12</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="24" w="85" h="19" measuredW="200" measuredH="80" zOrder="5" locked="false" isInGroup="157">
+          <controlProperties>
+            <size>9</size>
+            <text>Stem%20Cells</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="86" w="131" h="25" measuredW="200" measuredH="80" zOrder="6" locked="false" isInGroup="157">
+          <controlProperties>
+            <size>9</size>
+            <text>Stem%20Cells%20Translational%20Medicine</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="34" w="98" h="19" measuredW="200" measuredH="80" zOrder="7" locked="false" isInGroup="157">
+          <controlProperties>
+            <size>10</size>
+            <text>November%2017%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="109" w="98" h="19" measuredW="200" measuredH="80" zOrder="8" locked="false" isInGroup="157">
+          <controlProperties>
+            <size>10</size>
+            <text>November%2017%2C%202013</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="158" controlTypeID="com.balsamiq.mockups::Canvas" x="809" y="814" w="164" h="55" measuredW="100" measuredH="70" zOrder="30" locked="false" isInGroup="-1"/>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::Canvas" x="359" y="1075" w="409" h="223" measuredW="100" measuredH="70" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>5865130</color>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::Paragraph" x="392" y="1100" w="311" h="121" measuredW="200" measuredH="80" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Footer%20w/%20site%20map%20and%20social%20media%20links%2C%20maybe%3F%20See%20Oncologist%20Hub%20for%20an%20example%20-%20I%20need%20more%20time%20to%20mock%20this%20up.</text>
+      </controlProperties>
+    </control>
+    <control controlID="161" controlTypeID="com.balsamiq.mockups::Paragraph" x="359" y="860" w="98" h="19" measuredW="200" measuredH="80" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>November%2017%2C%202013</text>
+      </controlProperties>
+    </control>
+    <control controlID="165" controlTypeID="com.balsamiq.mockups::Paragraph" x="815" y="818" w="158" h="42" measuredW="200" measuredH="80" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>9</size>
+        <text>Sign%20up%20block%20for%20Regenerative%20Medicine%20Weekly%20newsletter%20%28html%20generated%20by%20iContact%29</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

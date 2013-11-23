@@ -1,21 +1,21 @@
 <?php
 /**
  * @file
- * amp_article_scans.pages_default.inc
+ * amp_journal_club_discussions.pages_default.inc
  */
 
 /**
  * Implements hook_default_page_manager_pages().
  */
-function amp_article_scans_default_page_manager_pages() {
+function amp_journal_club_discussions_page_default_page_manager_pages() {
   $page = new stdClass();
   $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
   $page->api_version = 1;
-  $page->name = 'journal_club_article_scans';
+  $page->name = 'journal_club_journal_club_discussions';
   $page->task = 'page';
-  $page->admin_title = 'journal_club_article_scans';
+  $page->admin_title = 'journal_club_journal_club_discussions';
   $page->admin_description = '';
-  $page->path = 'journal_club_article_scans';
+  $page->path = 'journal_club_journal_club_discussions';
   $page->access = array();
   $page->menu = array();
   $page->arguments = array();
@@ -26,9 +26,9 @@ function amp_article_scans_default_page_manager_pages() {
   $handler = new stdClass();
   $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
-  $handler->name = 'page_journal_club_article_scans_panel_context';
+  $handler->name = 'page_journal_club_journal_club_discussions_panel_context';
   $handler->task = 'page';
-  $handler->subtask = 'journal_club_article_scans';
+  $handler->subtask = 'journal_club_journal_club_discussions';
   $handler->handler = 'panel_context';
   $handler->weight = 0;
   $handler->conf = array(
@@ -52,7 +52,7 @@ function amp_article_scans_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Article Scans';
+  $display->title = 'Journal Club Discussions';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
@@ -72,7 +72,7 @@ function amp_article_scans_default_page_manager_pages() {
       'feed_icons' => 0,
       'panel_args' => 0,
       'link_to_view' => 0,
-      'args' => 'journal_club_article_scans',
+      'args' => 'journal_club_journal_club_discussions',
       'url' => '',
       'display' => 'default',
       'override_title' => 1,
@@ -92,7 +92,7 @@ function amp_article_scans_default_page_manager_pages() {
     $pane->pid = 'new-2';
     $pane->panel = 'middle';
     $pane->type = 'views';
-    $pane->subtype = 'views_journal_club_article_scans_latest1';
+    $pane->subtype = 'views_journal_club_journal_club_discussions_latest1';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
@@ -125,12 +125,12 @@ function amp_article_scans_default_page_manager_pages() {
     $pane->pid = 'new-3';
     $pane->panel = 'middle';
     $pane->type = 'views';
-    $pane->subtype = 'views_journal_club_article_scans_latest10';
+    $pane->subtype = 'views_journal_club_journal_club_discussions_latest10';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
       'override_pager_settings' => 0,
-      'use_pager' => 1,
+      'use_pager' => 0,
       'nodes_per_page' => '10',
       'pager_id' => '0',
       'offset' => '1',
@@ -142,7 +142,7 @@ function amp_article_scans_default_page_manager_pages() {
       'url' => '',
       'display' => 'default',
       'override_title' => 1,
-      'override_title_text' => 'Older Article Scans',
+      'override_title_text' => 'Older Discussions',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -158,7 +158,7 @@ function amp_article_scans_default_page_manager_pages() {
   $display->title_pane = 'new-1';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
-  $pages['journal_club_article_scans'] = $page;
+  $pages['journal_club_journal_club_discussions'] = $page;
 
   return $pages;
 

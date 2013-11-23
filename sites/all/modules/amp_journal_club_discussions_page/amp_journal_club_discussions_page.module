@@ -4,4 +4,4 @@
  * Code for the Journal Club Discussions feature.
  */
 
-include_once 'amp_journal_club_discussions.features.inc';
+include_once 'amp_journal_club_discussions_page.features.inc';

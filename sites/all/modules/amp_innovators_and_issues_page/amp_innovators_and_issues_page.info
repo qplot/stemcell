@@ -1,9 +1,9 @@
-name = Innovators and Issues
-description = Innovators and Issues Page
+name = Innovators and Issues Page
+description = AMP Innovators and Issues Page
 core = 7.x
 package = AMP
 version = 7.x-1.0
-project = amp_innovators_and_issues
+project = amp_innovators_and_issues_page
 dependencies[] = page_manager
 dependencies[] = views
 features[ctools][] = page_manager:pages_default:1

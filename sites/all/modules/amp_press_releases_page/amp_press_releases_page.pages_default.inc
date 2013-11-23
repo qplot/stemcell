@@ -1,21 +1,21 @@
 <?php
 /**
  * @file
- * amp_innovators_and_issues.pages_default.inc
+ * amp_press_releases_page.pages_default.inc
  */
 
 /**
  * Implements hook_default_page_manager_pages().
  */
-function amp_innovators_and_issues_default_page_manager_pages() {
+function amp_press_releases_page_default_page_manager_pages() {
   $page = new stdClass();
   $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
   $page->api_version = 1;
-  $page->name = 'features_innovators_and_issues';
+  $page->name = 'news_press_room_press_releases';
   $page->task = 'page';
-  $page->admin_title = 'features_innovators_and_issues';
+  $page->admin_title = 'news_press_room_press_releases';
   $page->admin_description = '';
-  $page->path = 'features_innovators_and_issues';
+  $page->path = 'news_press_room_press_releases';
   $page->access = array();
   $page->menu = array();
   $page->arguments = array();
@@ -26,9 +26,9 @@ function amp_innovators_and_issues_default_page_manager_pages() {
   $handler = new stdClass();
   $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
-  $handler->name = 'page_features_innovators_and_issues_panel_context';
+  $handler->name = 'page_news_press_room_press_releases_panel_context';
   $handler->task = 'page';
-  $handler->subtask = 'features_innovators_and_issues';
+  $handler->subtask = 'news_press_room_press_releases';
   $handler->handler = 'panel_context';
   $handler->weight = 0;
   $handler->conf = array(
@@ -52,7 +52,7 @@ function amp_innovators_and_issues_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Innovators and Issues';
+  $display->title = 'Press Releases from AlphaMed Press';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
@@ -72,7 +72,7 @@ function amp_innovators_and_issues_default_page_manager_pages() {
       'feed_icons' => 0,
       'panel_args' => 0,
       'link_to_view' => 0,
-      'args' => 'features_innovators_and_issues',
+      'args' => 'news_press_room_press_releases',
       'url' => '',
       'display' => 'default',
       'override_title' => 1,
@@ -92,13 +92,13 @@ function amp_innovators_and_issues_default_page_manager_pages() {
     $pane->pid = 'new-2';
     $pane->panel = 'middle';
     $pane->type = 'views';
-    $pane->subtype = 'views_features_innovators_and_issues_latest1';
+    $pane->subtype = 'views_news_press_room_press_releases';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
       'override_pager_settings' => 0,
-      'use_pager' => 0,
-      'nodes_per_page' => '1',
+      'use_pager' => 1,
+      'nodes_per_page' => '10',
       'pager_id' => '0',
       'offset' => '0',
       'more_link' => 0,
@@ -121,44 +121,11 @@ function amp_innovators_and_issues_default_page_manager_pages() {
     $pane->locks = array();
     $display->content['new-2'] = $pane;
     $display->panels['middle'][1] = 'new-2';
-    $pane = new stdClass();
-    $pane->pid = 'new-3';
-    $pane->panel = 'middle';
-    $pane->type = 'views';
-    $pane->subtype = 'views_features_innovators_and_issues_latest10';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_pager_settings' => 0,
-      'use_pager' => 1,
-      'nodes_per_page' => '10',
-      'pager_id' => '0',
-      'offset' => '1',
-      'more_link' => 0,
-      'feed_icons' => 0,
-      'panel_args' => 0,
-      'link_to_view' => 0,
-      'args' => '',
-      'url' => '',
-      'display' => 'default',
-      'override_title' => 1,
-      'override_title_text' => 'Past Innovators and Issues',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 2;
-    $pane->locks = array();
-    $display->content['new-3'] = $pane;
-    $display->panels['middle'][2] = 'new-3';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-1';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
-  $pages['features_innovators_and_issues'] = $page;
+  $pages['news_press_room_press_releases'] = $page;
 
   return $pages;
 

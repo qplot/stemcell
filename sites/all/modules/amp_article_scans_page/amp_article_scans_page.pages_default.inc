@@ -1,21 +1,21 @@
 <?php
 /**
  * @file
- * amp_editors_blog.pages_default.inc
+ * amp_article_scans_page.pages_default.inc
  */
 
 /**
  * Implements hook_default_page_manager_pages().
  */
-function amp_editors_blog_default_page_manager_pages() {
+function amp_article_scans_page_default_page_manager_pages() {
   $page = new stdClass();
   $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
   $page->api_version = 1;
-  $page->name = 'features_editors_blog';
+  $page->name = 'journal_club_article_scans';
   $page->task = 'page';
-  $page->admin_title = 'features_editors_blog';
+  $page->admin_title = 'journal_club_article_scans';
   $page->admin_description = '';
-  $page->path = 'features_editors_blog';
+  $page->path = 'journal_club_article_scans';
   $page->access = array();
   $page->menu = array();
   $page->arguments = array();
@@ -26,9 +26,9 @@ function amp_editors_blog_default_page_manager_pages() {
   $handler = new stdClass();
   $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
-  $handler->name = 'page_features_editors_blog_panel_context';
+  $handler->name = 'page_journal_club_article_scans_panel_context';
   $handler->task = 'page';
-  $handler->subtask = 'features_editors_blog';
+  $handler->subtask = 'journal_club_article_scans';
   $handler->handler = 'panel_context';
   $handler->weight = 0;
   $handler->conf = array(
@@ -52,7 +52,7 @@ function amp_editors_blog_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Editors Blog';
+  $display->title = 'Article Scans';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
@@ -72,7 +72,7 @@ function amp_editors_blog_default_page_manager_pages() {
       'feed_icons' => 0,
       'panel_args' => 0,
       'link_to_view' => 0,
-      'args' => 'features_editors_blog',
+      'args' => 'journal_club_article_scans',
       'url' => '',
       'display' => 'default',
       'override_title' => 1,
@@ -92,7 +92,7 @@ function amp_editors_blog_default_page_manager_pages() {
     $pane->pid = 'new-2';
     $pane->panel = 'middle';
     $pane->type = 'views';
-    $pane->subtype = 'views_features_editors_blog_latest1';
+    $pane->subtype = 'views_journal_club_article_scans_latest1';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
@@ -125,7 +125,7 @@ function amp_editors_blog_default_page_manager_pages() {
     $pane->pid = 'new-3';
     $pane->panel = 'middle';
     $pane->type = 'views';
-    $pane->subtype = 'views_features_editors_blog_latest10';
+    $pane->subtype = 'views_journal_club_article_scans_latest10';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
@@ -133,7 +133,7 @@ function amp_editors_blog_default_page_manager_pages() {
       'use_pager' => 1,
       'nodes_per_page' => '10',
       'pager_id' => '0',
-      'offset' => '0',
+      'offset' => '1',
       'more_link' => 0,
       'feed_icons' => 0,
       'panel_args' => 0,
@@ -142,7 +142,7 @@ function amp_editors_blog_default_page_manager_pages() {
       'url' => '',
       'display' => 'default',
       'override_title' => 1,
-      'override_title_text' => 'Past Posts',
+      'override_title_text' => 'Older Article Scans',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -158,7 +158,7 @@ function amp_editors_blog_default_page_manager_pages() {
   $display->title_pane = 'new-1';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
-  $pages['features_editors_blog'] = $page;
+  $pages['journal_club_article_scans'] = $page;
 
   return $pages;
 

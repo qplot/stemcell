@@ -11,4 +11,5 @@ features[ctools][] = views:views_default:3.0
 features[features_api][] = api:2
 features[page_manager_pages][] = news_in_the_news_news
 features[views_view][] = views_news_in_the_news_news
+features[views_view][] = views_news_in_the_news_news_links
 features_exclude[dependencies][ctools] = ctools

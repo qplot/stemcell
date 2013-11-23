@@ -4,4 +4,4 @@
  * Code for the Article Scans feature.
  */
 
-include_once 'amp_article_scans.features.inc';
+include_once 'amp_article_scans_page.features.inc';

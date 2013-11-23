@@ -1,9 +1,9 @@
-name = Editors Blog
-description = Editors Blog Page
+name = Editors Blog Page
+description = AMP Editors Blog Page
 core = 7.x
 package = AMP
 version = 7.x-1.0
-project = amp_editors_blog
+project = amp_editors_blog_page
 dependencies[] = page_manager
 dependencies[] = views
 features[ctools][] = page_manager:pages_default:1

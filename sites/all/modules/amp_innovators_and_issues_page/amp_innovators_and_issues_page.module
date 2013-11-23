@@ -4,4 +4,4 @@
  * Code for the Innovators and Issues feature.
  */
 
-include_once 'amp_innovators_and_issues.features.inc';
+include_once 'amp_innovators_and_issues_page.features.inc';

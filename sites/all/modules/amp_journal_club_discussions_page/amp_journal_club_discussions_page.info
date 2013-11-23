@@ -1,9 +1,9 @@
-name = Journal Club Discussions
-description = Journal Club Discussions Page
+name = Journal Club Discussions Page
+description = AMP Journal Club Discussions Page
 core = 7.x
 package = AMP
 version = 7.x-1.0
-project = amp_journal_club_discussions
+project = amp_journal_club_discussions_page
 dependencies[] = page_manager
 dependencies[] = views
 features[ctools][] = page_manager:pages_default:1

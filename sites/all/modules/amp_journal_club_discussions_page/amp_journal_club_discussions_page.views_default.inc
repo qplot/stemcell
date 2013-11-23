@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * amp_journal_club_discussions.views_default.inc
+ * amp_journal_club_discussions_page.views_default.inc
  */
 
 /**
  * Implements hook_views_default_views().
  */
-function amp_journal_club_discussions_views_default_views() {
+function amp_journal_club_discussions_page_views_default_views() {
   $export = array();
 
   $view = new view();

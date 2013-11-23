@@ -4,4 +4,4 @@
  * Code for the Editors Blog feature.
  */
 
-include_once 'amp_editors_blog.features.inc';
+include_once 'amp_editors_blog_page.features.inc';

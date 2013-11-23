@@ -1,9 +1,9 @@
 name = Article Scans Page
-description = Article Scans Page
+description = AMP Article Scans Page
 core = 7.x
 package = AMP
 version = 7.x-1.0
-project = amp_article_scans
+project = amp_article_scans_page
 dependencies[] = page_manager
 dependencies[] = views
 features[ctools][] = page_manager:pages_default:1

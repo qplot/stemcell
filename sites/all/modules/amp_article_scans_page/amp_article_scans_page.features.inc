@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * amp_journal_club_discussions.features.inc
+ * amp_article_scans_page.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function amp_journal_club_discussions_ctools_plugin_api($module = NULL, $api = NULL) {
+function amp_article_scans_page_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "page_manager" && $api == "pages_default") {
     return array("version" => "1");
   }
@@ -16,6 +16,6 @@ function amp_journal_club_discussions_ctools_plugin_api($module = NULL, $api = N
 /**
  * Implements hook_views_api().
  */
-function amp_journal_club_discussions_views_api($module = NULL, $api = NULL) {
+function amp_article_scans_page_views_api($module = NULL, $api = NULL) {
   return array("api" => "3.0");
 }

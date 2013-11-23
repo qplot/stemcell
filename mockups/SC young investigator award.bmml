@@ -1,0 +1,133 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1010" measuredH="801" mockupW="965" mockupH="771">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Menu" x="45" y="78" w="233" h="-1" measuredW="150" measuredH="539" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Home%26bm%3BHome.bmml%26bm%3BHome.bmml%26bm%3BHome.bmml%2C%2C%2CIn%20the%20news%26bm%3BIn%20the%20news.bmml%26bm%3BIn%20the%20news.bmml%26bm%3BIn%20the%20news.bmml%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2CSC%20young%20investigator%20award%26bm%3BSC%20young%20investigator%20award.bmml%26bm%3BSC%20young%20investigator%20award.bmml%26bm%3BSC%20young%20investigator%20award.bmml%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C53%2C233%2C74%22%20href%3D%22Home.bmml%22%20alt%3D%22Home%22%20id%3D%220%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C100%2C233%2C121%22%20href%3D%22In%2520the%2520news.bmml%22%20alt%3D%22In%20the%20news%22%20id%3D%220%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C341%2C233%2C362%22%20href%3D%22SC%2520young%2520investigator%2520award.bmml%22%20alt%3D%22SC%20young%20investigator%20award%22%20id%3D%220%22/%3E</map>
+        <text>-HOME-%0A---%0A-News-%2C%20V%0AIn%20the%20News%0APress%20Room%0A%20---%0A-Journal%20Club-%2C%20V%0AStem%20Cells%20Buzz%0AArticle%20Scan%0AJournal%20Club%20Discussion%0A---%0A-Features-%2C%20V%0AAlpha%20Stem%20Cell%20Clinic%0AInnovators%20and%20Issues%0AEidtors%20Blog%0AProfiles%20and%20Perspectives%0Ao%20SC%20Yong%20investigator%20Award%0ASCTM%20Young%20Invesitgator%20Awards%0A---%0A-Sister%20Journal-%2C%20V%0AStem%20Cells%0AStem%20Cells%20Translational%20Medicine%0A---%0A-Resources-%0ACalls%20for%20Proposals%0AMeeting%20Reports%0ACalendar%20of%20Events%0ARegenerative%20Medicine%20Weekly%0AAbout%20the%20Stem%20Cells%20Portal</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="59" w="150" h="19" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Navigation%20Menu</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="312" y="30" w="698" h="771" measuredW="450" measuredH="400" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>In%20the%20News%20%7C%20Stemcellportal.com%0Ahttp%3A//www.stemcellsportal.com/sc-young-investigator-award</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Image" x="356" y="121" w="315" h="43" measuredW="464" measuredH="73" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <filter>true</filter>
+        <src>./assets/logo.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::LinkBar" x="356" y="180" w="-1" h="-1" measuredW="429" measuredH="19" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Home%26bm%3BHome.bmml%26bm%3BHome.bmml%26bm%3BHome.bmml%2CIn%20the%20news%26bm%3BIn%20the%20news.bmml%26bm%3BIn%20the%20news.bmml%26bm%3BIn%20the%20news.bmml%2C%2C%2C%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22311%2C152%2C345%2C165%22%20href%3D%22Home.bmml%22%20alt%3D%22Home%22%20id%3D%227%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22363%2C152%2C396%2C165%22%20href%3D%22In%2520the%2520news.bmml%22%20alt%3D%22In%20the%20news%22%20id%3D%227%22/%3E</map>
+        <selectedIndex>3</selectedIndex>
+        <text>Home%2C%20News%2C%20Journal%20Club%2C%20Features%2C%20Sister%20Journal%2C%20Resources</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="__group__" x="356" y="334" w="369" h="281" measuredW="369" measuredH="281" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="369" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="8"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="19" w="-1" h="-1" measuredW="204" measuredH="17" zOrder="1" locked="false" isInGroup="8">
+          <controlProperties>
+            <size>14</size>
+            <text>2012%20Winner%20-%20Dr.%20Sanjay%20Kumar</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="36" w="-1" h="-1" measuredW="219" measuredH="17" zOrder="2" locked="false" isInGroup="8">
+          <controlProperties>
+            <bold>true</bold>
+            <size>14</size>
+            <text>University%20of%20California%2C%20Berkeley</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="61" w="363" h="220" measuredW="200" measuredH="80" zOrder="3" locked="false" isInGroup="8">
+          <controlProperties>
+            <text>%u201CWe%20are%20pleased%20to%20present%20this%20award%20to%20outstanding%20young%20investigator%20Dr.%20Sanjay%20Kumar%20who%20has%20led%20his%20team%20to%20demonstrate%20that%20extracellular%20matrix-%20derived%20mechanical%20signals%20act%20through%20Rho%20GTPases%20to%20activate%20the%20cellular%20contractility%20machinery%20in%20a%20key%20early%20window%20during%20differentiation%20to%20regulate%20NSC%20lineage%20commitment%2C%u201D%20said%20Jan%20A.%20Nolta%2C%20Editor%20or%20Stem%20Cells.%0A%u201CThe%20group%u2019s%20key%20studies%20which%20included%20definitive%20in%20vitro%20and%20in%20vivo%20testing%20have%20clearly%20shown%20the%20importance%20of%20Rho%20GTPase-based%20mechanotransduction%20and%20cellular%20stiffness%20as%20biophysical%20regulators%20of%20Neural%20Stem%20Cell%20fate%20in%20vitro%20and%20define%20RhoA%20as%20an%20important%20regulatory%20protein%20in%20the%20hippocampal%20stem%20cell%20niche.%20Dr.%20Kumar%u2019s%20work%20strongly%20suggests%20the%20relevance%20of%20tissue%20stiffness%20in%20brain%20homeostasis%20and%20disease%2C%20and%20may%20benefit%20and%20guide%20the%20synthesis%0Aand%20fabrication%20of%20stem%20cell-based%20implant%20materials%20as%20well%20as%20stem%20cell%20culture%20systems%20for%20research%20applications.</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::StickyNote" x="552" y="412" w="196" h="77" measuredW="109" measuredH="123" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Latest%20article%20in%20section%20%22Winner%22</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::VRule" x="775" y="253" w="-1" h="482" measuredW="10" measuredH="100" zOrder="7" locked="false" isInGroup="-1"/>
+    <control controlID="13" controlTypeID="__group__" x="800" y="250" w="170" h="501" measuredW="170" measuredH="501" zOrder="8" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TextInput" x="0" y="0" w="97" h="-1" measuredW="79" measuredH="26" zOrder="0" locked="false" isInGroup="13">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::PointyButton" x="103" y="0" w="67" h="-1" measuredW="60" measuredH="27" zOrder="1" locked="false" isInGroup="13">
+          <controlProperties>
+            <text>Search</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="0" y="45" w="170" h="133" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="13">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="33" y="204" w="111" h="297" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="13">
+          <controlProperties>
+            <filter>true</filter>
+            <text/>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="14" controlTypeID="__group__" x="356" y="617" w="369" h="36" measuredW="369" measuredH="36" zOrder="9" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="369" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="14"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="19" w="-1" h="-1" measuredW="84" measuredH="17" zOrder="1" locked="false" isInGroup="14">
+          <controlProperties>
+            <size>14</size>
+            <text>Past%20Winners</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::SubTitle" x="356" y="222" w="-1" h="-1" measuredW="337" measuredH="23" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Stem%20Cells%20Young%20Investigator%20Award</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Paragraph" x="454" y="253" w="265" h="76" measuredW="200" measuredH="80" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Brief%20introduction%3F%5D%20Et%20pe%20parchil%20ipsum%20cus%20quis%20esequas%20et%20dolorum%20re%2C%20consequia%20sed%20ut%20aut%20que%20core%20et%20ra%20ad%20quati%20offic%20te%20incipsum%20unt%20et%20officiae%20simolore%20volupta%20tiatur%2C%20occus%20aut%20quodis%20sus%20et%20volorro%20te%20officimo%20molupta%20veni%20sus%20duciamus%2C%20optaercit%20estrunt%20fuga.</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Image" x="365" y="253" w="66" h="68" measuredW="77" measuredH="79" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Paragraph" x="356" y="660" w="364" h="80" measuredW="200" measuredH="80" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5BBest%20Papers%20From%20Our%202011%20Young%20Investigators%20%5D%0A%5B2011%20Award%20Winner%20%u2013%20Dr.%20Ewa%20Meyer-Blazejewska%5D%20%0A%5B2010%20Award%20Winner%20%u2013%20Dr.%20Cinzia%20Rota%5D%0A%5B2009%20Award%20Winner%20-%20Dr.%20Mee%20Kum%20Kim%5D%0A%5B2008%20Award%20Winner%20-%20Dr.%20Lena%20Motoda%5D%0A%5B2007%20Award%20Winner%20-%20Noatsugu%20Haraguchi%20%5D%0A%5B2006%20Award%20Co-Winner%20-%20Dr.%20Sergey%20S.%20Akimov%5D%20%0A%5B2006%20Award%20Co-Winner%20-%20Dr.%20Makoto%20Sahara%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::StickyNote" x="552" y="689" w="196" h="77" measuredW="109" measuredH="123" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>All%20article%20in%20section%20%22Winner%22</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::StickyNote" x="552" y="253" w="196" h="77" measuredW="109" measuredH="123" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <text>Article%20in%20section%20%22Page%20Intro%22</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,171 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1010" measuredH="801" mockupW="965" mockupH="771">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Menu" x="45" y="78" w="233" h="-1" measuredW="150" measuredH="539" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Home%26bm%3BHome.bmml%26bm%3BHome.bmml%26bm%3BHome.bmml%2C%2C%2CIn%20the%20news%26bm%3BIn%20the%20news.bmml%26bm%3BIn%20the%20news.bmml%26bm%3BIn%20the%20news.bmml%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2CSC%20young%20investigator%20award%26bm%3BSC%20young%20investigator%20award.bmml%26bm%3BSC%20young%20investigator%20award.bmml%26bm%3BSC%20young%20investigator%20award.bmml%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C53%2C233%2C74%22%20href%3D%22Home.bmml%22%20alt%3D%22Home%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C100%2C233%2C121%22%20href%3D%22In%2520the%2520news.bmml%22%20alt%3D%22In%20the%20news%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C341%2C233%2C362%22%20href%3D%22SC%2520young%2520investigator%2520award.bmml%22%20alt%3D%22SC%20young%20investigator%20award%22%20id%3D%221%22/%3E</map>
+        <text>-HOME-%0A---%0A-News-%2C%20V%0Ao%20In%20the%20News%0APress%20Room%0A%20---%0A-Journal%20Club-%2C%20V%0AStem%20Cells%20Buzz%0AArticle%20Scan%0AJournal%20Club%20Discussion%0A---%0A-Features-%2C%20V%0AAlpha%20Stem%20Cell%20Clinic%0AInnovators%20and%20Issues%0AEidtors%20Blog%0AProfiles%20and%20Perspectives%0ASC%20Yong%20investigator%20Award%0ASCTM%20Young%20Invesitgator%20Awards%0A---%0A-Sister%20Journal-%2C%20V%0AStem%20Cells%0AStem%20Cells%20Translational%20Medicine%0A---%0A-Resources-%0ACalls%20for%20Proposals%0AMeeting%20Reports%0ACalendar%20of%20Events%0ARegenerative%20Medicine%20Weekly%0AAbout%20the%20Stem%20Cells%20Portal</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="59" w="150" h="19" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Navigation%20Menu</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="312" y="30" w="698" h="771" measuredW="450" measuredH="400" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>In%20the%20News%20%7C%20Stemcellportal.com%0Ahttp%3A//www.stemcellsportal.com/in-the-news</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="356" y="121" w="315" h="43" measuredW="464" measuredH="73" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <filter>true</filter>
+        <src>./assets/logo.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::SubTitle" x="356" y="222" w="-1" h="-1" measuredW="51" measuredH="23" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>News</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Paragraph" x="356" y="253" w="363" h="76" measuredW="200" measuredH="80" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Brief%20introduction%3F%5D%20Et%20pe%20parchil%20ipsum%20cus%20quis%20esequas%20et%20dolorum%20re%2C%20consequia%20sed%20ut%20aut%20que%20core%20et%20ra%20ad%20quati%20offic%20te%20incipsum%20unt%20et%20officiae%20simolore%20volupta%20tiatur%2C%20occus%20aut%20quodis%20sus%20et%20volorro%20te%20officimo%20molupta%20veni%20sus%20duciamus%2C%20optaercit%20estrunt%20fuga.</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::LinkBar" x="356" y="180" w="-1" h="-1" measuredW="429" measuredH="19" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Home%26bm%3BHome.bmml%26bm%3BHome.bmml%26bm%3BHome.bmml%2C%2C%2CSC%20young%20investigator%20award%26bm%3BSC%20young%20investigator%20award.bmml%26bm%3BSC%20young%20investigator%20award.bmml%26bm%3BSC%20young%20investigator%20award.bmml%2C%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22311%2C152%2C345%2C165%22%20href%3D%22Home.bmml%22%20alt%3D%22Home%22%20id%3D%2223%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22506%2C152%2C558%2C165%22%20href%3D%22SC%2520young%2520investigator%2520award.bmml%22%20alt%3D%22SC%20young%20investigator%20award%22%20id%3D%2223%22/%3E</map>
+        <selectedIndex>1</selectedIndex>
+        <text>Home%2C%20News%2C%20Journal%20Club%2C%20Features%2C%20Sister%20Journal%2C%20Resources</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="__group__" x="356" y="334" w="384" h="110" measuredW="384" measuredH="110" zOrder="7" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="369" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="30"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="19" w="-1" h="-1" measuredW="95" measuredH="17" zOrder="1" locked="false" isInGroup="30">
+          <controlProperties>
+            <size>14</size>
+            <text>August%201%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="36" w="-1" h="-1" measuredW="384" measuredH="17" zOrder="2" locked="false" isInGroup="30">
+          <controlProperties>
+            <bold>true</bold>
+            <size>14</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="61" w="363" h="49" measuredW="200" measuredH="80" zOrder="3" locked="false" isInGroup="30">
+          <controlProperties>
+            <text>Brief%20introduction%3F%5D%20Et%20pe%20parchil%20ipsum%20cus%20quis%20esequas%20et%20dolorum%20re%2C%20consequia%20sed%20ut%20aut%20que%20core%20et%20ra%20ad%20quati%20offic%20te%20incipsum%20unt%20et%20officiae%20simolore%20volupta%20tiatur%2C%20occus%20aut%20quodis%20sus%20et%20volorro%20te%20officimo%20molupta%20veni%20sus%20duciamus%2C%20optaercit%20estrunt%20fuga.</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="31" controlTypeID="__group__" x="356" y="454" w="384" h="110" measuredW="384" measuredH="110" zOrder="8" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="369" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="31"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="19" w="-1" h="-1" measuredW="95" measuredH="17" zOrder="1" locked="false" isInGroup="31">
+          <controlProperties>
+            <size>14</size>
+            <text>August%201%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="36" w="-1" h="-1" measuredW="384" measuredH="17" zOrder="2" locked="false" isInGroup="31">
+          <controlProperties>
+            <bold>true</bold>
+            <size>14</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="61" w="363" h="49" measuredW="200" measuredH="80" zOrder="3" locked="false" isInGroup="31">
+          <controlProperties>
+            <text>Brief%20introduction%3F%5D%20Et%20pe%20parchil%20ipsum%20cus%20quis%20esequas%20et%20dolorum%20re%2C%20consequia%20sed%20ut%20aut%20que%20core%20et%20ra%20ad%20quati%20offic%20te%20incipsum%20unt%20et%20officiae%20simolore%20volupta%20tiatur%2C%20occus%20aut%20quodis%20sus%20et%20volorro%20te%20officimo%20molupta%20veni%20sus%20duciamus%2C%20optaercit%20estrunt%20fuga.</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="32" controlTypeID="__group__" x="356" y="573" w="384" h="110" measuredW="384" measuredH="110" zOrder="9" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="369" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="32"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="19" w="-1" h="-1" measuredW="95" measuredH="17" zOrder="1" locked="false" isInGroup="32">
+          <controlProperties>
+            <size>14</size>
+            <text>August%201%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="36" w="-1" h="-1" measuredW="384" measuredH="17" zOrder="2" locked="false" isInGroup="32">
+          <controlProperties>
+            <bold>true</bold>
+            <size>14</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="61" w="363" h="49" measuredW="200" measuredH="80" zOrder="3" locked="false" isInGroup="32">
+          <controlProperties>
+            <text>Brief%20introduction%3F%5D%20Et%20pe%20parchil%20ipsum%20cus%20quis%20esequas%20et%20dolorum%20re%2C%20consequia%20sed%20ut%20aut%20que%20core%20et%20ra%20ad%20quati%20offic%20te%20incipsum%20unt%20et%20officiae%20simolore%20volupta%20tiatur%2C%20occus%20aut%20quodis%20sus%20et%20volorro%20te%20officimo%20molupta%20veni%20sus%20duciamus%2C%20optaercit%20estrunt%20fuga.</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::StickyNote" x="544" y="344" w="196" h="123" measuredW="109" measuredH="123" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20Teaser%20list%20of%20article%20in%20section%20%22In%20the%20News%22</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::VRule" x="775" y="253" w="-1" h="482" measuredW="10" measuredH="100" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="39" controlTypeID="__group__" x="356" y="691" w="384" h="53" measuredW="384" measuredH="53" zOrder="13" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="369" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="39"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="19" w="-1" h="-1" measuredW="95" measuredH="17" zOrder="1" locked="false" isInGroup="39">
+          <controlProperties>
+            <size>14</size>
+            <text>August%201%2C%202013</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="36" w="-1" h="-1" measuredW="384" measuredH="17" zOrder="2" locked="false" isInGroup="39">
+          <controlProperties>
+            <bold>true</bold>
+            <size>14</size>
+            <text>Stem%20cells%20in%20urine%20show%20potential%20for%20numerous%20therapies</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="41" controlTypeID="__group__" x="800" y="250" w="170" h="501" measuredW="170" measuredH="501" zOrder="12" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TextInput" x="0" y="0" w="97" h="-1" measuredW="79" measuredH="26" zOrder="0" locked="false" isInGroup="41">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::PointyButton" x="103" y="0" w="67" h="-1" measuredW="60" measuredH="27" zOrder="1" locked="false" isInGroup="41">
+          <controlProperties>
+            <text>Search</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="0" y="45" w="170" h="133" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="41">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="33" y="204" w="111" h="297" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="41">
+          <controlProperties>
+            <filter>true</filter>
+            <text/>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::StickyNote" x="544" y="253" w="196" h="77" measuredW="109" measuredH="123" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <text>Article%20in%20section%20%22Page%20Intro%22</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

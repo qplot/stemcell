@@ -17,6 +17,7 @@ class StemcellMenuMigration extends Migration {
       7 => array('prefix', 'Prefix'),
       8 => array('postfix', 'Postfix'),
       9 => array('components', 'Components'),
+      10 => array('alias', 'Alias'),
       11 => array('weight', 'Weight'),
     );
 
@@ -44,7 +45,7 @@ class StemcellMenuMigration extends Migration {
     $this->addFieldMapping('parent', 'parent')
          ->sourceMigration('Menu');
     $this->addFieldMapping('weight', 'weight');
-    $this->addFieldMapping('field_nav_url', 'key');
+    $this->addFieldMapping('field_nav_url', 'alias');
   }
 
   public function prepareRow($row) {
@@ -54,6 +55,10 @@ class StemcellMenuMigration extends Migration {
     // set the weight to be same order as import
     $row->weight = $row->csvrownum;
 
+    // set alias
+    if (empty($row->alias))
+      $row->alias = $row->key;
+
     // make sure the name is captured for all levels
     if (empty($row->third))
       $row->third = $row->second;
@@ -61,7 +66,7 @@ class StemcellMenuMigration extends Migration {
       $row->third = $row->first;
 
     return TRUE;
-  }  
+  }
 }
 
 ?>

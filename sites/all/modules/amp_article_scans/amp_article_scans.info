@@ -1,0 +1,15 @@
+name = Article Scans Page
+description = Article Scans Page
+core = 7.x
+package = AMP
+version = 7.x-1.0
+project = amp_article_scans
+dependencies[] = page_manager
+dependencies[] = views
+features[ctools][] = page_manager:pages_default:1
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[page_manager_pages][] = journal_club_article_scans
+features[views_view][] = views_journal_club_article_scans_latest1
+features[views_view][] = views_journal_club_article_scans_latest10
+features_exclude[dependencies][ctools] = ctools

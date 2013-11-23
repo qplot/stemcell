@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Stem Cells Buzz feature.
+ */
+
+include_once 'amp_stem_cells_buzz_page.features.inc';

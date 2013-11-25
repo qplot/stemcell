@@ -150,10 +150,61 @@ a > .sf-sub-indicator {
 
 
 /*  PAGE ARTICLE STYES */
+.breadcrumb {
+	border-bottom: 1px solid #eee;
+	font-size: .85em;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+}
 h2{
 	color: #435080;	
 	font-weight: normal;
+	margin-bottom: 0;
 }
+
+.node-readmore a {
+	display: block;
+	font-size: .9em;
+	text-align: right;
+}
+.landingIntro{
+	margin-top:0;
+}
+.views-field-created {
+	color: #777;
+	font-size: 0.85em;
+}
+.views-field-title a {
+	color: #435080;	
+	font-size: 1.25em;
+	font-weight: bold;
+	text-decoration: none;
+}
+a{
+	color: #435080;	
+}
+	p{
+	margin-top:0;
+}
+.not-front .views-row .field-content p{
+	font-size: 0.95em;
+	margin-bottom:0;
+}
+.not-front .views-row {
+	border-bottom: 1px dashed #ccc;
+	margin-bottom: 1em;
+}
+.views-field-nid{
+	font-size: 0.8em;
+	margin-right: 20px;
+	text-align: right;
+}
+.views-field-nid a{
+	text-decoration: none;
+}
+
+
+
 
 @media all and (min-width: 480px) {
   #main {
@@ -359,17 +410,17 @@ h2{
   /* Span 4 columns, starting in 1st column from left. */
   .sidebar-second #content {
     float: left;
-    width: 80%;
+    width: 68%;			  /* was 80 */
     margin-left: 0%;
-    margin-right: -80%;
+    margin-right: -68%;  /* was 80 */
   }
 
   /* Span 1 column, starting in 5th column from left. */
   .sidebar-second .region-sidebar-second {
     float: left;
-    width: 20%;
-    margin-left: 80%;
-    margin-right: -100%;
+    width: 30%;			/* was 20 then margin-left 80 */
+    margin-left: 70%;  
+    margin-right: 0; /* was -100% */
   }
 
   /**

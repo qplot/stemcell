@@ -19,7 +19,7 @@
 .with-wireframes .region-sidebar-second,
 .with-wireframes #footer,
 .with-wireframes .region-bottom {
-  outline: 1px solid #ccc;
+  outline: none;
 }
 .lt-ie8 .with-wireframes #header,
 .lt-ie8 .with-wireframes #main,
@@ -30,7 +30,7 @@
 .lt-ie8 .with-wireframes #footer,
 .lt-ie8 .with-wireframes .region-bottom {
   /* IE6/7 do not support the outline property. */
-  border: 1px solid #ccc;
+  border: none;
 }
 
 /**

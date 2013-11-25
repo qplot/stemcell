@@ -130,3 +130,12 @@ function STARTERKIT_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+
+// Add placeholder to the search block form.  Added by BN 2013-11-25
+function zen_stemcell_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'search_block_form') {
+    // HTML5 placeholder attribute
+    $form['search_block_form']['#attributes']['placeholder'] = t('Search');
+  }
+}
+?>

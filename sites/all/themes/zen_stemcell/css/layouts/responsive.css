@@ -149,6 +149,12 @@ a > .sf-sub-indicator {
 }
 
 
+/*  PAGE ARTICLE STYES */
+h2{
+	color: #435080;	
+	font-weight: normal;
+}
+
 @media all and (min-width: 480px) {
   #main {
     /* Move all the children of #main down to make room. */

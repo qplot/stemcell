@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * amp_journal_club_discussions.pages_default.inc
+ * amp_journal_club_discussions_page.pages_default.inc
  */
 
 /**
@@ -75,7 +75,7 @@ function amp_journal_club_discussions_page_default_page_manager_pages() {
       'args' => 'journal_club_journal_club_discussions',
       'url' => '',
       'display' => 'default',
-      'override_title' => 1,
+      'override_title' => 0,
       'override_title_text' => '',
     );
     $pane->cache = array();

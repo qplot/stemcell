@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * amp_editors_blog.features.inc
+ * amp_editors_blog_page.features.inc
  */
 
 /**

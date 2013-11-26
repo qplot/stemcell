@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * amp_editors_blog.pages_default.inc
+ * amp_editors_blog_page.pages_default.inc
  */
 
 /**
@@ -16,7 +16,10 @@ function amp_editors_blog_page_default_page_manager_pages() {
   $page->admin_title = 'features_editors_blog';
   $page->admin_description = '';
   $page->path = 'features_editors_blog';
-  $page->access = array();
+  $page->access = array(
+    'type' => 'none',
+    'settings' => NULL,
+  );
   $page->menu = array();
   $page->arguments = array();
   $page->conf = array(

@@ -8,5 +8,6 @@ dependencies[] = amp_page_ctype
 dependencies[] = views
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:2
+features[views_view][] = views_article_overview
 features[views_view][] = views_header_page
 features_exclude[dependencies][ctools] = ctools

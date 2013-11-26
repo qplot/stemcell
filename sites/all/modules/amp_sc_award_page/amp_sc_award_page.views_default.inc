@@ -31,7 +31,7 @@ function amp_sc_award_page_views_default_views() {
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '1';
   $handler->display->display_options['style_plugin'] = 'default';
-  $handler->display->display_options['row_plugin'] = 'node';
+  $handler->display->display_options['row_plugin'] = 'fields';
   /* Relationship: Content: Taxonomy terms on node */
   $handler->display->display_options['relationships']['term_node_tid']['id'] = 'term_node_tid';
   $handler->display->display_options['relationships']['term_node_tid']['table'] = 'node';
@@ -40,6 +40,14 @@ function amp_sc_award_page_views_default_views() {
     'tags' => 'tags',
     'navs' => 0,
   );
+  /* Field: Content: Post date */
+  $handler->display->display_options['fields']['created']['id'] = 'created';
+  $handler->display->display_options['fields']['created']['table'] = 'node';
+  $handler->display->display_options['fields']['created']['field'] = 'created';
+  $handler->display->display_options['fields']['created']['label'] = '';
+  $handler->display->display_options['fields']['created']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['created']['date_format'] = 'custom';
+  $handler->display->display_options['fields']['created']['custom_date_format'] = 'F j, Y';
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
@@ -47,6 +55,23 @@ function amp_sc_award_page_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  /* Field: Content: Body */
+  $handler->display->display_options['fields']['body']['id'] = 'body';
+  $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
+  $handler->display->display_options['fields']['body']['field'] = 'body';
+  $handler->display->display_options['fields']['body']['label'] = '';
+  $handler->display->display_options['fields']['body']['alter']['text'] = '“We are pleased to present this award to outstanding young investigator Dr. Sanjay Kumar who has led his team to demonstrate that extracellular matrix-derived mechanical signals act through Rho GTPases to activate the cellular contractility machinery in a key early window during differentiation to regulate NSC lineage commitment,” said Jan A. Nolta, Editor or Stem Cells.
+“The group’s key studies which included definitive in vitro and in vivo testing have clearly shown the importance of Rho GTPase-based mechanotransduction and cellular stiffness as biophysical regulators of Neural Stem Cell fate in vitro and define RhoA as an important regulatory protein in the hippocampal stem cell niche. Dr. Kumar’s work strongly suggests the relevance of tissue stiffness in brain homeostasis and disease, and may benefit and guide the synthesis and fabrication of stem cell-based implant materials as well as stem cell culture systems for research applications.
+The ability to recognize outstanding work done by young investigators through this award is highly important to us at Stem Cells, and we congratulate Dr. Kumar and his team on their paradigm-shifting work.”
+ 
+Congratulations to the 2012 Award Winner –
+Dr. Sanjay Kumar
+University of California, Berkeley
+ 
+Read Dr. Kumar\'s winning paper, "Rho GTPases Mediate the Mechanosensitive Lineage Commitment of Neural Stem Cells"
+Read Dr. Kumar\'s interview in STEM CELLS
+Dr. Kumar\'s lab in the Department of Bioengineering at the University of California, Berkeley';
+  $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';

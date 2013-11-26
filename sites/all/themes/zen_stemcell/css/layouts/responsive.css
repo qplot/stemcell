@@ -286,6 +286,7 @@ a{
 	color: #EEEEEE;
 	font-size: 99%;
 	text-decoration:none;
+	vertical-align: top;
 }
 #footer a:hover {
 	text-decoration:underline;

@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * amp_innovators_and_issues.features.inc
+ * amp_innovators_and_issues_page.features.inc
  */
 
 /**

@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * amp_innovators_and_issues.pages_default.inc
+ * amp_innovators_and_issues_page.pages_default.inc
  */
 
 /**
@@ -16,7 +16,10 @@ function amp_innovators_and_issues_page_default_page_manager_pages() {
   $page->admin_title = 'features_innovators_and_issues';
   $page->admin_description = '';
   $page->path = 'features_innovators_and_issues';
-  $page->access = array();
+  $page->access = array(
+    'type' => 'none',
+    'settings' => NULL,
+  );
   $page->menu = array();
   $page->arguments = array();
   $page->conf = array(

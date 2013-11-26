@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * amp_journal_club_discussions.features.inc
+ * amp_journal_club_discussions_page.features.inc
  */
 
 /**

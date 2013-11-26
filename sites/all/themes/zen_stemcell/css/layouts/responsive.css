@@ -46,6 +46,14 @@ body{
 .region-sidebar-second{
 	padding:0;
 }
+/* Style for ads on page */
+.additionTop{
+	display:none;
+	text-align:center;
+}
+.additionRight{
+	text-align:center;
+}
 
 #logo {
 	display: block;
@@ -147,7 +155,22 @@ a > .sf-sub-indicator {
 #search-block-form .form-submit{
 	display:none;
 }
-
+/* HOME PAGE STYLES */
+.front{
+	line-height:1.3em;
+}
+.front h2{
+	color:#111;
+}
+.front .views-field-title a {
+	font-size: 1.0em;
+	font-weight: normal;
+}
+.front .views-row, .front .panel-pane p {
+	border-bottom: 1px dashed #999;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
 
 /*  PAGE ARTICLE STYES */
 .breadcrumb {
@@ -159,6 +182,7 @@ a > .sf-sub-indicator {
 h2{
 	color: #435080;	
 	font-weight: normal;
+	line-height: 1.2em;
 	margin-bottom: 0;
 }
 
@@ -170,7 +194,7 @@ h2{
 .landingIntro{
 	margin-top:0;
 }
-.views-field-created {
+.views-field-created, .submitted {
 	color: #777;
 	font-size: 0.85em;
 }

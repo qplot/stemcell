@@ -108,17 +108,17 @@ body{
 	text-transform: uppercase;
 	width: auto;
 }
-#navigation .menu li a{
+#navigation .menu li a, .sf-menu .nolink {
 	color: #FFFFFF;
 	display: block;
 	font-size:13px;
 	font-weight: bold;
-	height: 23px;
+	height: 22px;
 	margin-top: 0;
 	padding: 10px 15px 0;
 	text-decoration: none;
 }
-#navigation .menu li a:hover{
+#navigation .menu li a:hover, #navigation .nolink:hover{
 	background-color: #445280;
 }
 a > .sf-sub-indicator {
@@ -141,13 +141,10 @@ a > .sf-sub-indicator {
 	display:block;
 	float:none;
 }
-.sf-menu .nolink {
-	color: #fff;
-	display: block;
-	font-size: 0.8em;
-	padding-left:15px;
-	padding-top: 10px;
+.sf-menu .active{
+	text-decoration:underline !important;
 }
+
 
 /*  SEARCH BOX */
 #block-search-form {

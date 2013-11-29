@@ -363,21 +363,13 @@ function amp_home_page_default_page_manager_pages() {
     $pane = new stdClass();
     $pane->pid = 'new-7';
     $pane->panel = 'publish_ahead_of_print';
-    $pane->type = 'custom';
-    $pane->subtype = 'custom';
+    $pane->type = 'block';
+    $pane->subtype = 'aggregator-feed-1';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'admin_title' => '',
-      'title' => 'Publish Ahead of Print',
-      'body' => 'November 17, 2013
-<a href="#">New organs to help us Liver longer?</a>
-November 13, 2013
-<a href="#">Removing the Risk from ESC-derived cells</a>
-November 12, 2013
-<a href="#">In vivo reprogramming in living mice</a>',
-      'format' => 'filtered_html',
-      'substitute' => TRUE,
+      'override_title' => 1,
+      'override_title_text' => 'Publish Ahead of Print',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -392,21 +384,13 @@ November 12, 2013
     $pane = new stdClass();
     $pane->pid = 'new-8';
     $pane->panel = 'publish_ahead_of_print_2';
-    $pane->type = 'custom';
-    $pane->subtype = 'custom';
+    $pane->type = 'block';
+    $pane->subtype = 'aggregator-feed-2';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'admin_title' => 'Publish Ahead of Print (2)',
-      'title' => 'Publish Ahead of Print',
-      'body' => 'November 17, 2013
-<a href="#">Scientists pinpoint proteins vital to long-term memory</a>
-November 11, 2013
-<a href="#">Regressing stem cells is step forward for research</a>
-November 1, 2013
-<a href="#">Adult stem cells could hold key to Type 1 diabetes cure</a>',
-      'format' => 'filtered_html',
-      'substitute' => TRUE,
+      'override_title' => 0,
+      'override_title_text' => '',
     );
     $pane->cache = array();
     $pane->style = array(

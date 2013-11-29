@@ -10,6 +10,8 @@
 
 <div id="page">
 
+  <?php print render($page['top']); ?>
+
   <header class="header" id="header" role="banner">
 
     <?php if ($logo): ?>

@@ -56,6 +56,12 @@ h2{
 .region-sidebar-second{
 	padding:0;
 }
+.region.region-top {
+	margin-top: 15px;
+}
+#block-block-5 {  /* top ad area */
+	margin-bottom: 10px;
+}
 /* Style for ads on page */
 #div-gpt-ad-1385408245560-2{
 	text-align:center;
@@ -178,15 +184,42 @@ a > .sf-sub-indicator {
 	margin-bottom: 7px;
 	padding-bottom: 2px;
 }
-.front .views-field-title a {
-	font-size: 1.0em;
+.panels-flexible-2 .panels-flexible-region-inside-first{
+	padding-right:30px;
 }
-.front .views-row, .front .pane-custom p {
+.panels-flexible-region-2-journal_club_discussions{  /* homepage journal club discussions */
+	border-right: 1px solid #ddd;
+}
+.panels-flexible-region-2-center{  /* homepage in the news */
+	padding-left: 10px !important;
+	width: 30%;
+}
+/* homepage blocks at bottom */
+.panels-flexible-row-2-2-inside .panels-flexible-region {
+	width: 31%;
+}
+.panels-flexible-region-2-publish_ahead_of_print {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding: 0 10px !important;
+}
+
+
+.front .views-field-title a, .front .pane-block ul li a {
+	font-size: 1.0em !important;
+}
+.front .views-row, .front .pane-custom p, .front .pane-block ul li {
 	border-bottom: 1px dashed #999;
 	color: #444;
 	font-size: 0.9em;
 	margin-bottom: 10px;
 	padding-bottom: 10px;
+}
+.views-slideshow-cycle-main-frame-row-item{
+	border-bottom:none !important;
+}
+.panels-flexible-row-2-1 {
+	margin-bottom:-20px !important;	
 }
 .front .panels-flexible-region-new-journal_club_discussions {
 	border-right: 1px solid #ddd;
@@ -197,6 +230,18 @@ a > .sf-sub-indicator {
 .front .panels-flexible-new .panels-flexible-region-inside {
 	padding-left: 1em;
 }
+.front .pane-block ul{		/* Publish ahead of print blocks in homepage panel */
+	list-style:none;
+	margin: 0;
+	padding-left:0;
+}
+.front .more-link a{
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+
+
 /*  PAGE ARTICLE STYES */
 .breadcrumb {
 	border-bottom: 1px solid #eee;
@@ -223,7 +268,7 @@ h2{
 	color: #777;
 	font-size: 0.85em;
 }
-.views-field-title a {
+.views-field-title a, .front .pane-block ul li a {
 	color: #435080;	
 	font-size: 1.25em;
 	font-weight: bold;
@@ -232,7 +277,7 @@ h2{
 a{
 	color: #435080;	
 }
-	p{
+p{
 	margin-top:0;
 }
 .not-front .views-row .field-content p{
@@ -278,6 +323,7 @@ a{
 	font-size: 0.8em;
 	line-height: 1.5em;
 	margin-bottom: 10px;
+	margin-top: 20px;
 	padding: 10px;
 }
 #footer p{

@@ -194,6 +194,10 @@ a > .sf-sub-indicator {
 	padding-left: 10px !important;
 	width: 30%;
 }
+.panels-flexible-row-2-main-row {
+	margin-bottom: 15px !important;
+}
+
 /* homepage blocks at bottom */
 .panels-flexible-row-2-2-inside .panels-flexible-region {
 	width: 31%;

@@ -134,6 +134,10 @@ h2{
 	padding: 10px 15px 0;
 	text-decoration: none;
 }
+.sf-menu .nolink{ /* Header in menu */
+	color: #000;
+	font-size:1.0em;
+}
 #navigation .menu li a:hover, #navigation .nolink:hover{
 	background-color: #445280;
 }
@@ -146,6 +150,7 @@ a > .sf-sub-indicator {
 .sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
 	background-color: #445280;
 	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
 	border: 1px solid #fff;
 	border-top: none;
 }

@@ -183,7 +183,7 @@ a > .sf-sub-indicator {
 .front{
 	line-height:1.0em;
 }
-.front h2{
+.front h2, .sidebars h2{
 	border-bottom: 1px solid #555;
 	color:#111;
 	margin-bottom: 7px;
@@ -306,7 +306,7 @@ p{
 	text-decoration: none;
 }
 
-/* login form */
+/* LOGIN FORM */
 #user-login-form{
 	padding: 5px 15px;
 }
@@ -370,7 +370,16 @@ p{
 	margin-right: 10px;
 }
 
-
+/* COMMENTS SECTION */
+#comments {
+	border: 1px solid #dde;
+	border-radius: 5px;
+	margin-top: 15px;
+	padding: 15px;
+}
+.comments__form-title {
+	border-bottom: 1px solid #999;
+}
 
 /* FOOTER  */
 #footer {

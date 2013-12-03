@@ -190,6 +190,9 @@ a > .sf-sub-indicator {
 	margin-bottom: 7px;
 	padding-bottom: 2px;
 }
+.pane-slideshow {
+	margin-bottom: -25px;
+}
 .panels-flexible-2 .panels-flexible-region-inside-first{
 	padding-right:30px;
 }

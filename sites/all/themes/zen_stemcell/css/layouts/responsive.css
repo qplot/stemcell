@@ -202,6 +202,15 @@ a > .sf-sub-indicator {
 .panels-flexible-row-2-main-row {
 	margin-bottom: 15px !important;
 }
+.front .view {
+	margin-bottom: 40px;
+}
+.front .view-slideshow {
+	margin-bottom: -10px !important;
+}
+.view-footer {
+	font-size: 0.8em;
+}
 
 /* homepage blocks at bottom */
 .panels-flexible-row-2-2-inside .panels-flexible-region {

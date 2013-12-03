@@ -318,7 +318,7 @@ p{
 	margin-top: 20px;
 	position:absolute;
 }
-#user-login-form .item-list ul {
+#user-login-form .item-list ul, #block-system-user-menu ul.menu{
 	list-style: none;
 	padding:0;
 }
@@ -328,6 +328,10 @@ p{
 #user-login-form .item-list li a{
 	font-size: 0.8em;
 }
+#block-system-user-menu .menu__link{
+	float:left;
+	font-size: 0.8em;
+}
 #user-login-form .item-list li.first {
 	margin-right: 10px;
 }
@@ -335,7 +339,7 @@ p{
 	margin-bottom: 30px;
 	text-align: right;
 }
-#user-login-form .form-item{
+#user-login-form .form-item, #block-system-user-menu .menu{
 	margin:8px 0 !important;
 }
 #user-login-form .form-text {
@@ -355,6 +359,18 @@ p{
 	padding: 6px 13px;
 	text-transform: uppercase;
 }
+#block-system-user-menu .menu__item.is-leaf {
+	list-style-image: none;
+	list-style-type: none;
+}
+#block-system-user-menu{
+	margin-bottom: 50px;
+}
+#block-system-user-menu .menu .first a {
+	margin-right: 10px;
+}
+
+
 
 /* FOOTER  */
 #footer {

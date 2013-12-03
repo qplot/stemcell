@@ -306,22 +306,54 @@ p{
 	text-decoration: none;
 }
 
-
-
-
-@media all and (min-width: 480px) {
-  #main {
-    /* Move all the children of #main down to make room. */
-    padding-top: 3em;
-    position: relative;
-  }
-  #navigation {
-    /* Move the navbar up inside #main's padding. */
-    position: absolute;
-    top: 0;
-    height: 32px;
-    width: 100%;
-  }
+/* login form */
+#user-login-form{
+	padding: 5px 15px;
+}
+#user-login-form label{
+	display:inline;
+	font-weight: normal;
+}
+#user-login-form .item-list{
+	margin-top: 20px;
+	position:absolute;
+}
+#user-login-form .item-list ul {
+	list-style: none;
+	padding:0;
+}
+#user-login-form .item-list li{
+	float:left;
+}
+#user-login-form .item-list li a{
+	font-size: 0.8em;
+}
+#user-login-form .item-list li.first {
+	margin-right: 10px;
+}
+#user-login-form .form-actions {
+	margin-bottom: 30px;
+	text-align: right;
+}
+#user-login-form .form-item{
+	margin:8px 0 !important;
+}
+#user-login-form .form-text {
+	width: 177px;
+}
+#user-login-form #edit-pass {
+	margin-left: 3px;
+}
+#user-login-form .form-submit {
+	background-color: #4f75b1;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	margin-right: 12px;
+	padding: 6px 13px;
+	text-transform: uppercase;
 }
 
 /* FOOTER  */
@@ -366,6 +398,24 @@ p{
 }
 
 
+
+
+
+/* responsive CSS */
+@media all and (min-width: 480px) {
+  #main {
+    /* Move all the children of #main down to make room. */
+    padding-top: 3em;
+    position: relative;
+  }
+  #navigation {
+    /* Move the navbar up inside #main's padding. */
+    position: absolute;
+    top: 0;
+    height: 32px;
+    width: 100%;
+  }
+}
 /**
  * Use 3 grid columns for smaller screens.
  */

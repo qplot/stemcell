@@ -16,10 +16,7 @@ function amp_home_page_default_page_manager_pages() {
   $page->admin_title = 'home';
   $page->admin_description = '';
   $page->path = 'home';
-  $page->access = array(
-    'type' => 'none',
-    'settings' => NULL,
-  );
+  $page->access = array();
   $page->menu = array();
   $page->arguments = array();
   $page->conf = array(
@@ -372,7 +369,7 @@ function amp_home_page_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'override_title' => 1,
-      'override_title_text' => 'Publish Ahead of Print',
+      'override_title_text' => 'Publish Ahead of Print - Stem Cell',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -407,6 +404,38 @@ function amp_home_page_default_page_manager_pages() {
     $display->panels['publish_ahead_of_print_2'][0] = 'new-8';
     $pane = new stdClass();
     $pane->pid = 'new-9';
+    $pane->panel = 'publish_ahead_of_print_2';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => '',
+      'title' => 'Publish Ahead of Print - Stem Cell Translational Medicine',
+      'body' => 'November 29, 2013
+Human Dendritic Cells Derived From Embryonic Stem Cells Stably Modified With CD1d Efficiently Stimulate Antitumor Invariant Natural Killer T Cell Response (http://stemcellstm.alphamedpress.org/content/early/2013/11/28/sctm.2013-0070.abstract)
+November 29, 2013
+Generation of Functional Insulin-Producing Cells From Mouse Embryonic Stem Cells Through 804G Cell-Derived Extracellular Matrix and Protein Transduction of Transcription Factors (http://stemcellstm.alphamedpress.org/content/early/2013/11/28/sctm.2013-0075.abstract)
+November 29, 2013
+Moving Beyond Surrogate Endpoints in Cell Therapy Trials for Heart Disease (http://stemcellstm.alphamedpress.org/content/early/2013/11/28/sctm.2013-0104.abstract)
+November 14, 2013
+Progranulin, a Major Secreted Protein of Mouse Adipose-Derived Stem Cells, Inhibits Light-Induced Retinal Degeneration (http://stemcellstm.alphamedpress.org/content/early/2013/11/13/sctm.2013-0020.abstract)
+',
+      'format' => 'plain_text',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 1;
+    $pane->locks = array();
+    $display->content['new-9'] = $pane;
+    $display->panels['publish_ahead_of_print_2'][1] = 'new-9';
+    $pane = new stdClass();
+    $pane->pid = 'new-10';
     $pane->panel = 'slideshow';
     $pane->type = 'views';
     $pane->subtype = 'slideshow';
@@ -436,8 +465,8 @@ function amp_home_page_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-9'] = $pane;
-    $display->panels['slideshow'][0] = 'new-9';
+    $display->content['new-10'] = $pane;
+    $display->panels['slideshow'][0] = 'new-10';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;

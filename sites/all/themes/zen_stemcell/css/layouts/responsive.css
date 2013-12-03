@@ -242,13 +242,16 @@ a > .sf-sub-indicator {
 .panels-flexible-row-2-1 {
 	margin-bottom:-20px !important;	
 }
- .front .panels-flexible-row-new-main-row .panels-flexible-region-first {
+ .front .panels-flexible-row-new-main-row .panels-flexible-region-first,
+ .front .panels-flexible-row-12-main-row .panels-flexible-region-first {
 	border-right: 1px solid #ddd;
 }
- .front .panels-flexible-row-new-main-row .panels-flexible-region-first .panels-flexible-region-inside-first {
+.front .panels-flexible-row-new-main-row .panels-flexible-region-first .panels-flexible-region-inside-first,
+.front .panels-flexible-row-12-main-row .panels-flexible-region-first .panels-flexible-region-inside-first  {
 	padding-right: 20px;
  }
- .front .panels-flexible-row-new-main-row .panels-flexible-region-inside-last {
+.front .panels-flexible-row-new-main-row .panels-flexible-region-inside-last,
+.front .panels-flexible-row-12-main-row .panels-flexible-region-inside-last {
 	padding-left: 20px;
  }
 .front .pane-block ul{		/* Publish ahead of print blocks in homepage panel */

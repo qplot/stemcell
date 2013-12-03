@@ -140,6 +140,7 @@ h2{
 }
 #navigation .menu li a:hover, #navigation .nolink:hover{
 	background-color: #445280;
+	color: #222;
 }
 a > .sf-sub-indicator {
 	top: 11px;

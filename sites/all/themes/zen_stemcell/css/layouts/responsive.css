@@ -220,10 +220,9 @@ a > .sf-sub-indicator {
 .panels-flexible-row-2-2-inside .panels-flexible-region {
 	width: 31%;
 }
-.panels-flexible-region-2-publish_ahead_of_print {
+.panels-flexible-region-12-publish_ahead_of_print, .panels-flexible-region-new-publish_ahead_of_print {
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;
-	padding: 0 10px !important;
 }
 
 
@@ -243,15 +242,15 @@ a > .sf-sub-indicator {
 .panels-flexible-row-2-1 {
 	margin-bottom:-20px !important;	
 }
-.front .panels-flexible-region-new-journal_club_discussions {
+ .front .panels-flexible-row-new-main-row .panels-flexible-region-first {
 	border-right: 1px solid #ddd;
 }
-.front .panels-flexible-new .panels-flexible-region-inside {
-	padding-right: 1em;
-}
-.front .panels-flexible-new .panels-flexible-region-inside {
-	padding-left: 1em;
-}
+ .front .panels-flexible-row-new-main-row .panels-flexible-region-first .panels-flexible-region-inside-first {
+	padding-right: 20px;
+ }
+ .front .panels-flexible-row-new-main-row .panels-flexible-region-inside-last {
+	padding-left: 20px;
+ }
 .front .pane-block ul{		/* Publish ahead of print blocks in homepage panel */
 	list-style:none;
 	margin: 0;

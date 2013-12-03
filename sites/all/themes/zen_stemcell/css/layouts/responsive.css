@@ -131,7 +131,7 @@ h2{
 	font-weight: bold;
 	height: 22px;
 	margin-top: 0;
-	padding: 10px 35px 0;
+	padding: 10px 15px 0;
 	text-decoration: none;
 }
 .sf-menu .nolink{ /* Header in menu */
@@ -145,7 +145,7 @@ a > .sf-sub-indicator {
 	top: 11px;
 }
 .sf-sub-indicator {
-	right: 18px;
+	right: 0px;
 }
 .sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
 	background-color: #445280;

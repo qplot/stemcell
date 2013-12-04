@@ -135,12 +135,11 @@ h2{
 	text-decoration: none;
 }
 .sf-menu .nolink{ /* Header in menu */
-	color: #000;
 	font-size:1.0em;
 }
 #navigation .menu li a:hover, #navigation .nolink:hover{
 	background-color: #445280;
-	color: #222;
+	color: lightskyblue;
 }
 a > .sf-sub-indicator {
 	top: 11px;

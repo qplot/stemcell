@@ -190,6 +190,9 @@ a > .sf-sub-indicator {
 	margin-top: 2px;
 	padding-bottom: 2px;
 }
+.front p {
+	margin-bottom: 0;
+}
 .pane-slideshow {
 	margin-bottom: -25px;
 }
@@ -220,9 +223,19 @@ a > .sf-sub-indicator {
 }
 
 /* homepage blocks at bottom */
-.panels-flexible-row-2-2-inside .panels-flexible-region {
+.panels-flexible-row-last {
+	margin-top: 10px !important;
+	padding-top: 20px !important;
+}
+.panels-flexible-row-last .panels-flexible-region-inside {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/*
+.panels-flexible-row-last .panels-flexible-region {
 	width: 31%;
 }
+*/
 .panels-flexible-region-12-publish_ahead_of_print, .panels-flexible-region-new-publish_ahead_of_print {
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;

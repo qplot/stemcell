@@ -284,8 +284,8 @@ function amp_home_page_default_page_manager_pages() {
       'args' => '',
       'url' => '',
       'display' => 'default',
-      'override_title' => 0,
-      'override_title_text' => '',
+      'override_title' => 1,
+      'override_title_text' => 'Journal Club Discussion',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -306,8 +306,8 @@ function amp_home_page_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'override_pager_settings' => 0,
-      'use_pager' => 1,
-      'nodes_per_page' => '3',
+      'use_pager' => 0,
+      'nodes_per_page' => '1',
       'pager_id' => '0',
       'offset' => '0',
       'more_link' => 0,
@@ -317,8 +317,8 @@ function amp_home_page_default_page_manager_pages() {
       'args' => '',
       'url' => '',
       'display' => 'default',
-      'override_title' => 0,
-      'override_title_text' => '',
+      'override_title' => 1,
+      'override_title_text' => 'Article Scans',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -350,8 +350,8 @@ function amp_home_page_default_page_manager_pages() {
       'args' => '',
       'url' => '',
       'display' => 'default',
-      'override_title' => 0,
-      'override_title_text' => '',
+      'override_title' => 1,
+      'override_title_text' => 'Stem Cells Buzz',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -372,7 +372,7 @@ function amp_home_page_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'override_title' => 1,
-      'override_title_text' => 'Publish Ahead of Print - Stem Cell',
+      'override_title_text' => 'Publish Ahead of Print - STEM CELLS',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -408,24 +408,13 @@ function amp_home_page_default_page_manager_pages() {
     $pane = new stdClass();
     $pane->pid = 'new-9';
     $pane->panel = 'publish_ahead_of_print_2';
-    $pane->type = 'custom';
-    $pane->subtype = 'custom';
+    $pane->type = 'block';
+    $pane->subtype = 'block-10';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'admin_title' => '',
-      'title' => 'Publish Ahead of Print - Stem Cell Translational Medicine',
-      'body' => 'November 29, 2013
-Human Dendritic Cells Derived From Embryonic Stem Cells Stably Modified With CD1d Efficiently Stimulate Antitumor Invariant Natural Killer T Cell Response (http://stemcellstm.alphamedpress.org/content/early/2013/11/28/sctm.2013-0070.abstract)
-November 29, 2013
-Generation of Functional Insulin-Producing Cells From Mouse Embryonic Stem Cells Through 804G Cell-Derived Extracellular Matrix and Protein Transduction of Transcription Factors (http://stemcellstm.alphamedpress.org/content/early/2013/11/28/sctm.2013-0075.abstract)
-November 29, 2013
-Moving Beyond Surrogate Endpoints in Cell Therapy Trials for Heart Disease (http://stemcellstm.alphamedpress.org/content/early/2013/11/28/sctm.2013-0104.abstract)
-November 14, 2013
-Progranulin, a Major Secreted Protein of Mouse Adipose-Derived Stem Cells, Inhibits Light-Induced Retinal Degeneration (http://stemcellstm.alphamedpress.org/content/early/2013/11/13/sctm.2013-0020.abstract)
-',
-      'format' => 'plain_text',
-      'substitute' => TRUE,
+      'override_title' => 1,
+      'override_title_text' => 'Publish Ahead of Print - Stem Cell Translational Medicine',
     );
     $pane->cache = array();
     $pane->style = array(

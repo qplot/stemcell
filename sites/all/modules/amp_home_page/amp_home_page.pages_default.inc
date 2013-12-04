@@ -16,10 +16,7 @@ function amp_home_page_default_page_manager_pages() {
   $page->admin_title = 'home';
   $page->admin_description = '';
   $page->path = 'home';
-  $page->access = array(
-    'type' => 'none',
-    'settings' => NULL,
-  );
+  $page->access = array();
   $page->menu = array();
   $page->arguments = array();
   $page->conf = array(
@@ -284,8 +281,8 @@ function amp_home_page_default_page_manager_pages() {
       'args' => '',
       'url' => '',
       'display' => 'default',
-      'override_title' => 1,
-      'override_title_text' => 'Journal Club Discussion',
+      'override_title' => 0,
+      'override_title_text' => '',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -306,8 +303,8 @@ function amp_home_page_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'override_pager_settings' => 0,
-      'use_pager' => 0,
-      'nodes_per_page' => '1',
+      'use_pager' => 1,
+      'nodes_per_page' => '3',
       'pager_id' => '0',
       'offset' => '0',
       'more_link' => 0,
@@ -317,8 +314,8 @@ function amp_home_page_default_page_manager_pages() {
       'args' => '',
       'url' => '',
       'display' => 'default',
-      'override_title' => 1,
-      'override_title_text' => 'Article Scans',
+      'override_title' => 0,
+      'override_title_text' => '',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -350,8 +347,8 @@ function amp_home_page_default_page_manager_pages() {
       'args' => '',
       'url' => '',
       'display' => 'default',
-      'override_title' => 1,
-      'override_title_text' => 'Stem Cells Buzz',
+      'override_title' => 0,
+      'override_title_text' => '',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -366,13 +363,25 @@ function amp_home_page_default_page_manager_pages() {
     $pane = new stdClass();
     $pane->pid = 'new-7';
     $pane->panel = 'publish_ahead_of_print';
-    $pane->type = 'block';
-    $pane->subtype = 'aggregator-feed-1';
+    $pane->type = 'views';
+    $pane->subtype = 'views_home_sc_publish';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
+      'override_pager_settings' => 0,
+      'use_pager' => 1,
+      'nodes_per_page' => '10',
+      'pager_id' => '0',
+      'offset' => '0',
+      'more_link' => 0,
+      'feed_icons' => 0,
+      'panel_args' => 0,
+      'link_to_view' => 0,
+      'args' => '',
+      'url' => '',
+      'display' => 'default',
       'override_title' => 1,
-      'override_title_text' => 'Publish Ahead of Print - STEM CELLS',
+      'override_title_text' => 'Publish Ahead of Print - Stem Cell',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -387,13 +396,25 @@ function amp_home_page_default_page_manager_pages() {
     $pane = new stdClass();
     $pane->pid = 'new-8';
     $pane->panel = 'publish_ahead_of_print_2';
-    $pane->type = 'block';
-    $pane->subtype = 'aggregator-feed-2';
+    $pane->type = 'views';
+    $pane->subtype = 'views_home_sctm_publish';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'override_title' => 0,
-      'override_title_text' => '',
+      'override_pager_settings' => 0,
+      'use_pager' => 1,
+      'nodes_per_page' => '10',
+      'pager_id' => '0',
+      'offset' => '0',
+      'more_link' => 0,
+      'feed_icons' => 0,
+      'panel_args' => 0,
+      'link_to_view' => 0,
+      'args' => '',
+      'url' => '',
+      'display' => 'default',
+      'override_title' => 1,
+      'override_title_text' => 'Publish Ahead of Print - Stem Cell Translational Medicine',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -407,27 +428,6 @@ function amp_home_page_default_page_manager_pages() {
     $display->panels['publish_ahead_of_print_2'][0] = 'new-8';
     $pane = new stdClass();
     $pane->pid = 'new-9';
-    $pane->panel = 'publish_ahead_of_print_2';
-    $pane->type = 'block';
-    $pane->subtype = 'block-10';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_title' => 1,
-      'override_title_text' => 'Publish Ahead of Print - Stem Cell Translational Medicine',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 1;
-    $pane->locks = array();
-    $display->content['new-9'] = $pane;
-    $display->panels['publish_ahead_of_print_2'][1] = 'new-9';
-    $pane = new stdClass();
-    $pane->pid = 'new-10';
     $pane->panel = 'slideshow';
     $pane->type = 'views';
     $pane->subtype = 'slideshow';
@@ -457,8 +457,8 @@ function amp_home_page_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-10'] = $pane;
-    $display->panels['slideshow'][0] = 'new-10';
+    $display->content['new-9'] = $pane;
+    $display->panels['slideshow'][0] = 'new-9';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;

@@ -194,7 +194,7 @@ a > .sf-sub-indicator {
 	margin-bottom: 0;
 }
 .pane-slideshow {
-	margin-bottom: -25px;
+	margin-bottom: -15px;
 }
 .panels-flexible-2 .panels-flexible-region-inside-first{
 	padding-right:30px;
@@ -420,7 +420,7 @@ p{
 
 /* FOOTER  */
 #footer {
-	background: #333333;
+	background: #586683;  
 	border-top: 1px solid #999;
 	color: #CCCCCC;
 	font-size: 0.8em;

@@ -189,7 +189,10 @@ function amp_home_page_default_page_manager_pages() {
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => 'panel-views-home-in-the-news',
+      'css_class' => '',
+    );
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
@@ -222,7 +225,10 @@ function amp_home_page_default_page_manager_pages() {
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => 'panel-views-home-press-releases',
+      'css_class' => '',
+    );
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
@@ -255,7 +261,10 @@ function amp_home_page_default_page_manager_pages() {
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => 'panel-views-home-editors-blog',
+      'css_class' => '',
+    );
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
@@ -288,7 +297,10 @@ function amp_home_page_default_page_manager_pages() {
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => 'panel-views-home-journal-club',
+      'css_class' => '',
+    );
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
@@ -321,7 +333,10 @@ function amp_home_page_default_page_manager_pages() {
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => 'panel-views-home-article-scan',
+      'css_class' => '',
+    );
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
@@ -354,7 +369,10 @@ function amp_home_page_default_page_manager_pages() {
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => 'panel-views-home-stemcell-buzz',
+      'css_class' => '',
+    );
     $pane->extras = array();
     $pane->position = 2;
     $pane->locks = array();
@@ -363,25 +381,17 @@ function amp_home_page_default_page_manager_pages() {
     $pane = new stdClass();
     $pane->pid = 'new-7';
     $pane->panel = 'publish_ahead_of_print';
-    $pane->type = 'views';
-    $pane->subtype = 'views_home_sc_publish';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'override_pager_settings' => 0,
-      'use_pager' => 1,
-      'nodes_per_page' => '10',
-      'pager_id' => '0',
-      'offset' => '0',
-      'more_link' => 0,
-      'feed_icons' => 0,
-      'panel_args' => 0,
-      'link_to_view' => 0,
-      'args' => '',
-      'url' => '',
-      'display' => 'default',
-      'override_title' => 1,
-      'override_title_text' => 'Publish Ahead of Print - Stem Cell',
+      'admin_title' => '',
+      'title' => '',
+      'body' => '<div><img src="/sites/all/themes/zen_stemcell/images/home-SC.png" /></div>
+',
+      'format' => 'full_html',
+      'substitute' => TRUE,
     );
     $pane->cache = array();
     $pane->style = array(
@@ -395,10 +405,71 @@ function amp_home_page_default_page_manager_pages() {
     $display->panels['publish_ahead_of_print'][0] = 'new-7';
     $pane = new stdClass();
     $pane->pid = 'new-8';
+    $pane->panel = 'publish_ahead_of_print';
+    $pane->type = 'views';
+    $pane->subtype = 'views_home_sc_publish';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_pager_settings' => 1,
+      'use_pager' => 0,
+      'nodes_per_page' => '5',
+      'pager_id' => '0',
+      'offset' => '0',
+      'more_link' => 1,
+      'feed_icons' => 0,
+      'panel_args' => 0,
+      'link_to_view' => 0,
+      'args' => '',
+      'url' => '',
+      'display' => 'default',
+      'override_title' => 1,
+      'override_title_text' => 'Publish Ahead of Print',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array(
+      'css_id' => 'panel-views-home-sc-publish',
+      'css_class' => '',
+    );
+    $pane->extras = array();
+    $pane->position = 1;
+    $pane->locks = array();
+    $display->content['new-8'] = $pane;
+    $display->panels['publish_ahead_of_print'][1] = 'new-8';
+    $pane = new stdClass();
+    $pane->pid = 'new-9';
+    $pane->panel = 'publish_ahead_of_print_2';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'admin_title' => '',
+      'title' => '',
+      'body' => '<div><img src="/sites/all/themes/zen_stemcell/images/home-SCTM.png" /></div>
+',
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $display->content['new-9'] = $pane;
+    $display->panels['publish_ahead_of_print_2'][0] = 'new-9';
+    $pane = new stdClass();
+    $pane->pid = 'new-10';
     $pane->panel = 'publish_ahead_of_print_2';
     $pane->type = 'views';
     $pane->subtype = 'views_home_sctm_publish';
-    $pane->shown = TRUE;
+    $pane->shown = FALSE;
     $pane->access = array();
     $pane->configuration = array(
       'override_pager_settings' => 0,
@@ -422,12 +493,36 @@ function amp_home_page_default_page_manager_pages() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 0;
+    $pane->position = 1;
     $pane->locks = array();
-    $display->content['new-8'] = $pane;
-    $display->panels['publish_ahead_of_print_2'][0] = 'new-8';
+    $display->content['new-10'] = $pane;
+    $display->panels['publish_ahead_of_print_2'][1] = 'new-10';
     $pane = new stdClass();
-    $pane->pid = 'new-9';
+    $pane->pid = 'new-11';
+    $pane->panel = 'publish_ahead_of_print_2';
+    $pane->type = 'block';
+    $pane->subtype = 'block-10';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 1,
+      'override_title_text' => 'Publish Ahead of Print',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array(
+      'css_id' => 'panel-views-stemcell-translational-medicine',
+      'css_class' => '',
+    );
+    $pane->extras = array();
+    $pane->position = 2;
+    $pane->locks = array();
+    $display->content['new-11'] = $pane;
+    $display->panels['publish_ahead_of_print_2'][2] = 'new-11';
+    $pane = new stdClass();
+    $pane->pid = 'new-12';
     $pane->panel = 'slideshow';
     $pane->type = 'views';
     $pane->subtype = 'slideshow';
@@ -457,8 +552,8 @@ function amp_home_page_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-9'] = $pane;
-    $display->panels['slideshow'][0] = 'new-9';
+    $display->content['new-12'] = $pane;
+    $display->panels['slideshow'][0] = 'new-12';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;

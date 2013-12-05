@@ -9,6 +9,7 @@ class StemcellLatestMigration extends XMLMigration {
       'link' => t('Article RSS Link'),
       'description' => t('Article Abstract'),
       'date' => t('Publication Date'),
+      'identifier' => t('Article Identifier'),
     );
     // create source
     $xml_folder = DRUPAL_ROOT . '/' . drupal_get_path('module', 'amp_migrate') . '/data/';
@@ -41,6 +42,8 @@ class StemcellLatestMigration extends XMLMigration {
          ->xpath('link');
     $this->addFieldMapping('created', 'date')
          ->xpath('publicationDate');
+    $this->addFieldMapping('field_latest_identifier', 'identifier')
+         ->xpath('identifier[1]');
   }
 
   public function preImport() {
@@ -51,7 +54,8 @@ class StemcellLatestMigration extends XMLMigration {
 
     $removes = array(
       " xmlns=\"http://purl.org/rss/1.0/\"",
-      "prism:"
+      "prism:",
+      "dc:"
     );
 
     // remove the default namespace
@@ -63,25 +67,43 @@ class StemcellLatestMigration extends XMLMigration {
     file_put_contents($items_url, $nfile);
   }
 
+  public function prepareRow($row) {
+    if (parent::prepareRow($row) === FALSE) {
+      return FALSE;
+    }
+
+    // $row->identifier = str_replace('info:doi/', '', $row->identifier);
+
+    return TRUE;
+  }
+
   public function prepare($node, stdClass $row) {
-    $matches = array();
     // parse link
     // http://theoncologist.alphamedpress.org/cgi/content/short/theoncologist.2013-0297v1?rss=1
-    $pattern = '/theoncologist.[0-9]*-[0-9]*/';
-    if (!preg_match($pattern, $row->link, $matches))
-      return;
+    // $matches = array();
+    // $pattern = '/theoncologist.[0-9]*-[0-9]*/';
+    // if (!preg_match($pattern, $row->link, $matches))
+    //   return;
+    // $article_id = $matches[0];
 
-    // get journal id
-    $journal_id = $matches[0];
 
-    // get date
-    $date = str_replace('-', '/', $row->date);
+    // call api to resolve
+    $identifier = str_replace('info:doi/', '', $row->identifier);
+    $key = 'a1e00014-7395-42c1-b621-31ce760e0f03';
+    $file = file_get_contents('http://api.highwire.org/content?doi=' . $identifier . '&key=' . $key);
+    $xml = new SimpleXMLElement($file);
+    $ns = $xml->getNamespaces(true);
+    $xml->registerXPathNamespace('atom', $ns['atom']);
+    $res = $xml->xpath('//atom:link[@type="application/pdf"]');
+
+    $link = (string)$res[0]->attributes()->href;
+
+    // version API link
+    $link = $link . '?key=' . $key;
 
     // into link
     // http://theoncologist.alphamedpress.org/content/early/2013/11/25/theoncologist.2013-0297.full.pdf
-    $node->field_latest_pdf_link['und'][0]['value'] =
-      'http://theoncologist.alphamedpress.org/content/early/' .
-      $date . '/' . $journal_id . '.full.pdf';
+    $node->field_latest_pdf_link['und'][0]['value'] = $link;
   }
 
 

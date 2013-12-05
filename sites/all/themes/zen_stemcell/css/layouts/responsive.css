@@ -22,10 +22,26 @@ body{
 	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 h1{
-	font-size:1.5em;
+	font-size:1.7em;
 }
 h2{
-	font-size:1.2em;
+	color: #435080;	
+	font-size:1.4em;
+	font-weight: bold;
+	line-height: 1.5em;
+	margin-bottom: 0;
+}
+h3{
+	font-size:1.4em;
+	font-style:italic;
+	font-weight:normal;
+	margin-bottom: 0;
+}
+h4{
+	font-size:1.0em;
+	font-weight:bold;
+	font-style:italic;
+	margin-bottom: 0;
 }
  
 #page,
@@ -284,12 +300,6 @@ a > .sf-sub-indicator {
 	font-size: .85em;
 	margin-bottom: 10px;
 	padding-bottom: 3px;
-}
-h2{
-	color: #435080;	
-	font-weight: normal;
-	line-height: 1.2em;
-	margin-bottom: 0;
 }
 
 .node-readmore a {

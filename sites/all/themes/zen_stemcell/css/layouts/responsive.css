@@ -194,14 +194,9 @@ a > .sf-sub-indicator {
 	margin-bottom: 0;
 }
 .pane-slideshow {
-	margin-bottom: -15px;
+	margin-bottom: -5px;
 }
-.panels-flexible-2 .panels-flexible-region-inside-first{
-	padding-right:30px;
-}
-.panels-flexible-region-2-journal_club_discussions{  /* homepage journal club discussions */
-	border-right: 1px solid #ddd;
-}
+
 .panels-flexible-region-2-center{  /* homepage in the news */
 	padding-left: 10px !important;
 	width: 30%;
@@ -227,18 +222,14 @@ a > .sf-sub-indicator {
 	margin-top: 10px !important;
 	padding-top: 20px !important;
 }
+/* publish ahead of print row */
 .panels-flexible-row-last .panels-flexible-region-inside {
 	padding-left: 15px;
 	padding-right: 15px;
 }
-/*
-.panels-flexible-row-last .panels-flexible-region {
-	width: 31%;
-}
-*/
-.panels-flexible-region-12-publish_ahead_of_print, .panels-flexible-region-new-publish_ahead_of_print {
+#homePanel .panels-flexible-row:nth-child(3) .panels-flexible-region:nth-child(2){
 	border-left: 1px solid #ddd;
-	border-right: 1px solid #ddd;
+	border-right: 1px solid #ddd;	
 }
 
 
@@ -258,6 +249,12 @@ a > .sf-sub-indicator {
 .panels-flexible-row-2-1 {
 	margin-bottom:-20px !important;	
 }
+ /* homepage journal club discussions */
+#homePanel .panels-flexible-row:nth-child(2) .panels-flexible-region-first:nth-child(1){
+	border-right: 1px solid #ddd;
+	padding-right: 20px;
+}
+/*
  .front .panels-flexible-row-new-main-row .panels-flexible-region-first,
  .front .panels-flexible-row-12-main-row .panels-flexible-region-first {
 	border-right: 1px solid #ddd;
@@ -266,10 +263,9 @@ a > .sf-sub-indicator {
 .front .panels-flexible-row-12-main-row .panels-flexible-region-first .panels-flexible-region-inside-first  {
 	padding-right: 20px;
  }
-.front .panels-flexible-row-new-main-row .panels-flexible-region-inside-last,
-.front .panels-flexible-row-12-main-row .panels-flexible-region-inside-last {
-	padding-left: 20px;
- }
+ */
+ 
+ 
 .front .pane-block ul{		/* Publish ahead of print blocks in homepage panel */
 	list-style:none;
 	margin: 0;

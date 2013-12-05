@@ -7,7 +7,8 @@ class StemcellLatestMigration extends XMLMigration {
     $fields = array(
       'title' => t('Aricle Title'),
       'link' => t('Article RSS Link'),
-      'description' => t('Article Abstract')
+      'description' => t('Article Abstract'),
+      'date' => t('Publication Date'),
     );
     // create source
     $xml_folder = DRUPAL_ROOT . '/' . drupal_get_path('module', 'amp_migrate') . '/data/';
@@ -38,6 +39,8 @@ class StemcellLatestMigration extends XMLMigration {
          ->defaultValue('full_html');
     $this->addFieldMapping('field_latest_link', 'link')
          ->xpath('link');
+    $this->addFieldMapping('created', 'date')
+         ->xpath('publicationDate');
   }
 
   public function preImport() {
@@ -46,8 +49,13 @@ class StemcellLatestMigration extends XMLMigration {
     // load xml file
     $file = file_get_contents('http://theoncologist.alphamedpress.org/rss/ahead.xml');
 
+    $removes = array(
+      " xmlns=\"http://purl.org/rss/1.0/\"",
+      "prism:"
+    );
+
     // remove the default namespace
-    $nfile = str_replace(" xmlns=\"http://purl.org/rss/1.0/\"", "", $file);
+    $nfile = str_replace($removes, "", $file);
 
     // save the file locally
     $xml_folder = DRUPAL_ROOT . '/' . drupal_get_path('module', 'amp_migrate') . '/data/';
@@ -56,7 +64,24 @@ class StemcellLatestMigration extends XMLMigration {
   }
 
   public function prepare($node, stdClass $row) {
-    $node->field_latest_pdf_link['und'][0]['value'] = $row->link;
+    $matches = array();
+    // parse link
+    // http://theoncologist.alphamedpress.org/cgi/content/short/theoncologist.2013-0297v1?rss=1
+    $pattern = '/theoncologist.[0-9]*-[0-9]*/';
+    if (!preg_match($pattern, $row->link, $matches))
+      return;
+
+    // get journal id
+    $journal_id = $matches[0];
+
+    // get date
+    $date = str_replace('-', '/', $row->date);
+
+    // into link
+    // http://theoncologist.alphamedpress.org/content/early/2013/11/25/theoncologist.2013-0297.full.pdf
+    $node->field_latest_pdf_link['und'][0]['value'] =
+      'http://theoncologist.alphamedpress.org/content/early/' .
+      $date . '/' . $journal_id . '.full.pdf';
   }
 
 

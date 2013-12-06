@@ -294,6 +294,8 @@ a > .sf-sub-indicator {
 }
 
 
+
+
 /*  PAGE ARTICLE STYES */
 .breadcrumb {
 	border-bottom: 1px solid #eee;
@@ -347,6 +349,9 @@ p{
 	padding: 0 20px 0 0;
 }
 
+#block-aggregator-feed-3 .block__title {
+	display: none;
+}
 
 
 /* LOGIN FORM */

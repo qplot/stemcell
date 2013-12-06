@@ -252,7 +252,7 @@ a > .sf-sub-indicator {
 .front .views-field-title a, .front .pane-block ul li a {
 	font-size: 1.0em !important;
 }
-.front .views-row, .front .pane-custom p, .front .pane-block ul li {
+.front .views-row, .front .pane-custom p, .front .pane-block ul li, #block-aggregator-feed-3 ul li {
 	border-bottom: 1px dashed #999;
 	color: #444;
 	font-size: 0.9em;
@@ -293,7 +293,30 @@ a > .sf-sub-indicator {
 	text-transform: capitalize;
 }
 
-
+/*  CIRM right nav block */
+#block-aggregator-feed-3 .block__title {
+	display: none;
+}
+#block-aggregator-feed-3 ul {
+	list-style: none;
+	margin-bottom: 0;
+	padding-left: 10px;
+}
+#block-block-12 {
+	margin-bottom: -15px;
+	border: 1px solid #ccc;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom: none;
+	padding:5px;
+}
+#block-aggregator-feed-3{
+	border: 1px solid #ccc;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top:none;
+	padding: 5px 10px 10px;
+}
 
 
 /*  PAGE ARTICLE STYES */
@@ -316,6 +339,11 @@ a > .sf-sub-indicator {
 	color: #777;
 	font-size: 0.85em;
 }
+ #block-aggregator-feed-3 ul li a {
+	color: #435080;	
+	font-weight: bold;
+	text-decoration: none;
+ }
 .views-field-title a, .front .pane-block ul li a {
 	color: #435080;	
 	font-size: 1.25em;
@@ -348,11 +376,6 @@ p{
 #tableSister td {  /* on sisters journal page */
 	padding: 0 20px 0 0;
 }
-
-#block-aggregator-feed-3 .block__title {
-	display: none;
-}
-
 
 /* LOGIN FORM */
 #user-login-form{

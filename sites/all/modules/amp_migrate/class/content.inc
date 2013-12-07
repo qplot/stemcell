@@ -29,7 +29,7 @@ class StemcellContentMigration extends Migration {
     $this->addFieldMapping('body:format')
          ->defaultValue('full_html');
     $this->addFieldMapping('comment')
-         ->defaultValue('closed');
+         ->defaultValue('open');
     $this->addFieldMapping('field_tags', 'catid')
          ->sourceMigration('Categories');
     $this->addFieldMapping('field_tags:source_type')

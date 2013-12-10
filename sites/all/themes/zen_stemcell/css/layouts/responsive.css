@@ -248,7 +248,9 @@ a > .sf-sub-indicator {
 	border-right: 1px solid #ddd;	
 }
 
-
+.page-features-stem-cells-young-investigator-award .views-field-title {
+	font-size: 20px;
+}
 .front .views-field-title a, .front .pane-block ul li a {
 	font-size: 1.0em !important;
 }

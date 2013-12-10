@@ -182,6 +182,31 @@ a > .sf-sub-indicator {
 	text-decoration:underline !important;
 }
 
+/* SLIDESHOWS */
+.views-slideshow-controls-bottom {
+	margin: -10px 0 10px 0;
+}
+#widget_pager_bottom_slideshow-default {
+	text-align: center;
+}
+.views-field-counter {
+	background: #ccc;
+	border-radius: 10px;
+	cursor:pointer;
+	display: inline-block;
+	width: 15px;
+}
+.active .views-field-counter{
+	background:#777F91;
+}
+.views-content-counter{
+	visibility:hidden;
+}
+.views-slideshow-pager-field-item {
+	display:inline-block;
+	color:#ccc;
+	margin-left: 5px;
+}
 
 /*  SEARCH BOX */
 #block-search-form {

@@ -185,6 +185,8 @@ a > .sf-sub-indicator {
 /* SLIDESHOWS */
 .views-slideshow-controls-bottom {
 	margin: -10px 0 10px 0;
+	position: relative;
+	z-index: 99;
 }
 #widget_pager_bottom_slideshow-default {
 	text-align: center;

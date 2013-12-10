@@ -471,6 +471,14 @@ p{
 	border-bottom: 1px solid #999;
 }
 
+
+/* EDITORIAL BOARD */
+.boardWrapper p {
+	float: left;
+	width: 30%;
+}
+
+
 /* FOOTER  */
 #footer {
 	background: #586683;  

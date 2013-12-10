@@ -259,6 +259,10 @@ a > .sf-sub-indicator {
 	font-size: 0.8em;
 	text-align: right;
 }
+.front #panel-views-home-article-scan h2, #panel-views-home-stemcell-buzz h2 {
+	display: none;
+}
+
 
 /* homepage blocks at bottom */
 .panels-flexible-row-last {

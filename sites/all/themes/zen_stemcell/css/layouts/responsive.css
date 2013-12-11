@@ -72,7 +72,7 @@ h4{
 .region-sidebar-second{
 	padding:0;
 }
-.region.region-top {
+.region-top {
 	margin-top: 15px;
 }
 #block-block-5 {  /* top ad area */
@@ -127,8 +127,7 @@ h4{
 	background-image: -o-linear-gradient(180deg, #4f75b1, #445281 113%);
 	background-image: -ms-linear-gradient(180deg, #4f75b1, #445281 113%);
 	background-image: linear-gradient(180deg, #4f75b1, #445281 113%);
-	border-radius: 5px;
-	height: 22px;
+	/*border-radius: 5px;*/
 }
 #navigation .menu li{
 	background: none no-repeat scroll 7px 8px transparent;
@@ -165,9 +164,9 @@ a > .sf-sub-indicator {
 }
 .sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
 	background-color: #445280;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius: 8px;
-	border: 1px solid #fff;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border: 1px solid #7982A0;
 	border-top: none;
 }
 .sf-menu li:hover > ul, .sf-menu li.sfHover > ul {
@@ -186,7 +185,7 @@ a > .sf-sub-indicator {
 .views-slideshow-controls-bottom {
 	margin: -10px 0 10px 0;
 	position: relative;
-	z-index: 99;
+	z-index: 9;
 }
 #widget_pager_bottom_slideshow-default {
 	text-align: center;
@@ -527,28 +526,76 @@ p{
 }
 
 
-
-
-
-/* responsive CSS */
-@media all and (min-width: 480px) {
-  #main {
+#main {
     /* Move all the children of #main down to make room. */
     padding-top: 3em;
     position: relative;
   }
-  #navigation {
-    /* Move the navbar up inside #main's padding. */
-    position: absolute;
-    top: 0;
-    height: 32px;
-    width: 100%;
+#navigation {
+	position: absolute;
+	top: 0;
+	height: 32px;
+	width: 100%;
+}
+
+
+/* RESPONSIVE CSS */
+@media all and (max-width: 480px) {  /* was 480 */
+  #homePanel .panels-flexible-region{
+	  width: 100%;
   }
+  #footer .region {
+	width: 100%;
+	float:none;
+  }
+  .region-top img{
+ 	 max-width: 100%;
+  }
+  .region-top iframe{
+	  width:100%;
+  }
+  #navigation{
+	  height:auto;
+	  z-index: 10;
+  }
+  #navigation .menu li{
+	  display:block;
+  }
+  #navigation .links li, #navigation .menu li{
+	  float:none !important;
+  }
+  #superfish-1-toggle {
+	color: white;
+	padding: 8px 0;
+	display: block;
+  }
+/*  ul.sf-menu.sf-accordion ul {
+	margin: 0 0 34px 0;
+  }
+*/  #navigation .menu {
+	margin: 0 0 14px 0 !important;
+  }
+  #superfish-1-accordion, #superfish-1-accordion li, #superfish-1-accordion li ul{
+	  float:none;
+	  display:block;
+	  list-style:none;
+  }
+  #navigation .menu li{
+	  height:auto;
+  }
+  #navigation .menu li a{
+	  height:auto;
+	  padding: 10px 15px 5px;
+  }
+  .sf-has-clone-parent .last {
+	border-bottom: 1px solid #7982A0;
+  }
+
 }
 /**
  * Use 3 grid columns for smaller screens.
  */
-@media all and (min-width: 480px) and (max-width: 959px) {
+@media all and (min-width: 480px) and (max-width: 1024px) {
 
   /**
    * The layout when there is only one sidebar, the left one.
@@ -573,7 +620,6 @@ p{
    * The layout when there is only one sidebar, the right one.
    */
 #page{
-	border:1px dashed red;
 	max-width: 100%;
 	padding-left: 5px;
 }

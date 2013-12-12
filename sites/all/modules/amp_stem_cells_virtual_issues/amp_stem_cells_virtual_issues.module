@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Stem Cells Virtual Issues feature.
+ */
+
+include_once 'amp_stem_cells_virtual_issues.features.inc';

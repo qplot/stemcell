@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Sister Journals Stem Cell Publish Ahead of Print Page feature.
+ */
+
+include_once 'amp_publish_ahead_of_print_page.features.inc';

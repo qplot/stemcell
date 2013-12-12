@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SCTM Current Issue Page feature.
+ */
+
+include_once 'amp_sctm_current_issue_page.features.inc';

@@ -1,0 +1,15 @@
+name = SCTM Current Issue Page
+description = SCTM Current Issue Page
+core = 7.x
+package = AMP
+version = 7.x-1.0
+project = amp_sctm_current_issue_page
+dependencies[] = page_manager
+dependencies[] = views
+features[ctools][] = page_manager:pages_default:1
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[page_manager_pages][] = sctm_current_issue
+features[views_view][] = views_sister_journals_sctm_current_issue_latest1
+features[views_view][] = views_sister_journals_sctm_current_issue_latest5
+features_exclude[dependencies][ctools] = ctools

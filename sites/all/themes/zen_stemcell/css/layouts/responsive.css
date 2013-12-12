@@ -590,6 +590,13 @@ p{
   .sf-has-clone-parent .last {
 	border-bottom: 1px solid #7982A0;
   }
+  #homePanel .panels-flexible-row:nth-child(2) .panels-flexible-region-first:nth-child(1){
+	  border-right:none;
+  }
+  #homePanel .panels-flexible-row:nth-child(3) .panels-flexible-region:nth-child(2){
+	  border-left:none;
+	  border-right:none;
+  }
 
 }
 /**

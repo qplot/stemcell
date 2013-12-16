@@ -91,7 +91,7 @@ function amp_article_ctype_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_file',
-    'label' => 'file',
+    'label' => 'Files',
     'required' => 0,
     'settings' => array(
       'description_field' => 0,
@@ -167,6 +167,52 @@ function amp_article_ctype_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-article-field_label'
+  $field_instances['node-article-field_label'] = array(
+    'bundle' => 'article',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 4,
+      ),
+      'full' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_label',
+    'label' => 'Label',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'taxonomy',
+      'settings' => array(
+        'autocomplete_path' => 'taxonomy/autocomplete',
+        'size' => 60,
+      ),
+      'type' => 'taxonomy_autocomplete',
+      'weight' => 1,
+    ),
+  );
+
   // Exported field_instance: 'node-article-field_tags'
   $field_instances['node-article-field_tags'] = array(
     'bundle' => 'article',
@@ -217,10 +263,11 @@ function amp_article_ctype_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Body');
   t('Enter a comma-separated list of words to describe your content.');
+  t('Files');
   t('Image');
+  t('Label');
   t('Tags');
   t('Upload an image to go with this article.');
-  t('file');
 
   return $field_instances;
 }

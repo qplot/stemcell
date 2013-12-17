@@ -1,0 +1,9 @@
+/**
+ * @file
+ * CSS for IE only
+ *
+ */
+html{
+	background:red !important;
+	font-size:85% !important;
+}

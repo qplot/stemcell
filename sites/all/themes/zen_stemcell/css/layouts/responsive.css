@@ -232,6 +232,12 @@ a > .sf-sub-indicator {
 	margin-top: 2px;
 	padding-bottom: 2px;
 }
+.not-front  h2 a {
+	border-bottom: 1px solid;
+	display: block;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
 .front p {
 	margin-bottom: 0;
 }

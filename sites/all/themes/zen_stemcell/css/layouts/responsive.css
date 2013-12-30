@@ -72,6 +72,9 @@ h4{
 .region-sidebar-second{
 	padding:0;
 }
+.region-sidebar-second .block {
+	margin-bottom: 20px;
+}
 .region-top {
 	margin-top: 15px;
 }

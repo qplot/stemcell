@@ -76,7 +76,7 @@ function amp_profiles_and_perspectives_page_default_page_manager_pages() {
       'url' => '',
       'display' => 'default',
       'override_title' => 0,
-      'override_title_text' => '',
+      'override_title_text' => 'test',
     );
     $pane->cache = array();
     $pane->style = array(

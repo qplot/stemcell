@@ -52,7 +52,7 @@ function amp_sc_current_issues_page_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'STEM CELLS Current Issue';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();

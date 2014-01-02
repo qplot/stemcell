@@ -22,7 +22,6 @@ function amp_stem_cells_virtual_issues_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Stem Cells Virtual Issues';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
@@ -52,6 +51,7 @@ function amp_stem_cells_virtual_issues_views_default_views() {
   $handler->display->display_options['fields']['created']['table'] = 'node';
   $handler->display->display_options['fields']['created']['field'] = 'created';
   $handler->display->display_options['fields']['created']['label'] = '';
+  $handler->display->display_options['fields']['created']['exclude'] = TRUE;
   $handler->display->display_options['fields']['created']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['created']['date_format'] = 'custom';
   $handler->display->display_options['fields']['created']['custom_date_format'] = 'F j, Y';
@@ -62,6 +62,8 @@ function amp_stem_cells_virtual_issues_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  $handler->display->display_options['fields']['title']['element_type'] = 'h2';
+  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
   /* Field: Content: Body */
   $handler->display->display_options['fields']['body']['id'] = 'body';
   $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
@@ -92,7 +94,7 @@ function amp_stem_cells_virtual_issues_views_default_views() {
   $handler->display->display_options['filters']['name']['table'] = 'taxonomy_term_data';
   $handler->display->display_options['filters']['name']['field'] = 'name';
   $handler->display->display_options['filters']['name']['relationship'] = 'term_node_tid';
-  $handler->display->display_options['filters']['name']['value'] = 'Virtual Issues';
+  $handler->display->display_options['filters']['name']['value'] = 'SCVirtual Issues';
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
@@ -175,7 +177,7 @@ function amp_stem_cells_virtual_issues_views_default_views() {
   $handler->display->display_options['filters']['name']['table'] = 'taxonomy_term_data';
   $handler->display->display_options['filters']['name']['field'] = 'name';
   $handler->display->display_options['filters']['name']['relationship'] = 'term_node_tid';
-  $handler->display->display_options['filters']['name']['value'] = 'Virtual Issues';
+  $handler->display->display_options['filters']['name']['value'] = 'SCVirtual Issues';
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');

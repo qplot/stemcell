@@ -267,6 +267,15 @@ a > .sf-sub-indicator {
 	font-size: 0.8em;
 	text-align: right;
 }
+#block-block-8{
+ background-color:#eef;
+ border-radius: 8px;
+ padding: 15px;
+}
+#block-block-8 h2{
+  display:none;
+}
+
 /*
 .front #panel-views-home-article-scan h2, #panel-views-home-stemcell-buzz h2 {
 	display: none;

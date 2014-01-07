@@ -13,7 +13,7 @@ function amp_tag_vtype_taxonomy_default_vocabularies() {
       'name' => 'Navs',
       'machine_name' => 'navs',
       'description' => 'Navigation menus',
-      'hierarchy' => 1,
+      'hierarchy' => 0,
       'module' => 'taxonomy',
       'weight' => 0,
       'rdf_mapping' => array(

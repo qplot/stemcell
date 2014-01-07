@@ -52,7 +52,7 @@ function amp_sc_award_page_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Stem Cells Young investigator Award';
+  $display->title = 'Stem Cells Young Investigator Award';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();

@@ -52,7 +52,7 @@ function amp_stem_cells_virtual_issues_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'STEM CELLS Virtual Issues';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();

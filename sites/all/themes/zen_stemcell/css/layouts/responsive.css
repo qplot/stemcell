@@ -241,6 +241,10 @@ a > .sf-sub-indicator {
 	margin-bottom: 20px;
 	text-decoration: none;
 }
+.not-front header h2 a {  /* taxonomy landing pages */
+	border-bottom:none;
+	margin-bottom: 0;
+}
 .front p {
 	margin-bottom: 0;
 }
@@ -375,11 +379,6 @@ a > .sf-sub-indicator {
 	padding-bottom: 3px;
 }
 
-.node-readmore a {
-	display: block;
-	font-size: .9em;
-	text-align: right;
-}
 .landingIntro{
 	margin-top:0;
 }
@@ -405,19 +404,28 @@ a{
 p{
 	margin-top:0;
 }
+.page-taxonomy-term-262 article header{  /* specific to taxonomy term = perspecitves */
+	display:none;
+}
+.section-taxonomy .views-row .field-content p,
 .not-front .views-row .field-content p{
 	font-size: 0.95em;
 	/*margin-bottom:0;*/
 }
+.section-taxonomy article,
 .not-front .views-row {
 	border-bottom: 1px dashed #ccc;
 	margin-bottom: 1em;
 }
+
+.node-readmore,
 .views-field-nid{
+	display: block !important;
 	font-size: 0.8em;
 	margin-right: 20px;
 	text-align: right;
 }
+.node-readmore a,
 .views-field-nid a{
 	text-decoration: none;
 }

@@ -216,6 +216,7 @@ a > .sf-sub-indicator {
 #block-search-form {
 	background: #ddd;
 	padding: 15px 10px;
+	margin-bottom: 0;
 }
 #edit-search-block-form--2{
 	background: #fff url(../../images/search.ltr.png) right top no-repeat;
@@ -434,19 +435,23 @@ p{
 }
 
 /* LOGIN FORM */
+#block-user-login h2{
+	display:none;
+}
 #user-login-form{
 	padding: 5px 15px;
 }
 #user-login-form label{
-	display:inline;
+	display:none;
 	font-weight: normal;
 }
 #user-login-form .item-list{
-	margin-top: 20px;
-	position:absolute;
+	position: absolute;
+	height: 10px;
 }
 #user-login-form .item-list ul, #block-system-user-menu ul.menu{
 	list-style: none;
+	margin:0;
 	padding:0;
 }
 #user-login-form .item-list li{
@@ -463,17 +468,23 @@ p{
 	margin-right: 10px;
 }
 #user-login-form .form-actions {
-	margin-bottom: 30px;
+	float: right;
+	position: relative;
 	text-align: right;
+	top: -32px;
+	width: 82px;
 }
 #user-login-form .form-item, #block-system-user-menu .menu{
 	margin:8px 0 !important;
 }
 #user-login-form .form-text {
+	border: 1px solid #999;
+	font-size: 0.9em;
+	padding: 3px;
 	width: 177px;
 }
 #user-login-form #edit-pass {
-	margin-left: 3px;
+	/*margin-left: 3px;*/
 }
 #user-login-form .form-submit {
 	background-color: #4f75b1;
@@ -568,6 +579,10 @@ p{
 	height: 32px;
 	width: 100%;
 }
+
+
+
+
 
 
 /* RESPONSIVE CSS */

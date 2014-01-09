@@ -133,9 +133,15 @@ function STARTERKIT_preprocess_block(&$variables, $hook) {
 
 // Add placeholder to the search block form.  Added by BN 2013-11-25
 function zen_stemcell_form_alter(&$form, &$form_state, $form_id) {
-  if ($form_id == 'search_block_form') {
-    // HTML5 placeholder attribute
-    $form['search_block_form']['#attributes']['placeholder'] = t('Search');
-  }
+	if ($form_id == 'search_block_form') {
+		// HTML5 placeholder attribute
+		$form['search_block_form']['#attributes']['placeholder'] = t('Search');
+	}
+	if (in_array( $form_id, array( 'user_login', 'user_login_block')))
+	{
+		$form['name']['#attributes']['placeholder'] = t( 'Username' );
+		$form['pass']['#attributes']['placeholder'] = t( 'Password' );
+	}
+  
 }
 ?>

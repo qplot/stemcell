@@ -252,15 +252,9 @@ function amp_home_page_views_default_views() {
   $handler->display->display_options['cache']['type'] = 'none';
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
-  $handler->display->display_options['pager']['type'] = 'full';
-  $handler->display->display_options['pager']['options']['items_per_page'] = '3';
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
   $handler->display->display_options['pager']['options']['offset'] = '0';
-  $handler->display->display_options['pager']['options']['id'] = '0';
-  $handler->display->display_options['pager']['options']['quantity'] = '0';
-  $handler->display->display_options['pager']['options']['tags']['first'] = '';
-  $handler->display->display_options['pager']['options']['tags']['previous'] = '';
-  $handler->display->display_options['pager']['options']['tags']['next'] = '';
-  $handler->display->display_options['pager']['options']['tags']['last'] = '';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Footer: Global: Text area */

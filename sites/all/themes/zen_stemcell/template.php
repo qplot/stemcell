@@ -52,11 +52,18 @@ function STARTERKIT_preprocess_html(&$variables, $hook) {
  * @param $hook
  *   The name of the template being rendered ("page" in this case.)
  */
-/* -- Delete this line if you want to use this function
-function STARTERKIT_preprocess_page(&$variables, $hook) {
-  $variables['sample_variable'] = t('Lorem ipsum.');
+function zen_stemcell_preprocess_page(&$variables, $hook) {
+  if (!empty($variables['node'])) {
+    $node = &$variables['node'];
+    if ($node->type == 'article') {
+      $date = format_date($node->created, 'custom', 'F d, Y');
+      $variables['title_prefix'] = array(
+        '#type' => 'markup',
+        '#markup' => '<div class="article-date">' . $date . '</div>',
+      );
+    }
+  }
 }
-// */
 
 /**
  * Override or insert variables into the node templates.
@@ -67,7 +74,7 @@ function STARTERKIT_preprocess_page(&$variables, $hook) {
  *   The name of the template being rendered ("node" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function STARTERKIT_preprocess_node(&$variables, $hook) {
+function zen_stemcell_preprocess_node(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 
   // Optionally, run node-type-specific preprocess functions, like

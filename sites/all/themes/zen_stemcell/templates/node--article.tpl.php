@@ -80,8 +80,7 @@
  * @ingroup themeable
  */
 
-$date = format_date($node->created, 'custom', 'F d, Y');
-
+// $date = format_date($node->created, 'custom', 'F d, Y');
 ?>
 
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>

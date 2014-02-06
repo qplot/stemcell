@@ -1,0 +1,14 @@
+name = In the Lab Page
+description = AMP In the Lab Page
+core = 7.x
+package = AMP
+version = 7.x-1.0
+project = amp_resources_lab_page
+dependencies[] = page_manager
+dependencies[] = views
+features[ctools][] = page_manager:pages_default:1
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[page_manager_pages][] = panels_resources_in_the_lab
+features[views_view][] = views_resources_in_the_lab_latest1
+features_exclude[dependencies][ctools] = ctools

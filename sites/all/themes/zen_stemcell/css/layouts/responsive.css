@@ -383,7 +383,7 @@ a > .sf-sub-indicator {
 .landingIntro{
 	margin-top:0;
 }
-.views-field-created, .submitted {
+.views-field-created, .submitted, .article-date {
 	color: #777;
 	font-size: 0.85em;
 }

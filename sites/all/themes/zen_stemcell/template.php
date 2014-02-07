@@ -56,7 +56,7 @@ function zen_stemcell_preprocess_page(&$variables, $hook) {
   if (!empty($variables['node'])) {
     $node = &$variables['node'];
     if ($node->type == 'article') {
-      $date = format_date($node->created, 'custom', 'F d, Y');
+      $date = format_date($node->created, 'custom', 'F j, Y');
       $variables['title_prefix'] = array(
         '#type' => 'markup',
         '#markup' => '<div class="article-date">' . $date . '</div>',

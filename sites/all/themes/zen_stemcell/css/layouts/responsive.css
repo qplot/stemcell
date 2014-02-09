@@ -366,6 +366,14 @@ a > .sf-sub-indicator {
 	padding: 5px 10px 10px;
 }
 
+.view-cirm-block-aggregator-feed-3{
+	border: 1px solid #ccc;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top:none;
+	padding: 5px 10px 10px;
+}
+
 
 /*  PAGE ARTICLE STYES */
 .not-front .page__title{

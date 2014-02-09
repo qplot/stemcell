@@ -247,6 +247,7 @@ function amp_home_page_views_default_views() {
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
   $handler->display->display_options['title'] = 'views_home_cirm_scblog';
+  $handler->display->display_options['css_class'] = 'view-cirm-block-aggregator-feed-3';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'none';
   $handler->display->display_options['cache']['type'] = 'none';
@@ -261,7 +262,7 @@ function amp_home_page_views_default_views() {
   $handler->display->display_options['footer']['area']['id'] = 'area';
   $handler->display->display_options['footer']['area']['table'] = 'views';
   $handler->display->display_options['footer']['area']['field'] = 'area';
-  $handler->display->display_options['footer']['area']['content'] = '<div class="read-more"><a href="http://cirmresearch.blogspot.com/">Read more ...</a></div>';
+  $handler->display->display_options['footer']['area']['content'] = '<div class="read-more"><a href="http://cirmresearch.blogspot.com/">More</a></div>';
   $handler->display->display_options['footer']['area']['format'] = 'filtered_html';
   /* Field: Aggregator: Timestamp */
   $handler->display->display_options['fields']['timestamp']['id'] = 'timestamp';

@@ -306,7 +306,7 @@ a > .sf-sub-indicator {
 	font-size: 20px;
 }
 .front .views-field-title a, .front .pane-block ul li a, .not-front .sidebars a {
-	font-size: 1.0em !important;
+	font-size: 1.0em;
 }
 .front .views-row, .front .pane-custom p, .front .pane-block ul li, #block-aggregator-feed-3 ul li {
 	border-bottom: 1px dashed #999;

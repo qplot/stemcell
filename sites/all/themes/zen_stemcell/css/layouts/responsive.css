@@ -305,7 +305,7 @@ a > .sf-sub-indicator {
 .page-features-stem-cells-young-investigator-award .views-field-title {
 	font-size: 20px;
 }
-.front .views-field-title a, .front .pane-block ul li a {
+.front .views-field-title a, .front .pane-block ul li a, .not-front .sidebars a {
 	font-size: 1.0em !important;
 }
 .front .views-row, .front .pane-custom p, .front .pane-block ul li, #block-aggregator-feed-3 ul li {
@@ -399,6 +399,7 @@ a > .sf-sub-indicator {
 	color: #435080;	
 	font-weight: bold;
 	text-decoration: none;
+	line-height:1.0em !important;
  }
 .views-field-title a, .front .pane-block ul li a {
 	color: #435080;	

@@ -588,6 +588,34 @@ p{
 	height: 32px;
 	width: 100%;
 }
+/* registration form */
+.page-user-register #edit-account .form-item-name .description {
+	display: none;
+}
+.page-user-register #edit-field-first-given-name {
+	float: left;
+}
+.page-user-register #edit-field-last-family-name {
+	float: left;
+	margin-left: 30px;
+}
+.page-user-register #edit-field-organization, .page-user-register #edit-field-country-list {
+	clear: both;
+}
+.page-user-register #edit-field-city {
+	float: left;
+}
+.page-user-register #edit-field-state-province-us, .page-user-register #edit-field-zip-postal-code {
+	float: left;
+	margin-left: 20px;
+}
+.page-user-register #edit-actions {
+	margin-top: 20px;
+}
+/* registration form end */
+
+
+
 
 
 

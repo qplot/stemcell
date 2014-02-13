@@ -592,6 +592,9 @@ p{
 .page-user-register #edit-account .form-item-name .description {
 	display: none;
 }
+.page-user-register #edit-account .form-item-mail label {
+	text-transform: capitalize;
+}
 .page-user-register #edit-field-first-given-name {
 	float: left;
 }

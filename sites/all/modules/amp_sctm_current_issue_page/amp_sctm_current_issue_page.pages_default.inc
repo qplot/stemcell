@@ -52,7 +52,7 @@ function amp_sctm_current_issue_page_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = '';
+  $display->title = 'STEM CELLS Translational Medicine Current Issue';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();

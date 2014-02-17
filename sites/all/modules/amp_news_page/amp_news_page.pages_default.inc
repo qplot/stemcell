@@ -112,7 +112,7 @@ function amp_news_page_default_page_manager_pages() {
       'args' => '',
       'url' => '',
       'display' => 'default',
-      'override_title' => 0,
+      'override_title' => 1,
       'override_title_text' => '',
     );
     $pane->cache = array();

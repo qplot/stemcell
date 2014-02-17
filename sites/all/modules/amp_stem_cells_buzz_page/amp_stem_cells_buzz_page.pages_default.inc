@@ -145,7 +145,7 @@ function amp_stem_cells_buzz_page_default_page_manager_pages() {
       'url' => '',
       'display' => 'default',
       'override_title' => 1,
-      'override_title_text' => 'Older Buzz',
+      'override_title_text' => 'Past Buzz',
     );
     $pane->cache = array();
     $pane->style = array(

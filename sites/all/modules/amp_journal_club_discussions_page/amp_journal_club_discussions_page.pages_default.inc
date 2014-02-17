@@ -142,7 +142,7 @@ function amp_journal_club_discussions_page_default_page_manager_pages() {
       'url' => '',
       'display' => 'default',
       'override_title' => 1,
-      'override_title_text' => 'Older Discussions',
+      'override_title_text' => 'Past Discussions',
     );
     $pane->cache = array();
     $pane->style = array(

@@ -1,0 +1,29 @@
+<?php
+/**
+ * @file
+ * Code for the custom code feature.
+ */
+
+function amp_custom_views_pre_render(&$view) {
+  $views = array(
+    'views_home_journal_club',
+    'views_home_article_scan',
+    'views_home_stemcell_buzz',
+    'views_home_in_the_news',
+    'views_home_press_releases',
+    'views_home_editors_blog',
+    'views_home_sc_publish',
+  );
+  if (in_array($view->name, $views)) {
+    // first get this title
+    $title = $view->display['default']->display_options['title'];
+    dsm($title);
+    // split the string and get two parts
+    $parts = explode(',', $title);
+    $first = $parts[0];
+    $second = $parts[1];
+
+    $view->build_info['title'] = "<a href='$second' class='link-homepage'>$first <img src='sites/all/themes/zen_stemcell/images/Arrow.jpg' /></a>";
+    
+  }
+}

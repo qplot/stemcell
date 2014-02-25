@@ -1,0 +1,6 @@
+name = AMP Custom
+description = AMP Custom Code
+core = 7.x
+package = AMP
+version = 7.x-1.1
+project = amp_custom

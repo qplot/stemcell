@@ -171,8 +171,8 @@ function amp_home_page_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'override_pager_settings' => 0,
-      'use_pager' => 1,
-      'nodes_per_page' => '3',
+      'use_pager' => 0,
+      'nodes_per_page' => '4',
       'pager_id' => '0',
       'offset' => '0',
       'more_link' => 0,
@@ -183,7 +183,7 @@ function amp_home_page_default_page_manager_pages() {
       'url' => '',
       'display' => 'default',
       'override_title' => 0,
-      'override_title_text' => '',
+      'override_title_text' => 'In the News <a href="news_in_the_news_news"><img src="sites/all/themes/zen_stemcell/images/Arrow.jpg" /></a>',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -207,7 +207,7 @@ function amp_home_page_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'override_pager_settings' => 0,
-      'use_pager' => 1,
+      'use_pager' => 0,
       'nodes_per_page' => '3',
       'pager_id' => '0',
       'offset' => '0',
@@ -219,7 +219,7 @@ function amp_home_page_default_page_manager_pages() {
       'url' => '',
       'display' => 'default',
       'override_title' => 0,
-      'override_title_text' => '',
+      'override_title_text' => 'Press Releases <a href="news_press_room_press_releases"><img src="sites/all/themes/zen_stemcell/images/Arrow.jpg" /></a>',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -255,7 +255,7 @@ function amp_home_page_default_page_manager_pages() {
       'url' => '',
       'display' => 'default',
       'override_title' => 0,
-      'override_title_text' => '',
+      'override_title_text' => 'Editors\' Blog <a href="features_editors_blog"><img src="sites/all/themes/zen_stemcell/images/Arrow.jpg" /></a>',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -290,8 +290,8 @@ function amp_home_page_default_page_manager_pages() {
       'args' => '',
       'url' => '',
       'display' => 'default',
-      'override_title' => 1,
-      'override_title_text' => 'Journal Club Discussions',
+      'override_title' => 0,
+      'override_title_text' => 'Journal Club Discussions <a href="journal_club_journal_club_di"><img src="sites/all/themes/zen_stemcell/images/Arrow.jpg" /></a>',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -315,8 +315,8 @@ function amp_home_page_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'override_pager_settings' => 0,
-      'use_pager' => 1,
-      'nodes_per_page' => '3',
+      'use_pager' => 0,
+      'nodes_per_page' => '2',
       'pager_id' => '0',
       'offset' => '0',
       'more_link' => 0,
@@ -327,7 +327,7 @@ function amp_home_page_default_page_manager_pages() {
       'url' => '',
       'display' => 'default',
       'override_title' => 0,
-      'override_title_text' => '',
+      'override_title_text' => 'Article Scans <a href="journal_club_article_scans"><img src="sites/all/themes/zen_stemcell/images/Arrow.jpg" /></a>',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -363,7 +363,7 @@ function amp_home_page_default_page_manager_pages() {
       'url' => '',
       'display' => 'default',
       'override_title' => 0,
-      'override_title_text' => '',
+      'override_title_text' => 'Stem Cell Buzz <a href="journal_club_stem_cells_buzz"><img src="sites/all/themes/zen_stemcell/images/Arrow.jpg" /></a>',
     );
     $pane->cache = array();
     $pane->style = array(
@@ -423,8 +423,8 @@ function amp_home_page_default_page_manager_pages() {
       'args' => '',
       'url' => '',
       'display' => 'default',
-      'override_title' => 1,
-      'override_title_text' => 'Publish Ahead of Print',
+      'override_title' => 0,
+      'override_title_text' => 'Publish Ahead of Print <a href="views-home-sc-publish"><img src="sites/all/themes/zen_stemcell/images/Arrow.jpg" />',
     );
     $pane->cache = array();
     $pane->style = array(

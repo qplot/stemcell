@@ -272,6 +272,10 @@ a > .sf-sub-indicator {
 	font-size: 0.8em;
 	text-align: right;
 }
+.view-footer-journal-club {
+	font-size: 1em;
+	text-align: right;
+}
 #block-block-8{
  background-color:#eef;
  border-radius: 8px;

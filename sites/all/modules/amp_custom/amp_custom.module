@@ -17,13 +17,12 @@ function amp_custom_views_pre_render(&$view) {
   if (in_array($view->name, $views)) {
     // first get this title
     $title = $view->display['default']->display_options['title'];
-    dsm($title);
     // split the string and get two parts
     $parts = explode(',', $title);
     $first = $parts[0];
     $second = $parts[1];
 
     $view->build_info['title'] = "<a href='$second' class='link-homepage'>$first <img src='sites/all/themes/zen_stemcell/images/Arrow.jpg' /></a>";
-    
+
   }
 }

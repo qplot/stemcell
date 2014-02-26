@@ -414,10 +414,12 @@ a > .sf-sub-indicator {
  }
 .views-field-title a, .front .pane-block ul li a {
 	color: #435080;	
-	font-size: 1.25em;
 	font-weight: bold;
 	line-height: 1.3em;
 	text-decoration: none;
+}
+.views-field-title a{
+	font-size: 1.25em;
 }
 a{
 	color: #435080;	

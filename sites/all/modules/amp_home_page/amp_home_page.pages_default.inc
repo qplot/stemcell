@@ -509,7 +509,7 @@ function amp_home_page_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'override_title' => 1,
-      'override_title_text' => 'Publish Ahead of Print',
+      'override_title_text' => '<a href=\'#\' class=\'link-homepage\'>Publish Ahead of Print <img src=\'sites/all/themes/zen_stemcell/images/Arrow.jpg\' /></a>',
     );
     $pane->cache = array();
     $pane->style = array(

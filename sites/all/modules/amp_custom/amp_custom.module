@@ -17,6 +17,7 @@ function amp_custom_views_pre_render(&$view) {
   if (in_array($view->name, $views)) {
     // first get this title
     $title = $view->display['default']->display_options['title'];
+ 
     // split the string and get two parts
     $parts = explode(',', $title);
     $first = $parts[0];

@@ -262,7 +262,7 @@ function amp_home_page_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'views_home_cirm_scblog';
+  $handler->display->display_options['title'] = 'Publish Ahead of Print SC Blog';
   $handler->display->display_options['css_class'] = 'view-cirm-block-aggregator-feed-3';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'none';

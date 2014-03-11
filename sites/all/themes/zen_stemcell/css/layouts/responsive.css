@@ -353,6 +353,9 @@ a > .sf-sub-indicator {
 }
 
 /*  CIRM right nav block */
+.not-front .view-views-home-cirm-scblog {
+	font-size: 87%;
+}
 #block-aggregator-feed-3 .block__title {
 	display: none;
 }

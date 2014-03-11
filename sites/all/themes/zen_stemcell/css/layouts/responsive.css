@@ -433,6 +433,9 @@ p{
 .page-taxonomy-term-262 article header{  /* specific to taxonomy term = perspecitves */
 	display:none;
 }
+.page-taxonomy-term-262 h2, .page-taxonomy-term-256 h2 {
+	display: none;
+}
 .section-taxonomy .views-row .field-content p,
 .not-front .views-row .field-content p{
 	font-size: 0.95em;

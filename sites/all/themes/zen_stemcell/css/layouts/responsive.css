@@ -313,7 +313,8 @@ a > .sf-sub-indicator {
 	border-right: 1px solid #ddd;	
 }
 
-.page-features-stem-cells-young-investigator-award .view-views-features-stem-cells-young-investigator-award-latest1 .views-field-title {
+.page-features-stem-cells-young-investigator-award .view-views-features-stem-cells-young-investigator-award-latest1 .views-field-title,
+.page-features-sctm-young-investigator-award .view-sctm-young-investigator-award-recent .views-field-title {
 	font-size: 20px;
 }
 .front .views-field-title a, .front .pane-block ul li a, .not-front .sidebars a {

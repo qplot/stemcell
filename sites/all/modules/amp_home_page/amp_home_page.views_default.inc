@@ -764,7 +764,7 @@ by Lyle Armstrong';
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'views_home_sctm_publish';
+  $handler->display->display_options['title'] = 'Publish Ahead of Print,views-home-sctm-publish';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'none';
   $handler->display->display_options['cache']['type'] = 'none';
@@ -774,11 +774,7 @@ by Lyle Armstrong';
   $handler->display->display_options['pager']['options']['items_per_page'] = '5';
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['pager']['options']['id'] = '0';
-  $handler->display->display_options['pager']['options']['quantity'] = '3';
-  $handler->display->display_options['pager']['options']['tags']['first'] = '« ';
-  $handler->display->display_options['pager']['options']['tags']['previous'] = '‹ ';
-  $handler->display->display_options['pager']['options']['tags']['next'] = '›';
-  $handler->display->display_options['pager']['options']['tags']['last'] = '»';
+  $handler->display->display_options['pager']['options']['quantity'] = '9';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
   /* No results behavior: Global: Unfiltered text */
@@ -800,6 +796,7 @@ Progranulin, a Major Secreted Protein of Mouse Adipose-Derived Stem Cells, Inhib
   $handler->display->display_options['fields']['iid']['id'] = 'iid';
   $handler->display->display_options['fields']['iid']['table'] = 'aggregator_item';
   $handler->display->display_options['fields']['iid']['field'] = 'iid';
+  $handler->display->display_options['fields']['iid']['exclude'] = TRUE;
   /* Field: Aggregator: Timestamp */
   $handler->display->display_options['fields']['timestamp']['id'] = 'timestamp';
   $handler->display->display_options['fields']['timestamp']['table'] = 'aggregator_item';
@@ -807,7 +804,7 @@ Progranulin, a Major Secreted Protein of Mouse Adipose-Derived Stem Cells, Inhib
   $handler->display->display_options['fields']['timestamp']['label'] = '';
   $handler->display->display_options['fields']['timestamp']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['timestamp']['date_format'] = 'custom';
-  $handler->display->display_options['fields']['timestamp']['custom_date_format'] = 'F j,Y';
+  $handler->display->display_options['fields']['timestamp']['custom_date_format'] = 'F j, Y';
   /* Field: Aggregator: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'aggregator_item';
@@ -823,7 +820,7 @@ Progranulin, a Major Secreted Protein of Mouse Adipose-Derived Stem Cells, Inhib
   $handler->display->display_options['filters']['title']['id'] = 'title';
   $handler->display->display_options['filters']['title']['table'] = 'aggregator_feed';
   $handler->display->display_options['filters']['title']['field'] = 'title';
-  $handler->display->display_options['filters']['title']['value'] = 'Stem Cells Translational Medicine';
+  $handler->display->display_options['filters']['title']['value'] = 'SCTM Publish RSS';
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');

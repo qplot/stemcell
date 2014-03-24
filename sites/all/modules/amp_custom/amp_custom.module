@@ -28,3 +28,10 @@ function amp_custom_views_pre_render(&$view) {
 
   }
 }
+
+// Fang's Registration Form alter
+function amp_custom_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == "user_register_form") {
+      $form['field_terms_and_conditions']['und']['#title'] = 'I have read and agree to abide by the <a href="http://www.stemcellsportal.com/terms-of-use" target="_blank">Terms of Use</a> and <a href="http://www.stemcellsportal.com/comment-policy" target="_blank">Comment Policy</a>.';
+  }
+}

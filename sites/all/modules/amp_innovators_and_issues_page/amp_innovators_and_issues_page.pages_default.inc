@@ -55,7 +55,7 @@ function amp_innovators_and_issues_page_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Innovators and Issues';
+  $display->title = '';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
@@ -157,7 +157,7 @@ function amp_innovators_and_issues_page_default_page_manager_pages() {
     $pane->locks = array();
     $display->content['new-3'] = $pane;
     $display->panels['middle'][2] = 'new-3';
-  $display->hide_title = PANELS_TITLE_FIXED;
+  $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = 'new-1';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;

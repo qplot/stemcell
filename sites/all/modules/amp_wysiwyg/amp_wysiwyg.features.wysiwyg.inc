@@ -118,7 +118,7 @@ function amp_wysiwyg_wysiwyg_default_profiles() {
       'css_path' => '',
       'theme_advanced_styles' => '',
       'theme_advanced_blockformats' => 'p,address,pre,h2,h3,h4,h5,h6,div',
-      'advanced__active_tab' => 'edit-basic',
+      'advanced__active_tab' => 'edit-output',
       'paste_auto_cleanup_on_paste' => 1,
     ),
     'rdf_mapping' => array(),

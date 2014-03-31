@@ -69,7 +69,7 @@ function amp_stem_cells_landing_page_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<div class="menu-sctm"><img src="sites/all/themes/zen_stemcell/images/journal-homepage-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/virtual-issues-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/editoral-board-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/info-contributors-button.jpg" alt="" /></div><div class="html-box-sctm">HTML Box Here</div>',
+      'body' => '<div class="menu-sc"><img src="sites/all/themes/zen_stemcell/images/journal-homepage-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/virtual-issues-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/editoral-board-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/info-contributors-button.jpg" alt="" /></div><div class="html-box-sc">HTML Box Here</div>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );

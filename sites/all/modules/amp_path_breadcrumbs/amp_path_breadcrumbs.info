@@ -16,5 +16,7 @@ features[path_breadcrumbs][] = breadcrumbs_innovators_and_issues
 features[path_breadcrumbs][] = breadcrumbs_meeting_reports
 features[path_breadcrumbs][] = breadcrumbs_news
 features[path_breadcrumbs][] = breadcrumbs_news_press_releases
+features[path_breadcrumbs][] = breadcrumbs_stem_cells
 features[path_breadcrumbs][] = breadcrumbs_stem_cells_buzz
+features[path_breadcrumbs][] = breadcrumbs_stem_cells_clone
 features[path_breadcrumbs][] = breadcrumbs_stem_cells_young_investigator_award

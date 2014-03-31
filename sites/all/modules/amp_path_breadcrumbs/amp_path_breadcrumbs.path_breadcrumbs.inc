@@ -754,6 +754,39 @@ function amp_path_breadcrumbs_path_breadcrumbs_settings_info() {
 
   $path_breadcrumb = new stdClass();
   $path_breadcrumb->api_version = 1;
+  $path_breadcrumb->machine_name = 'breadcrumbs_stem_cells';
+  $path_breadcrumb->name = 'Stem Cells';
+  $path_breadcrumb->path = 'sister_journals_stem_cells';
+  $path_breadcrumb->data = array(
+    'titles' => array(
+      0 => 'Sister Journals',
+    ),
+    'paths' => array(
+      0 => 'content/about-sister-journals',
+    ),
+    'home' => 1,
+    'translatable' => 0,
+    'arguments' => array(),
+    'access' => array(
+      'plugins' => array(
+        4 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'sister_journals_stem_cells',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+      ),
+      'logic' => 'and',
+    ),
+  );
+  $path_breadcrumb->weight = 0;
+  $export['breadcrumbs_stem_cells'] = $path_breadcrumb;
+
+  $path_breadcrumb = new stdClass();
+  $path_breadcrumb->api_version = 1;
   $path_breadcrumb->machine_name = 'breadcrumbs_stem_cells_buzz';
   $path_breadcrumb->name = 'Stem Cells Buzz';
   $path_breadcrumb->path = 'node/%node';
@@ -844,6 +877,39 @@ function amp_path_breadcrumbs_path_breadcrumbs_settings_info() {
   );
   $path_breadcrumb->weight = 0;
   $export['breadcrumbs_stem_cells_buzz'] = $path_breadcrumb;
+
+  $path_breadcrumb = new stdClass();
+  $path_breadcrumb->api_version = 1;
+  $path_breadcrumb->machine_name = 'breadcrumbs_stem_cells_clone';
+  $path_breadcrumb->name = 'Stem Cells Translational Medicine';
+  $path_breadcrumb->path = 'sister_journals_sctm';
+  $path_breadcrumb->data = array(
+    'titles' => array(
+      0 => 'Sister Journals',
+    ),
+    'paths' => array(
+      0 => 'content/about-sister-journals',
+    ),
+    'home' => 1,
+    'translatable' => 0,
+    'arguments' => array(),
+    'access' => array(
+      'plugins' => array(
+        4 => array(
+          'name' => 'path_visibility',
+          'settings' => array(
+            'visibility_setting' => '1',
+            'paths' => 'sister_journals_sctm',
+          ),
+          'context' => 'empty',
+          'not' => FALSE,
+        ),
+      ),
+      'logic' => 'and',
+    ),
+  );
+  $path_breadcrumb->weight = 0;
+  $export['breadcrumbs_stem_cells_clone'] = $path_breadcrumb;
 
   $path_breadcrumb = new stdClass();
   $path_breadcrumb->api_version = 1;

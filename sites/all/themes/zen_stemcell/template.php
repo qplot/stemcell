@@ -57,7 +57,7 @@ function zen_stemcell_preprocess_page(&$variables, $hook) {
     $node = &$variables['node'];
     // dsm($node);
     if ($node->type == 'article') {
-      $date = format_date($node->created, 'custom', 'F , Y');
+      $date = format_date($node->created, 'custom', 'F d, Y');
       $label = '';
       if (!empty($node->field_label['und'][0]['tid'])) {
         $tid = $node->field_label['und'][0]['tid'];

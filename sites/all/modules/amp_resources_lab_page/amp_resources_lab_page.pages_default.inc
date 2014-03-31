@@ -76,7 +76,7 @@ function amp_resources_lab_page_default_page_manager_pages() {
       'url' => '',
       'display' => 'default',
       'override_title' => 1,
-      'override_title_text' => 'In The Lab',
+      'override_title_text' => 'In the Lab',
     );
     $pane->cache = array();
     $pane->style = array(

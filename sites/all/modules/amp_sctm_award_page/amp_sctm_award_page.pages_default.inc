@@ -16,7 +16,10 @@ function amp_sctm_award_page_default_page_manager_pages() {
   $page->admin_title = 'features_sctm_young_investigator_award';
   $page->admin_description = '';
   $page->path = 'features_sctm_young_investigator_award';
-  $page->access = array();
+  $page->access = array(
+    'type' => 'none',
+    'settings' => NULL,
+  );
   $page->menu = array();
   $page->arguments = array();
   $page->conf = array(

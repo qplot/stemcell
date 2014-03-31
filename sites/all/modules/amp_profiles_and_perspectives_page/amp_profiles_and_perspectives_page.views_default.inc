@@ -65,7 +65,6 @@ function amp_profiles_and_perspectives_page_views_default_views() {
   $handler->display->display_options['fields']['created']['table'] = 'node';
   $handler->display->display_options['fields']['created']['field'] = 'created';
   $handler->display->display_options['fields']['created']['label'] = '';
-  $handler->display->display_options['fields']['created']['exclude'] = TRUE;
   $handler->display->display_options['fields']['created']['element_label_type'] = 'div';
   $handler->display->display_options['fields']['created']['element_label_class'] = 'clearfix';
   $handler->display->display_options['fields']['created']['element_label_colon'] = FALSE;

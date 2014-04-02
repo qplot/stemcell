@@ -69,7 +69,7 @@ function amp_stem_cells_landing_page_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<div><div class="menu-sc"><img src="sites/all/themes/zen_stemcell/images/journal-homepage-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/virtual-issues-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/editoral-board-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/info-contributors-button.jpg" alt="" /></div><div class="html-box-sc">&nbsp;</div></div>',
+      'body' => '<div><div class="menu-sc"><a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1549-4918" target="_blank">Journal Homepage</a><br /> <a href="sister_journals_stem_cells_virtual_issues" target="_blank">Virtual Issues</a><br /> <a href="stem_cells_editorial_board" target="_blank">Editorial Board</a><br /> <a href="STEM_CELLS_Info_for_Contributors" target="_blank">Information for Contributors</a></div><div class="html-box-sc">&nbsp;</div></div>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );

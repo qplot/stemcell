@@ -317,7 +317,7 @@ a > .sf-sub-indicator {
 .page-features-sctm-young-investigator-award .view-sctm-young-investigator-award-recent .views-field-title {
 	font-size: 20px;
 }
-.front .views-field-title a, .front .pane-block ul li a, .not-front .sidebars a {
+.front .views-field-title a, .front .pane-block ul li a, .not-front .sidebars a, .journal-landing .views-field-title a {
 	font-size: 1.0em;
 }
 .front .views-row, .front .pane-custom p, .front .pane-block ul li, #block-aggregator-feed-3 ul li {
@@ -657,6 +657,11 @@ p{
 	height: 140px;
 	margin-left: 150px;
 	padding: 7px;
+}
+.journal-landing #content div.panel-col-last.panel-panel .inside {
+	border-left: 1px solid #ccc;
+	margin-top: -25px;
+	padding-left: 15px;
 }
 /* journal landing page end */
 

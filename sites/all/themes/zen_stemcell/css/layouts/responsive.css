@@ -637,7 +637,27 @@ p{
 }
 /* registration form end */
 
+.page-node .label a {  /* label link for pages like http://www.stemcellsportal.com/content/ipsc-perfection */
+	color: #74accc;
+}
 
+/* journal landing page begin */
+.journal-landing .panel-2col-stacked .panel-col-first {
+	width: 64% !important;
+}
+.journal-landing .panel-2col-stacked .panel-col-last{
+	width:36%;
+}
+.journal-landing .menu-sc{
+	float: left;
+	width: 140px;
+}
+.journal-landing .html-box-sc{
+	border: 2px solid #5F6590;
+	height: 140px;
+	margin-left: 150px;
+}
+/* journal landing page end */
 
 
 
@@ -646,7 +666,7 @@ p{
 
 
 /* RESPONSIVE CSS */
-@media all and (max-width: 480px) {  /* was 480 */
+@media all and (max-width: 480px) {  
   #homePanel .panels-flexible-region{
 	  width: 100%;
   }

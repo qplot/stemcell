@@ -36,7 +36,7 @@ function amp_sctm_landing_page_default_page_manager_pages() {
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => '',
+    'body_classes_to_add' => 'journal-landing',
     'css_id' => '',
     'css' => '',
     'contexts' => array(),
@@ -121,7 +121,7 @@ function amp_sctm_landing_page_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<div class="menu-sctm"><img src="sites/all/themes/zen_stemcell/images/journal-homepage-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/virtual-issues-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/editoral-board-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/info-contributors-button.jpg" alt="" /></div><div class="html-box-sctm">HTML Box Here</div>',
+      'body' => '<div><div class="menu-sctm"><img src="sites/all/themes/zen_stemcell/images/journal-homepage-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/virtual-issues-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/editoral-board-button.jpg" alt="" /><br /> <img src="sites/all/themes/zen_stemcell/images/info-contributors-button.jpg" alt="" /></div><div class="html-box-sctm">&nbsp;</div></div>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );

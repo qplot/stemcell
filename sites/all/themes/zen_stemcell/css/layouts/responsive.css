@@ -652,8 +652,21 @@ p{
 	float: left;
 	width: 140px;
 }
+.journal-landing .menu-sc a{
+	background: #6B6484;
+	color: #fff;
+	display: block;
+	font-size: 0.9em;
+	padding: 5px 5px;
+	margin-bottom: 6px;
+	text-align: center;
+	text-decoration: none;
+}
+.journal-landing .menu-sc br{
+	display:none;
+}
 .journal-landing .html-box-sc{
-	border: 2px solid #5F6590;
+	/*border: 2px solid #5F6590;*/
 	height: 140px;
 	margin-left: 150px;
 	padding: 7px;
@@ -662,6 +675,9 @@ p{
 	border-left: 1px solid #ccc;
 	margin-top: -25px;
 	padding-left: 15px;
+}
+.journal-landing .inside h2{
+	font-size:1.0em !important;
 }
 /* journal landing page end */
 

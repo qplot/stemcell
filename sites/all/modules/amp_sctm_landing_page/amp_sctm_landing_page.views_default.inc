@@ -144,7 +144,6 @@ function amp_sctm_landing_page_views_default_views() {
   $handler->display->display_options['fields']['body']['alter']['more_link'] = TRUE;
   $handler->display->display_options['fields']['body']['alter']['more_link_text'] = 'Read More';
   $handler->display->display_options['fields']['body']['alter']['more_link_path'] = 'node/[nid]';
-  $handler->display->display_options['fields']['body']['alter']['trim'] = TRUE;
   $handler->display->display_options['fields']['body']['alter']['html'] = TRUE;
   $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
   $export['views_sister_journals_sctm_current_issue_page'] = $view;

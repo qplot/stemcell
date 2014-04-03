@@ -59,18 +59,26 @@ function amp_user_export_views_default_views() {
   $handler->display->display_options['fields']['created']['table'] = 'users';
   $handler->display->display_options['fields']['created']['field'] = 'created';
   $handler->display->display_options['fields']['created']['date_format'] = 'long';
+  /* Field: User: Address 1 */
+  $handler->display->display_options['fields']['field_address_1']['id'] = 'field_address_1';
+  $handler->display->display_options['fields']['field_address_1']['table'] = 'field_data_field_address_1';
+  $handler->display->display_options['fields']['field_address_1']['field'] = 'field_address_1';
+  /* Field: User: Address 2 */
+  $handler->display->display_options['fields']['field_address_2']['id'] = 'field_address_2';
+  $handler->display->display_options['fields']['field_address_2']['table'] = 'field_data_field_address_2';
+  $handler->display->display_options['fields']['field_address_2']['field'] = 'field_address_2';
   /* Field: User: City */
   $handler->display->display_options['fields']['field_city']['id'] = 'field_city';
   $handler->display->display_options['fields']['field_city']['table'] = 'field_data_field_city';
   $handler->display->display_options['fields']['field_city']['field'] = 'field_city';
-  /* Field: User: State/Province */
-  $handler->display->display_options['fields']['field_state_province']['id'] = 'field_state_province';
-  $handler->display->display_options['fields']['field_state_province']['table'] = 'field_data_field_state_province';
-  $handler->display->display_options['fields']['field_state_province']['field'] = 'field_state_province';
   /* Field: User: Zip/Postal Code */
   $handler->display->display_options['fields']['field_zip_postal_code']['id'] = 'field_zip_postal_code';
   $handler->display->display_options['fields']['field_zip_postal_code']['table'] = 'field_data_field_zip_postal_code';
   $handler->display->display_options['fields']['field_zip_postal_code']['field'] = 'field_zip_postal_code';
+  /* Field: User: State/Province */
+  $handler->display->display_options['fields']['field_state_province']['id'] = 'field_state_province';
+  $handler->display->display_options['fields']['field_state_province']['table'] = 'field_data_field_state_province';
+  $handler->display->display_options['fields']['field_state_province']['field'] = 'field_state_province';
   /* Field: User: Country */
   $handler->display->display_options['fields']['field_country']['id'] = 'field_country';
   $handler->display->display_options['fields']['field_country']['table'] = 'field_data_field_country';
@@ -89,6 +97,16 @@ function amp_user_export_views_default_views() {
   $handler->display->display_options['fields']['field_what_is_your_professional_']['table'] = 'field_data_field_what_is_your_professional_';
   $handler->display->display_options['fields']['field_what_is_your_professional_']['field'] = 'field_what_is_your_professional_';
   $handler->display->display_options['fields']['field_what_is_your_professional_']['delta_offset'] = '0';
+  /* Field: User: Yes, I would like to receive the FREE Stem Cells eNewsletter */
+  $handler->display->display_options['fields']['field_yes_i_would_like_to_receiv']['id'] = 'field_yes_i_would_like_to_receiv';
+  $handler->display->display_options['fields']['field_yes_i_would_like_to_receiv']['table'] = 'field_data_field_yes_i_would_like_to_receiv';
+  $handler->display->display_options['fields']['field_yes_i_would_like_to_receiv']['field'] = 'field_yes_i_would_like_to_receiv';
+  $handler->display->display_options['fields']['field_yes_i_would_like_to_receiv']['label'] = 'eNewsletter';
+  /* Field: User: Last login */
+  $handler->display->display_options['fields']['login']['id'] = 'login';
+  $handler->display->display_options['fields']['login']['table'] = 'users';
+  $handler->display->display_options['fields']['login']['field'] = 'login';
+  $handler->display->display_options['fields']['login']['date_format'] = 'long';
   /* Sort criterion: User: Created date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'users';

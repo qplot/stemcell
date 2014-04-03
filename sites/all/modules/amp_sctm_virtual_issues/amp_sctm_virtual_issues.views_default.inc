@@ -94,7 +94,7 @@ function amp_sctm_virtual_issues_views_default_views() {
   $handler->display->display_options['filters']['name']['table'] = 'taxonomy_term_data';
   $handler->display->display_options['filters']['name']['field'] = 'name';
   $handler->display->display_options['filters']['name']['relationship'] = 'term_node_tid';
-  $handler->display->display_options['filters']['name']['value'] = 'SCTM Virtual Issue';
+  $handler->display->display_options['filters']['name']['value'] = 'SCTMVirtual Issue';
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
@@ -180,7 +180,7 @@ function amp_sctm_virtual_issues_views_default_views() {
   $handler->display->display_options['filters']['name']['table'] = 'taxonomy_term_data';
   $handler->display->display_options['filters']['name']['field'] = 'name';
   $handler->display->display_options['filters']['name']['relationship'] = 'term_node_tid';
-  $handler->display->display_options['filters']['name']['value'] = 'SCTM Virtual Issue';
+  $handler->display->display_options['filters']['name']['value'] = 'SCTMVirtual Issue';
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');

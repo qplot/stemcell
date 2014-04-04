@@ -648,12 +648,11 @@ p{
 .journal-landing .panel-2col-stacked .panel-col-last{
 	width:36%;
 }
-.journal-landing .menu-sc{
+.journal-landing .menu-sc, .journal-landing .menu-sctm{
 	float: left;
 	width: 140px;
 }
-.journal-landing .menu-sc a{
-	background: #6B6484;
+.journal-landing .menu-sc a, .journal-landing .menu-sctm a{
 	border-radius: 3px;
 	color: #fff;
 	display: block;
@@ -663,13 +662,22 @@ p{
 	text-align: center;
 	text-decoration: none;
 }
-.journal-landing .menu-sc a:hover {
-	background: #4D6DA7;
+.journal-landing .menu-sc a{
+	background: #465787; /* dark blue */
 }
-.journal-landing .menu-sc br{
+.journal-landing .menu-sctm a{
+	background: #6B6484; /* dark purple */
+}
+.journal-landing .menu-sc a:hover {
+	background: #4D6DA7;  /* light blue */
+}
+.journal-landing .menu-sctm a:hover{
+	background:#9994AA; /* light purple */
+}
+.journal-landing .menu-sc br, .journal-landing .menu-sctm br{
 	display:none;
 }
-.journal-landing .html-box-sc{
+.journal-landing .html-box-sc, .journal-landing .html-box-sctm{
 	/*border: 2px solid #5F6590;*/
 	height: 140px;
 	margin-left: 150px;

@@ -654,6 +654,7 @@ p{
 }
 .journal-landing .menu-sc a{
 	background: #6B6484;
+	border-radius: 3px;
 	color: #fff;
 	display: block;
 	font-size: 0.9em;
@@ -661,6 +662,9 @@ p{
 	margin-bottom: 6px;
 	text-align: center;
 	text-decoration: none;
+}
+.journal-landing .menu-sc a:hover {
+	background: #4D6DA7;
 }
 .journal-landing .menu-sc br{
 	display:none;

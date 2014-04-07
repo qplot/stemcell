@@ -69,6 +69,8 @@ h4{
   _overflow: hidden;
   _overflow-y: visible;
 }
+.followUL li{ height: 35px;} 
+.followUL li img{ margin:0 6px 0 6px; width: 20px; height: 20px; }
 .region-sidebar-second{
 	padding:0;
 }

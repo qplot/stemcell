@@ -68,8 +68,8 @@ function zen_stemcell_preprocess_page(&$variables, $hook) {
       }
       $variables['title_prefix'] = array(
         '#type' => 'markup',
-        '#markup' => '<div><span class="article-date">' . $date . '</span>' . 
-        ' | ' . '<span class="label">' . $label . '</span><div>',
+        '#markup' => '<span class="article-date">' . $date . '</span>' . 
+        ' | ' . '<span class="label">' . $label . '</span>',
       );
     }
   }

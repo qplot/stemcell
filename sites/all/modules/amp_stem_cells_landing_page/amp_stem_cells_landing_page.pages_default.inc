@@ -104,7 +104,7 @@ function amp_stem_cells_landing_page_default_page_manager_pages() {
       'url' => '',
       'display' => 'block_1',
       'override_title' => 0,
-      'override_title_text' => '',
+      'override_title_text' => 'C',
     );
     $pane->cache = array();
     $pane->style = array(

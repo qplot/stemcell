@@ -14,6 +14,8 @@ function amp_custom_views_pre_render(&$view) {
     'views_home_editors_blog',
     'views_home_sc_publish',
     'views_home_sctm_publish',
+    'views_sister_journals_sctm_current_issue_page',
+    'views_sister_journals_stem_cells_current_issue_page',
   );
   if (in_array($view->name, $views)) {
     // first get this title

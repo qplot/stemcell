@@ -709,6 +709,16 @@ p{
 .journal-landing #content .views-row {
 	margin-bottom: 7px;
 }
+.journal-landing .panel-col-first .inside .pane-views .view{
+	font-size:10px;
+}
+.journal-landing .panel-col-first .inside .pane-views .view a {
+	font-size: 13px;
+	text-decoration: none;
+}
+.journal-landing ul {
+	margin: 0;
+}
 /* journal landing page end */
 
 

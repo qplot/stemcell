@@ -719,6 +719,10 @@ p{
 .journal-landing ul {
 	margin: 0;
 }
+.journal-landing .panel-col-first .inside .pane-views .view h2 a {
+	border: none;
+}
+
 /* journal landing page end */
 
 

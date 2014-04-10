@@ -319,7 +319,7 @@ a > .sf-sub-indicator {
 .page-features-sctm-young-investigator-award .view-sctm-young-investigator-award-recent .views-field-title {
 	font-size: 20px;
 }
-.front .views-field-title a, .front .pane-block ul li a, .not-front .sidebars a, .journal-landing .views-field-title a {
+.front .views-field-title a, .front .pane-block ul li a, .not-front .sidebars a {
 	font-size: 1.0em;
 }
 .front .views-row, .front .pane-custom p, .front .pane-block ul li, #block-aggregator-feed-3 ul li {
@@ -328,6 +328,9 @@ a > .sf-sub-indicator {
 	font-size: 0.9em;
 	margin-bottom: 10px;
 	padding-bottom: 10px;
+}
+.not-front .sidebars ul li{
+	line-height:1.0em;
 }
 .views-slideshow-cycle-main-frame-row-item{
 	border-bottom:none !important;
@@ -659,8 +662,9 @@ p{
 	color: #fff;
 	display: block;
 	font-size: 0.9em;
-	padding: 5px 5px;
+	line-height: 13px;
 	margin-bottom: 6px;
+	padding: 8px 5px;
 	text-align: center;
 	text-decoration: none;
 }
@@ -691,7 +695,19 @@ p{
 	padding-left: 15px;
 }
 .journal-landing .inside h2{
-	font-size:1.0em !important;
+	color: #000 !important;
+	margin-bottom:5px;
+}
+.journal-landing #content .views-field-title a {
+ 	font-size: 13px;
+}
+.journal-landing #content .views-field-title {
+	line-height: 12px;
+	margin-top: -2px;
+	padding-bottom: 10px;
+}
+.journal-landing #content .views-row {
+	margin-bottom: 7px;
 }
 /* journal landing page end */
 

@@ -92,6 +92,7 @@ function amp_user_export_views_default_views() {
   $handler->display->display_options['fields']['field_what_is_your_area_of_inter']['table'] = 'field_data_field_what_is_your_area_of_inter';
   $handler->display->display_options['fields']['field_what_is_your_area_of_inter']['field'] = 'field_what_is_your_area_of_inter';
   $handler->display->display_options['fields']['field_what_is_your_area_of_inter']['delta_offset'] = '0';
+  $handler->display->display_options['fields']['field_what_is_your_area_of_inter']['separator'] = ';';
   /* Field: User: What is your professional role? */
   $handler->display->display_options['fields']['field_what_is_your_professional_']['id'] = 'field_what_is_your_professional_';
   $handler->display->display_options['fields']['field_what_is_your_professional_']['table'] = 'field_data_field_what_is_your_professional_';

@@ -722,7 +722,15 @@ p{
 .journal-landing .panel-col-first .inside .pane-views .view h2 a {
 	border: none;
 }
-
+.journal-landing ul li a {
+	color: #435080;
+	font-weight: bold !important;
+	display: block;
+}
+.journal-landing ul li {
+	line-height: 1.5em;
+	margin-bottom: 7px;
+}
 /* journal landing page end */
 
 

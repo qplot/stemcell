@@ -15,6 +15,7 @@ features[views_view][] = views_home_cirm_scblog
 features[views_view][] = views_home_editors_blog
 features[views_view][] = views_home_in_the_news
 features[views_view][] = views_home_journal_club
+features[views_view][] = views_home_pcsca
 features[views_view][] = views_home_press_releases
 features[views_view][] = views_home_sc_publish
 features[views_view][] = views_home_sctm_publish

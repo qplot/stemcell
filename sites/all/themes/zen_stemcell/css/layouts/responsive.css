@@ -32,7 +32,7 @@ h2{
 	margin-bottom: 0;
 }
 h3{
-	font-size:1.4em;
+	font-size:1.2em;
 	font-style:italic;
 	font-weight:normal;
 	margin-bottom: 0;
@@ -430,6 +430,10 @@ a > .sf-sub-indicator {
 .views-field-title a{
 	font-size: 1.25em;
 }
+.section-page-proceeding-california-stem-cell-agency .views-field-title a{
+	font-size: 1.5em;
+}
+
 a{
 	color: #435080;	
 }

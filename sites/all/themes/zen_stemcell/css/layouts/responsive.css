@@ -737,8 +737,27 @@ p{
 }
 /* journal landing page end */
 
-
-
+/* weeklyroundUp-block */
+.weeklyroundUp-block .background {
+	margin-top: -4px !important;
+	padding: 10px;
+}
+.weeklyroundUp-block .weekly-roundup-date {
+	font-size: 17px !important;
+}
+.weeklyroundUp-block .background p {
+	line-height: 14px;
+	margin-bottom: 0;
+	margin-top: 12px;
+}
+.weeklyroundUp-block .background a {
+	text-decoration: none;
+	font-size: 0.85em;
+}
+.weeklyroundUp-block .background a:hover {
+	text-decoration:underline;
+}
+/* weeklyroundUp-block end */
 
 
 

@@ -430,8 +430,11 @@ a > .sf-sub-indicator {
 .views-field-title a{
 	font-size: 1.25em;
 }
-.section-page-proceeding-california-stem-cell-agency .views-field-title a{
+.section-page-proceeding-california-stem-cell-agency #content .views-field-title a{
 	font-size: 1.5em;
+}
+.section-page-proceeding-california-stem-cell-agency #content ul li{
+	font-size: 0.95em;
 }
 
 a{

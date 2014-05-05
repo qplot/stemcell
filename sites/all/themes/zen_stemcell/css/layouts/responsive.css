@@ -323,11 +323,14 @@ a > .sf-sub-indicator {
 	font-size: 1.0em;
 }
 .front .views-row, .front .pane-custom p, .front .pane-block ul li, #block-aggregator-feed-3 ul li {
-	border-bottom: 1px dashed #999;
+	/*border-bottom: 1px dashed #999;*/
 	color: #444;
 	font-size: 0.9em;
 	margin-bottom: 10px;
 	padding-bottom: 10px;
+}
+.front .views-row:hover, .front .pane-custom p:hover, .front .pane-block ul li:hover, #block-aggregator-feed-3 ul li:hover {
+	border-bottom: 1px dashed #999;
 }
 .not-front .sidebars ul li{
 	line-height:1.0em;

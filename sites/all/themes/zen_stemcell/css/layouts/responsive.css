@@ -704,10 +704,25 @@ p{
 	margin-top: -25px;
 	padding-left: 15px;
 }
+.journal-landing h2 a {
+	margin-bottom: 5px;
+}
 .journal-landing .inside h2{
 	color: #000 !important;
 	margin-bottom:5px;
 }
+.journal-landing .view-views-sister-journals-stem-cells-current-issue-page h2,
+.journal-landing .view-views-sister-journals-sctm-current-issue-page h2{
+	font-size: 14px;
+	line-height: 1.2em;
+	margin-top: 0;
+}
+.journal-landing .view-views-sister-journals-stem-cells-current-issue-page h2.field-content a,
+.journal-landing .view-views-sister-journals-sctm-current-issue-page h2.field-content a {
+	font-size: 17px !important;
+	margin-bottom: 10px;
+}
+
 .journal-landing #content .views-field-title a {
  	font-size: 13px;
 }

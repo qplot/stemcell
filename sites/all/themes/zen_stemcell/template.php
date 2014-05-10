@@ -57,19 +57,26 @@ function zen_stemcell_preprocess_page(&$variables, $hook) {
     $node = &$variables['node'];
     // dsm($node);
     if ($node->type == 'article') {
-      $date = format_date($node->created, 'custom', 'F j, Y');
-      $label = '';
-      if (!empty($node->field_label['und'][0]['tid'])) {
-        $tid = $node->field_label['und'][0]['tid'];
-        if ($term = taxonomy_term_load($tid)) {
-          // dsm($term);
-          $label = l($term->name, "taxonomy/term/$tid");
-        };
+      $tid = !empty($node->field_tags['und']['0']['tid']) ? $node->field_tags['und']['0']['tid'] : 0;
+      if ($tid) {
+        $term = taxonomy_term_load($tid);
+        // dsm($term);
+        $label = '';
+        $date = format_date($node->created, 'custom', 'F j, Y');
+        if ($term->name == "Article Scans") {
+          if (!empty($node->field_label['und'][0]['tid'])) {
+            $tid = $node->field_label['und'][0]['tid'];
+            if ($term = taxonomy_term_load($tid)) {
+              // dsm($term);
+              $label = ' | <span class="label">' . l($term->name, "taxonomy/term/$tid") . '</span>';
+            };
+          }
+        }
       }
+
       $variables['title_prefix'] = array(
         '#type' => 'markup',
-        '#markup' => '<span class="article-date">' . $date . '</span>' . 
-        ' | ' . '<span class="label">' . $label . '</span>',
+        '#markup' => '<span class="article-date">' . $date . '</span>' . $label
       );
     }
   }

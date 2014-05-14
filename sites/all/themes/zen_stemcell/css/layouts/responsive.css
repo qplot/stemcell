@@ -779,7 +779,14 @@ p{
 	text-decoration:underline;
 }
 /* weeklyroundUp-block end */
-
+.views-field-nothing { /* discuss button on the homepage */
+	margin-top: 7px;
+}
+/* references on journal club discussions articles */
+.references:hover{
+	cursor:pointer;
+	text-decoration:underline;
+}
 
 
 

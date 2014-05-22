@@ -699,6 +699,10 @@ p{
 	margin-left: 150px;
 	/*padding: 7px;*/
 }
+.journal-landing .html-box-sctm{
+	background: #e4f3ff;
+	height: 148px;
+}
 .journal-landing #content div.panel-col-last.panel-panel .inside {
 	border-left: 1px solid #ccc;
 	margin-top: -25px;

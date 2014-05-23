@@ -55,23 +55,26 @@ function STARTERKIT_preprocess_html(&$variables, $hook) {
 function zen_stemcell_preprocess_page(&$variables, $hook) {
   if (!empty($variables['node'])) {
     $node = &$variables['node'];
-    // dsm($node);
+     //dsm($node);
     if ($node->type == 'article') {
       $tid = !empty($node->field_tags['und']['0']['tid']) ? $node->field_tags['und']['0']['tid'] : 0;
-      if ($tid) {
+      if ($tid||$tid==0) {
         $term = taxonomy_term_load($tid);
-        // dsm($term);
+        //dsm($term);
         $label = '';
         $date = format_date($node->created, 'custom', 'F j, Y');
-        if ($term->name == "Article Scans") {
-          if (!empty($node->field_label['und'][0]['tid'])) {
-            $tid = $node->field_label['und'][0]['tid'];
-            if ($term = taxonomy_term_load($tid)) {
-              // dsm($term);
-              $label = ' | <span class="label">' . l($term->name, "taxonomy/term/$tid") . '</span>';
-            };
+        if ($term) {
+          if ($term->name == "Article Scans") {
+            if (!empty($node->field_label['und'][0]['tid'])) {
+              $tid = $node->field_label['und'][0]['tid'];
+              if ($term = taxonomy_term_load($tid)) {
+                // dsm($term);
+                $label = ' | <span class="label">' . l($term->name, "taxonomy/term/$tid") . '</span>';
+              };
+            }
           }
         }
+        else $label = "";
       }
 
       $variables['title_prefix'] = array(

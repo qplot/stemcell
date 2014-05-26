@@ -64,11 +64,11 @@ function zen_stemcell_preprocess_page(&$variables, $hook) {
         $label = '';
         $date = format_date($node->created, 'custom', 'F j, Y');
         if ($term) {
-          if ($term->name == "Article Scans") {
+          if ($term->name == "Article Scans" || $term->name == "Journal Club Discussions") {
             if (!empty($node->field_label['und'][0]['tid'])) {
               $tid = $node->field_label['und'][0]['tid'];
               if ($term = taxonomy_term_load($tid)) {
-                // dsm($term);
+                 //dsm($term);
                 $label = ' | <span class="label">' . l($term->name, "taxonomy/term/$tid") . '</span>';
               };
             }

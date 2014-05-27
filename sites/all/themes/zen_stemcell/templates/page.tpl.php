@@ -120,6 +120,10 @@
     <?php print render($page['footer_second']); ?>
     <?php print render($page['footer_third']); ?>
     <?php print render($page['footer_fourth']); ?>
+    <?php
+      $block = module_invoke('amp_custom', 'block_view', 'dev-info');
+      print $block['content'];
+    ?>
   </div>
 
 </div>

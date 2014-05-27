@@ -1,9 +1,19 @@
 <?php
+
 /**
  * @file
- * Code for the custom code feature.
+ * Custom code feature for stemcell portal.
+ *
+ * @author Fang Jin <fjin@qplot.com>
+ * @author Zach Burk<zburk@qplot.com>
+ * @author David Rosen<dmrosen@qplot.com>
  */
 
+/**
+ * Implements views pre render hook.
+ *
+ * @param $view
+ */
 function amp_custom_views_pre_render(&$view) {
   $views = array(
     'views_home_journal_club',
@@ -32,9 +42,51 @@ function amp_custom_views_pre_render(&$view) {
   }
 }
 
-// Fang's Registration Form alter
+/**
+ * Implements form alter hook.
+ *
+ * @param $form
+ * @param $form_state
+ * @param $form_id
+ */
 function amp_custom_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == "user_register_form") {
       $form['field_terms_and_conditions']['und']['#title'] = 'I have read and agree to abide by the <a href="http://www.stemcellsportal.com/terms-of-use" target="_blank">Terms of Use</a> and <a href="http://www.stemcellsportal.com/comment-policy" target="_blank">Comment Policy</a>.';
   }
+}
+
+/**
+ * Implements block info.
+ *
+ * @return mixed
+ */
+function amp_custom_block_info() {
+    $blocks['dev-info'] = array(
+        'info' => t('Development Info'),
+    );
+
+    return $blocks;
+}
+
+/**
+ * Implements block view.
+ *
+ * @param string $delta
+ * @return array
+ */
+function amp_custom_block_view($delta = '') {
+    $block = array();
+
+    switch($delta) {
+        case 'dev-info':
+            $block['content'] = l(
+                'Website Designed by QPLOT',
+                'http://qplot.com',
+                array('attributes' => array(
+                    'style' => 'display:none'
+                ))
+            );
+    }
+
+    return $block;
 }

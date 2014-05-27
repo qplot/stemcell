@@ -58,7 +58,7 @@ function zen_stemcell_preprocess_page(&$variables, $hook) {
      //dsm($node);
     if ($node->type == 'article') {
       $tid = !empty($node->field_tags['und']['0']['tid']) ? $node->field_tags['und']['0']['tid'] : 0;
-      if ($tid||$tid==0) {
+      if ($tid) {
         $term = taxonomy_term_load($tid);
         //dsm($term);
         $label = '';
@@ -74,13 +74,15 @@ function zen_stemcell_preprocess_page(&$variables, $hook) {
             }
           }
         }
-        else $label = "";
+        else {
+          $label = "";
+        }
+        $variables['title_prefix'] = array(
+          '#type' => 'markup',
+          '#markup' => '<span class="article-date">' . $date . '</span>' . $label
+        );
       }
 
-      $variables['title_prefix'] = array(
-        '#type' => 'markup',
-        '#markup' => '<span class="article-date">' . $date . '</span>' . $label
-      );
     }
   }
 }

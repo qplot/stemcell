@@ -5,6 +5,8 @@
  *
  * Complete documentation for this file is available online.
  * @see https://drupal.org/node/1728096
+ *
+ * @author Fang Jin <fjin@qplot.com>
  */
 
 

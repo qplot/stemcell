@@ -16,8 +16,8 @@
         // Code that uses jQuery's $ can follow here.
         // when section header clicked, show its abstracts
         $('.references').css("color", "#435080");
-        $('.references').click(function($) {
-            $(this).siblings('ol').slideToggle();
+        $('.references').click(function() {
+            $('.references').siblings('ol').slideToggle();
         });
 
         // 1 second after page load, close all abstracts

@@ -12,15 +12,17 @@
 // - http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth
 (function ($, Drupal, window, document, undefined) {
 
-    // when section header clicked, show its abstracts
-    $('.references').css("color", "#435080");
-    $('.references').click(function($) {
-        $(this).siblings('ol').slideToggle();
+    jQuery(document).ready(function($) {
+        // Code that uses jQuery's $ can follow here.
+        // when section header clicked, show its abstracts
+        $('.references').css("color", "#435080");
+        $('.references').click(function($) {
+            $(this).siblings('ol').slideToggle();
+        });
+
+        // 1 second after page load, close all abstracts
+        mytimer = setTimeout(function(){$('.references').siblings('ol').slideToggle()}, 1000);
     });
-
-    // 1 second after page load, close all abstracts
-    mytimer = setTimeout(function(){jQuery('.references').siblings('ol').slideToggle()}, 1000);
-
 
 
 // To understand behaviors, see https://drupal.org/node/756722#behaviors

@@ -270,7 +270,7 @@ function amp_home_page_views_default_views() {
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
   $handler->display->display_options['pager']['type'] = 'some';
-  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '3';
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
@@ -278,7 +278,7 @@ function amp_home_page_views_default_views() {
   $handler->display->display_options['footer']['area']['id'] = 'area';
   $handler->display->display_options['footer']['area']['table'] = 'views';
   $handler->display->display_options['footer']['area']['field'] = 'area';
-  $handler->display->display_options['footer']['area']['content'] = '<div class="read-more"><a href="http://cirmresearch.blogspot.com/">More</a></div>';
+  $handler->display->display_options['footer']['area']['content'] = '<div class="read-more"><a href="http://cirmresearch.blogspot.com/">More at cirmresearch.blogspot.com/</a></div>';
   $handler->display->display_options['footer']['area']['format'] = 'filtered_html';
   /* Field: Aggregator: Timestamp */
   $handler->display->display_options['fields']['timestamp']['id'] = 'timestamp';
@@ -632,6 +632,7 @@ by Lyle Armstrong';
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
   $handler->display->display_options['title'] = 'PCSCA,news_press_room_press_releases';
+  $handler->display->display_options['css_class'] = 'views_home_pcsca';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['use_more_text'] = 'read more';
   $handler->display->display_options['access']['type'] = 'perm';
@@ -643,6 +644,12 @@ by Lyle Armstrong';
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
+  /* Footer: Global: Text area */
+  $handler->display->display_options['footer']['area']['id'] = 'area';
+  $handler->display->display_options['footer']['area']['table'] = 'views';
+  $handler->display->display_options['footer']['area']['field'] = 'area';
+  $handler->display->display_options['footer']['area']['content'] = '<a>More at Stem Cells Portal</a>';
+  $handler->display->display_options['footer']['area']['format'] = 'filtered_html';
   /* Relationship: Content: Taxonomy terms on node */
   $handler->display->display_options['relationships']['term_node_tid']['id'] = 'term_node_tid';
   $handler->display->display_options['relationships']['term_node_tid']['table'] = 'node';
@@ -695,6 +702,9 @@ by Lyle Armstrong';
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
   $handler->display->display_options['path'] = 'views-home-pcsca';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block_1');
   $export['views_home_pcsca'] = $view;
 
   $view = new view();

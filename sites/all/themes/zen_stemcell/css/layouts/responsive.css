@@ -389,12 +389,30 @@ a > .sf-sub-indicator {
 	padding: 5px 10px 10px;
 }
 
+#block-views-views-home-cirm-scblog-block-1{
+	margin-bottom: 0px;
+}
+
 .view-cirm-block-aggregator-feed-3{
 	border: 1px solid #ccc;
+	border-top:none;
+	border-bottom:none;
+	padding: 5px 10px 0px;
+}
+
+#block-block-15{
+	margin-bottom: 0px;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-bottom: none;
+	padding: 5px;
+}
+.views-home-pcsca{
+	border: 1px solid #ccc;
+	border-top:none;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
-	border-top:none;
-	padding: 5px 10px 10px;
+	padding: 0px 10px 10px;
 }
 
 

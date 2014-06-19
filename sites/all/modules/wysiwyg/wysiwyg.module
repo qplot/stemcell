@@ -735,6 +735,15 @@ function wysiwyg_profile_load_all() {
     }
     else {
       $profiles = entity_load('wysiwyg_profile', FALSE);
+      foreach ($profiles as $key => $profile) {
+        // Get the status of the text format
+        $status = db_query('SELECT status FROM filter_format WHERE format = :format',
+          array(':format' => $profile->format))->fetchField();
+        // If the text format is inactive, don't load the wysiwyg profile
+        if($status == 0) {
+          unset($profiles[$key]);
+        }
+      }
       cache_set('wysiwyg_profiles', $profiles);
     }
   }

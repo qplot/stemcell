@@ -57,9 +57,10 @@ function STARTERKIT_preprocess_html(&$variables, $hook) {
 function zen_stemcell_preprocess_page(&$variables, $hook) {
   if (!empty($variables['node'])) {
     $node = &$variables['node'];
-     //dsm($node);
+    //dsm($node);
     if ($node->type == 'article') {
       $tid = !empty($node->field_tags['und']['0']['tid']) ? $node->field_tags['und']['0']['tid'] : 0;
+      $custom = !empty($node->field_custom['und']['0']['value']) ? $node->field_custom['und']['0']['value'] : 0;
       if ($tid) {
         $term = taxonomy_term_load($tid);
         //dsm($term);
@@ -79,10 +80,18 @@ function zen_stemcell_preprocess_page(&$variables, $hook) {
         else {
           $label = "";
         }
-        $variables['title_prefix'] = array(
-          '#type' => 'markup',
-          '#markup' => '<span class="article-date">' . $date . '</span>' . $label
-        );
+        if ($custom) {
+          $variables['title_prefix'] = array(
+            '#type' => 'markup',
+            '#markup' => $custom . '<span class="article-date">' . $date . '</span>' . $label
+          );
+        }
+        else {
+          $variables['title_prefix'] = array(
+            '#type' => 'markup',
+            '#markup' => '<span class="article-date">' . $date . '</span>' . $label
+          );
+        }
       }
 
     }

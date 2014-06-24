@@ -15,7 +15,7 @@ function amp_pcsca_default_page_manager_pages() {
   $page->task = 'page';
   $page->admin_title = 'Proceedings of the California Stem Cell Agency Section';
   $page->admin_description = '';
-  $page->path = 'page-proceeding_california_stem_cell_agency';
+  $page->path = 'proceedings_of_the_california_stem_cell_agency';
   $page->access = array();
   $page->menu = array();
   $page->arguments = array();

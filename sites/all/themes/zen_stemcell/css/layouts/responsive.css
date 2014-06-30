@@ -319,9 +319,13 @@ a > .sf-sub-indicator {
 .page-features-sctm-young-investigator-award .view-sctm-young-investigator-award-recent .views-field-title {
 	font-size: 20px;
 }
-.front .views-field-title a, .front .pane-block ul li a, .not-front .sidebars a {
+.front .views-field-title a, .front .pane-block ul li a{
 	font-size: 1.0em;
 }
+.not-front .sidebars a {
+	font-size: 12px;
+}
+
 .front .views-row, .front .pane-custom p, .front .pane-block ul li, #block-aggregator-feed-3 ul li {
 	/*border-bottom: 1px dashed #999;*/
 	color: #444;
@@ -428,13 +432,12 @@ a > .sf-sub-indicator {
 	margin-bottom: 10px;
 	padding-bottom: 3px;
 }
-
 .landingIntro{
 	margin-top:0;
 }
 .views-field-created, .submitted, .article-date {
 	color: #777;
-	font-size: 0.85em;
+	font-size: 11px;  /* was 0.85em */
 }
  #block-aggregator-feed-3 ul li a {
 	color: #435080;	

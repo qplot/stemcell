@@ -144,6 +144,14 @@ h4{
 	text-transform: uppercase;
 	width: auto;
 }
+#navigation .menuparent li a{  /* sub-menus */
+	font-weight:300 !important;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+#menu-1076-1 ul{ /* FEATURES sub-menu */
+	width: 32em;
+}
 #navigation .menu li a, .sf-menu .nolink {
 	color: #FFFFFF;
 	display: block;

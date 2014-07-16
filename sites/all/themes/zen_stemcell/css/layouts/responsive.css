@@ -336,7 +336,7 @@ a > .sf-sub-indicator {
 }
 
 .front .views-row, .front .pane-custom p, .front .pane-block ul li, #block-aggregator-feed-3 ul li {
-	/*border-bottom: 1px dashed #999;*/
+	border-bottom: 1px dashed #fff;
 	color: #444;
 	font-size: 0.9em;
 	margin-bottom: 10px;

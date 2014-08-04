@@ -821,6 +821,9 @@ p{
 	cursor:pointer;
 	text-decoration:underline;
 }
+/* webform styles */
+.node-type-webform .webform-component-checkboxes { line-height: 23px; letter-spacing: 0.5px; } 
+.node-type-webform .submitted{display:none;}
 
 
 

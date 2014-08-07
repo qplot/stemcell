@@ -618,7 +618,7 @@ function amp_user_ctype_field_default_field_bases() {
     'settings' => array(
       'allowed_values' => array(
         0 => '',
-        1 => '<b>Yes, I would like to receive the FREE Stem Cells eNewsletter</b>',
+        1 => '<b>Yes, I would like to receive Regenerative Medicine Weekly, the Stem Cell Portal\'s FREE eNewsletter.</b>',
       ),
       'allowed_values_function' => '',
     ),

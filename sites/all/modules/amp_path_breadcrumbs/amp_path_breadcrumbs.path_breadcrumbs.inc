@@ -756,7 +756,7 @@ function amp_path_breadcrumbs_path_breadcrumbs_settings_info() {
   $path_breadcrumb->api_version = 1;
   $path_breadcrumb->machine_name = 'breadcrumbs_stem_cells';
   $path_breadcrumb->name = 'Stem Cells';
-  $path_breadcrumb->path = 'sister_journals_stem_cells';
+  $path_breadcrumb->path = 'about-the-sister-journals';
   $path_breadcrumb->data = array(
     'titles' => array(
       0 => 'Sister Journals',
@@ -1003,6 +1003,26 @@ function amp_path_breadcrumbs_path_breadcrumbs_settings_info() {
   );
   $path_breadcrumb->weight = 0;
   $export['breadcrumbs_stem_cells_young_investigator_award'] = $path_breadcrumb;
+
+  $path_breadcrumb = new stdClass();
+  $path_breadcrumb->api_version = 1;
+  $path_breadcrumb->machine_name = 'sister_journals_stem_cells';
+  $path_breadcrumb->name = 'Sister Journals Stem Cells';
+  $path_breadcrumb->path = 'sister_journals_stem_cells';
+  $path_breadcrumb->data = array(
+    'titles' => array(
+      0 => 'Stem Cells',
+    ),
+    'paths' => array(
+      0 => 'sister_journals_stem_cells',
+    ),
+    'home' => 1,
+    'translatable' => 0,
+    'arguments' => array(),
+    'access' => array(),
+  );
+  $path_breadcrumb->weight = 0;
+  $export['sister_journals_stem_cells'] = $path_breadcrumb;
 
   return $export;
 }

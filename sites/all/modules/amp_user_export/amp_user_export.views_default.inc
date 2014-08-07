@@ -87,7 +87,7 @@ function amp_user_export_views_default_views() {
   $handler->display->display_options['fields']['field_organization']['id'] = 'field_organization';
   $handler->display->display_options['fields']['field_organization']['table'] = 'field_data_field_organization';
   $handler->display->display_options['fields']['field_organization']['field'] = 'field_organization';
-  /* Field: User: What is your area of interest? */
+  /* Field: User: What is your area of interest? (Check all that apply)* */
   $handler->display->display_options['fields']['field_what_is_your_area_of_inter']['id'] = 'field_what_is_your_area_of_inter';
   $handler->display->display_options['fields']['field_what_is_your_area_of_inter']['table'] = 'field_data_field_what_is_your_area_of_inter';
   $handler->display->display_options['fields']['field_what_is_your_area_of_inter']['field'] = 'field_what_is_your_area_of_inter';
@@ -98,16 +98,16 @@ function amp_user_export_views_default_views() {
   $handler->display->display_options['fields']['field_what_is_your_professional_']['table'] = 'field_data_field_what_is_your_professional_';
   $handler->display->display_options['fields']['field_what_is_your_professional_']['field'] = 'field_what_is_your_professional_';
   $handler->display->display_options['fields']['field_what_is_your_professional_']['delta_offset'] = '0';
-  /* Field: User: Yes, I would like to receive the FREE Stem Cells eNewsletter */
-  $handler->display->display_options['fields']['field_yes_i_would_like_to_receiv']['id'] = 'field_yes_i_would_like_to_receiv';
-  $handler->display->display_options['fields']['field_yes_i_would_like_to_receiv']['table'] = 'field_data_field_yes_i_would_like_to_receiv';
-  $handler->display->display_options['fields']['field_yes_i_would_like_to_receiv']['field'] = 'field_yes_i_would_like_to_receiv';
-  $handler->display->display_options['fields']['field_yes_i_would_like_to_receiv']['label'] = 'eNewsletter';
   /* Field: User: Last login */
   $handler->display->display_options['fields']['login']['id'] = 'login';
   $handler->display->display_options['fields']['login']['table'] = 'users';
   $handler->display->display_options['fields']['login']['field'] = 'login';
   $handler->display->display_options['fields']['login']['date_format'] = 'long';
+  /* Field: User: Stemcell's Newsletter Confirmation */
+  $handler->display->display_options['fields']['field_stemcell_s_newsletter_conf']['id'] = 'field_stemcell_s_newsletter_conf';
+  $handler->display->display_options['fields']['field_stemcell_s_newsletter_conf']['table'] = 'field_data_field_stemcell_s_newsletter_conf';
+  $handler->display->display_options['fields']['field_stemcell_s_newsletter_conf']['field'] = 'field_stemcell_s_newsletter_conf';
+  $handler->display->display_options['fields']['field_stemcell_s_newsletter_conf']['type'] = 'list_key';
   /* Sort criterion: User: Created date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'users';

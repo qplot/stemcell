@@ -618,7 +618,7 @@ function amp_user_ctype_field_default_field_bases() {
     'settings' => array(
       'allowed_values' => array(
         0 => '',
-        1 => '<b>Yes, I would like to receive Regenerative Medicine Weekly, the Stem Cell Portal\'s FREE eNewsletter.</b>',
+        1 => '<b>Yes, I would like to receive <i>Regenerative Medicine Weekly</i>, the Stem Cell Portal\'s FREE eNewsletter.</b>',
       ),
       'allowed_values_function' => '',
     ),
@@ -644,7 +644,7 @@ function amp_user_ctype_field_default_field_bases() {
     'settings' => array(
       'allowed_values' => array(
         0 => '',
-        1 => 'I have read and agree to abide by the <a href="terms-of-use" target="_blank">Terms of Use</a> and',
+        1 => '',
       ),
       'allowed_values_function' => '',
     ),

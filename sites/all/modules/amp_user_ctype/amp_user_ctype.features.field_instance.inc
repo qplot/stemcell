@@ -564,7 +564,7 @@ function amp_user_ctype_field_default_field_instances() {
       ),
     ),
     'deleted' => 0,
-    'description' => '',
+    'description' => 'I have read and agree to abide by the <a href="terms-of-use" target="_blank">Terms of Use</a> and <a href="comment-policy" target="_blank">Comment Policy</a>.',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -717,6 +717,7 @@ function amp_user_ctype_field_default_field_instances() {
   t('City');
   t('Country');
   t('First/Given Name');
+  t('I have read and agree to abide by the <a href="terms-of-use" target="_blank">Terms of Use</a> and <a href="comment-policy" target="_blank">Comment Policy</a>.');
   t('Last/Family Name');
   t('Organization');
   t('State/Province');

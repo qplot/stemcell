@@ -680,6 +680,9 @@ p{
 .page-user-register #edit-actions {
 	margin-top: 20px;
 }
+.page-user-register #edit-field-terms-and-conditions .description {
+    display: none;
+}
 /* registration form end */
 
 .page-node .label a {  /* label link for pages like http://www.stemcellsportal.com/content/ipsc-perfection */
